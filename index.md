@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## 这里是南大计科柚子组软需的主页
 
-You can use the [editor on GitHub](https://github.com/TangJinXuan/Software-Requirement/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome!This is the main page for Yuzu Group's works in the course Software-Requirement in NJUCS. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+我们的项目主页仓库是https://github.com/TangJinXuan/Software-Requirement
 
-### Markdown
+Our project's github address is https://github.com/TangJinXuan/Software-Requirement
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 成员介绍（Members）
 
-```markdown
-Syntax highlighted code block
+组长 许家铭(TangJinXuan) 171860581
 
-# Header 1
-## Header 2
-### Header 3
+组员 陈永健(Saltron233) 171860568   黄逸维(aobamoka) 171860542
 
-- Bulleted
-- List
+### 写在主页的一些话（Notifications）
 
-1. Numbered
-2. List
+此项目仅用于柚子组的软需课程作业，欢迎各位大佬交流学习，禁止一切抄袭行为。
 
-**Bold** and _Italic_ and `Code` text
+This project is only used by Yuzu Group for their works in the course Software-Requirement.It is discussion instead of copying that is welcomed. Everything involving copying is prohibited.
 
-[Link](url) and ![Image](src)
-```
+柚子天下第一！
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+We all love Yuzu!
 
-### Jekyll Themes
+### 联系方式(Support or Contact)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TangJinXuan/Software-Requirement/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+联系邮箱：381026323@qq.com
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Please contact us by email: 381026323@qq.com
