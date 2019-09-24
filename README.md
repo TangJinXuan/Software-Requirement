@@ -1,4 +1,6 @@
-# 这里是南大计科柚子组软需项目主页 This is Yuzu Group from NJUCS
+# 这里是南大计科柚子组软需项目
+
+This is Yuzu Group from NJUCS
 
 组长 许家铭(TangJinXuan) 171860581
 
