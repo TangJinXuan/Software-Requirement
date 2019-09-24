@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# 这里是南大计科柚子组软需项目主页 This is Yuzu Group from NJUCS
 
-You can use the [editor on GitHub](https://github.com/TangJinXuan/Software-Requirement/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+组长 许家铭(TangJinXuan) 171860581 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+成员 陈永健（Saltron233） 171860568 黄逸维（aobamoka） 171860542
 
-### Markdown
+柚子天下第一！！
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+欢迎各位大佬交流与学习，禁止任何以借鉴为接口的抄袭行为
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TangJinXuan/Software-Requirement/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+联系邮箱381026323@qq.com
