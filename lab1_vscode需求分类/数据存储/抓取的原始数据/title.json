@@ -1,0 +1,189 @@
+italic link , updated ReadMe file.
+Remove executable bits from non-executable files
+Fixed: Image preview should not zoom on first click if unfocused
+Fallback to PCRE2 if match whole word used with regexp
+Fixes #81890
+Use SIGUSR1 for automatic extension profiling
+Fix git repository not detected if root folder ends in [space]
+Rename "Soft Undo" to "Cursor Undo" in the Command Palette
+search: remove unused config settings
+debt - leverage IKeyboardEvent attributes
+Add conditions to keep the hover widget when there is active selection
+fix #81946
+Add support for `git-crypt`
+Add git.showCommitInput config option (#79074)
+Fix-81877 Image preview should not zoom on first click if unfocused 
+Only zoom after first click, after the webview editor is active.
+Improved logging for file rename event
+Fix-81729 Preserve case in Search and Replace isn't working when I use group substitution
+SCM: Display current line length in source control commit message input (Closes 81029)
+update to electron 6.0.x
+Search in parent folders for node module resolution
+Adding basic save service
+Add tasks to user configuration
+Add paste option on right click for terminal
+Add tasks config in workspace file
+Process debug adapter messages in separate tasks; see #33822, #79196
+git: Initial support for filters declared in .gitattributes
+don't use ParsedArgs in rawDebugSession; fixes #80461
+Show breakpoint as verified if any debug session did verify it; see #55106
+Fix scrolling behavior in menu while zoomed in
+fix parsed JSDoc author tag
+Reveal closer to top (center body, not signature)
+Replace Disposable[] with DisposableStore
+Fix #20768: Don't seed search without selection
+Add branch name to commit input box
+New: add an option that does not match brackets for editor.action.selectToBracket
+Improve template literals support to match TS
+Enables dependant variable substitution
+Better top
+Staging the removal of multiple trailing newlines
+Config option to separate or hide untracked files (addresses #35480)
+Find in selection: Don't expand a multiline find scope to line start/end (#80008)
+enable running individual npm scripts in the containing folder
+fix(aria-expanded) on submenues add aria prop
+[file-explorer] Adds Duplicate command to key binding and context menu
+Add Repl Filter (#4338) WIP
+Focus correct SCM repo when restoring editors
+Fix #78710 - Another duplicate stat call on workspace roots
+Disable component governance for all branches except master
+Selectable Fast Scroll Key
+Open existing keybindings in new editor
+Fix mightProducePrintableCharacter numeric keypad support
+Move indent right one when the highlighted line is a scope start/end
+Option for find widget to have max width
+Support Update VS Code from Command Palette
+Add folding from end of region
+Add optional sortByLabel to QuickPick to control whether to re-sort results
+fix: error when filling in the HTTP proxy address in IPv6 format
+List select expands selection
+Fix leftwards word jumps.
+Adding git stash drop for issue 76195
+Add option to restore commit template on every git.refresh 
+Option for auto closing comments
+Fix #74902: controls problems panel badge to show all problems or filtered problems
+Support object types in `when` conditions
+fix #21849: Minimap: Show Full Document
+this may fix #51458
+Empty links in recent workspaces list
+added deleteTag
+fix #59310: add align config for search result lines
+Making the active editor background (and gutter) customizable 
+Adds a new explorerViewer sort order configuration item, barrelFirst
+Show task output automatically if there is only one task running
+Provide API for dynamically supplying JSON Schemas
+Remove trailing slash from git URL before inferring repo name
+Fix-70945 Optimize the installation prompt and change the install count to the downloads.
+Simplify custom viewlet ordering
+Automatically adapt to windows: "Color Theme", "File Icon Theme", "User Snippets".
+Disable horizontal scrolling when editing an element in explorer
+allow `Git: fetch` command to show password prompt
+Add multiselection support when installing extensions from VSIX files
+Fixed wrong tooltip on extension page uninstall button after installing extension.
+fix #23627 (proper default value in extension settings contribution)
+Issue 62619 black colour picker
+Fixed intellisense details not able to scroll vertically
+Fixes #63813
+Added hide management build script on NPM SCRIPTS explorer pattern.
+Join Lines Redesigned
+fixed replace field width to change dynamically when resizing
+Confirm "Undo last commit" if its a merge commit
+git ext. - feature git.useRawRootPath
+Perl5 support to fold POD blocks
+Add new remote option when publishing branch
+Show git clone progress bar and percentage complete
+Fix strict null check.  Fixes: #71096
+Parse ":line " in Quick Open
+Reuse screen space when hiding editor tabs
+Scroll predominant axis only (prevents scroll drift)
+Removed max-width restrictions from the .monaco-editor-hover #69835
+Relaunch Workspaces After Windows Restart for Updates
+Make the documentation of completionItem larger
+Implement custom sorting based on rules.
+Use schemastore catalog to add schema associations for json files
+Extension recommendations based on workspace remotes
+fix for #69005 expand workspace folders from current state unless starting vscode
+Fixes #68694 moving multiple consequitive lines
+Don't stop checking for updates after one has been installed.
+When resolving a merge conflict allow accepting the default message
+Add Indent Rules for Pug Language Extension [Issue 65044]
+Fixes #44237: Add column number in tasks
+Fixed #59961
+support editorHoverWidget.foreground
+Add quick-open support for relative file paths
+Fixed #50149 - Added Command to make column cursor using selection
+Added feature #61254
+Open Editors respect `workbench.editor.labelFormat`
+Fixed #62679 - Added Option to Only Add a New Cursor at Current Column
+Enable Shift-Insert to paste primary clipboard on Linux, fixes #36170.
+StartFindWithSelectionAction should not focus the find widget
+Add simple expandable instanceLimit option in tasks. Fixes #32264
+removed unnecessary parts from MIT license
+fix(workbench): add preference to disable recently used tasks
+Add follow on Twitter badge
+Update README
+Proposals for Collapse, CollapseAll, Expand APIs
+fixing strict null check errors (#61093)
+Quote args for bash, fixes #61056
+PR-7842: search for extensions via command line #7842
+Make extension detail styles more responsive
+Minimap: Settings for background and text opacity
+Fix a bug for not warn properly when file to create already exists
+Clear Editor Selection When Find Widget Is Closed
+Select Pasted Text After Paste Action
+Fix issues wrapping links/emails using Emmet command
+Don't skip children with script source attached
+WIP: Add Ctrl+Hover behavior to ShowHoverAction
+fix issue #41558 - keybindings editor header no longer selects first item 
+add powershell cli script
+First PR: Adding jump to nth autocomplete suggestion via keyboard shortcut
+Theming: add workbench configuration option for minimap opacity
+Display '-patched' by version in about dialog and issue reporter when impure
+Store translation paths relative to the extensions directory
+Add support for predefined variable ${fileDirbasename}
+Correctly inherit/don't inherit the shell environment
+Fix tasks spawned using wsl.exe
+Support Autocomplete Brackets for String Interpolation
+Show "Go to Implementation" in the Context Menu
+add custom folding strategy
+Sort opening editors in alphabetical order
+Added contrib extension to have focus follow mouse (fixes #25685).
+Gulp (et al) Task autodetection and execution within WSL
+fix: multi cursor copy line n times (#40646)
+Fix some missing indentationRules and indentation on ctrl+shift+enter
+Promise with no error log error.stack
+feature: add relativePath to predefined variables
+Simple implementation of drag and drop installation for VSIX extensions
+Fixed #47151 - Added Multi-cursor support to Alt+Up/Alt+Down
+Fix #38321 -- Provide navigation through git merge conflicts with codelens
+Skip quick picker when there is only one task to select from
+#40288 find replace in resolved config variable
+Fix #46179
+Remember last abbreviations used in wrap with abbreviation.
+try to fix search file with ./
+Keep expanded items open after rename.
+[WIP] Add support for snapshotting
+[WIP] Implements Color Picker Integration into Command Panel
+editor.insertSpaceAfterComment setting
+Added find all button to find widget
+WIP make globs case-insensitive by default
+inspect all and cpu profile
+Issue #39269
+Allow an indent increase pattern to span multiple lines
+Added a `singleInstanceOnly` option in tasks, Fixes #32264
+expand variables sections
+[WIP] Added new command "Expand Selection To Brackets."
+Prototype TS Compile on Save
+don't apply indentation rule while inside raw strings
+Support Sublime-Text-style selection transpose
+support custom cursor height
+Add relativeFileNoExtension
+ Add the Chinese document translated from English
+Move line autoindent#14390
+New access modifiers and oldValue & newValue
+gulpfile.babel.js support #3043
+added "file nesting" support, based on file naming
+Allow problem matchers to change the filePrefix
+Fixes #10386: Seeding search text only if search string is empty or manual selection is involved
+Fix task schema suppressTaskName and echoCommand defaultValue.
+Add find all button
