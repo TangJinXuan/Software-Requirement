@@ -1,0 +1,4489 @@
+normal acorneslint No syntax error on unterminated comment
+
+normal Deleting a quote can cause the whole file to go red
+
+normal Incorrect whitelist functionality
+
+major Add security framework to gate certain script engine actions
+
+normal EMF Downloads website has very outdated bleeding edge
+
+blocker selection does not allow subquery ClassCastException
+
+normal Line numbers not showing in debug view
+
+blocker repoeclipseorg seems to be down
+
+normal Add suport for ASN1 named numbers and named bits
+
+major Duplicate source files in multi project
+
+normal Test failures on Java 8
+
+normal MAT 16 OQL yields blank columns during query
+
+normal CC Remote Application configuration Verify host name cannot be saved
+
+major CSS Performances Extremely slow when using large stylesheets in large diagrams
+
+normal Debug traces can be in the wrong order
+
+normal Toolchain Editor current builder contains builder ID instead of name
+
+major Help files for Wago not updated
+
+normal release toolsoomph 150
+
+normal newindex Fix test failures due to ClassCastExceptions in TypeResolveTests
+
+normal formatter Indent declarations within enum declaration doesnt affect enum constants
+
+normal Table per class subclass embeddable relation targets wrong table
+
+normal Generic methods interfaces and inheritance  Error
+
+major Style customization improve selection of the style to customize
+
+normal stackcrawla64c doesnt handle the ldp instruction rightly the bit 23 could be not set
+
+minor Acceleo The commonsmtl files of the Acceleo bundles should use UTF8 encoding
+
+normal Remove old import wizard Existing Projects into Workspace from import menu
+
+normal ClassCastException on semantic update
+
+normal CssStyleHelper warnings while closing E4 application
+
+normal formatter Parenthesis positions ignores single member annotations
+
+enhancement Quick Access Use DI to create Providers
+
+trivial Breakpoints dont get highlighted if the debug view wasnt active before
+
+normal ViatraQueryEventSource does not use matcher provided by SourceDefinition
+
+normal Batch compiler ignoring directories passed in through the nowarn parameter
+
+blocker Looks like giteclipseorg is not responding
+
+normal Code cleanup fix warnings in core Text plugins
+
+normal Bug possible API NPE  in JFace Text Content Assist
+
+normal Nebula HIPP can not create temp dir
+
+normal Rich Text editing for multi line Strings
+
+normal TVT46TCT28HE The Browse for Folders dialog is not mirrored in Import Projects panel
+
+normal Unix socket connection initialization disrupted by proxy configuration
+
+enhancement mark only filename without suffix when creating new file by type
+
+normal Elements too big in diagrams
+
+normal The schema of the extension points for the description converters are not in the buildproperties
+
+normal Use fitting colors for Javadoc hover and Javadoc view
+
+critical Access to wikieclipseorg from SAP Germany seems to be blocked on your end
+
+normal EmptyStackException on incomplete variables
+
+major 19 Help does not work if JDT Java 9 beta is installed ClassLoadergetResourceAsStream returns null
+
+normal Pressing TAB inside a string moves semicolon
+
+normal Please allow me admin rights for SimRel HIPP
+
+enhancement Model Explorer Papyrus Should provide an other way to customize uml label
+
+major Marketplace access to favorites fails unauthorized
+
+normal ui Install dialogs Details area Updating of bold ranges is noisy
+
+normal Renaming package or moving class does not update import statements when project is depended on indirectly
+
+major 18 Eclipse failed to compile Java 8 code against Scala library types
+
+enhancement Integrate p2 explorer from Oomph to PDE
+
+normal What to do about old security problems
+
+normal Provide gradle editor support for the new platform text editor framework
+
+normal Fix missing message
+
+normal Can my eclipseorg mail id be updated to forward to new address
+
+normal Right click with Edge with labels and connected ports compound moves
+
+enhancement Double clicking on connection should allow editing
+
+normal Use ASM bundle from Eclipse Orbit
+
+normal newindex Add support to the JDT unit tests to display a thread dump if the tests deadlock
+
+enhancement REST add Flag Column to Attachment Table
+
+major NPE in ObjectChangeSet on cache coordination
+
+normal Dropdown Item in TollBar hover effect stays after mouse moves out
+
+enhancement Irrelevant Potential resource leak in HttpServlet
+
+minor Delete branch refsheadsdkunzbuild in orgeclipseapp4mcgit
+
+normal CSS CSS import silently fails
+
+normal CC Remote Application debug configuration Verify host name option cannot be saved in connection properties
+
+enhancement Revise overridable methods in Element hierarchy
+
+normal 9 Unnamed modules should have access only to exported packages
+
+normal BIRT 210 failed to preview rptdesign file
+
+normal Adding or removing a favourite results on significant delay
+
+normal The closing brace  of markdown link is interpreted as part of the link
+
+enhancement Create PDT target files
+
+normal Fails to profile with perf if program asks for input from cin standard input
+
+major Null pointer exception parsing remote addr2line output
+
+normal Default RTPort registrationOverride value not generated same between textual and uml
+
+normal Extension point description is using a not fitting dark background
+
+minor welcome screen icon and text overlapped
+
+normal System monitor restarts after progress monitor is canceled
+
+normal Provide some guidance on granularity of CQs
+
+normal Unable to install 47 integration builds using Oomph
+
+enhancement Add support for widget actions on label and hyperlink
+
+major Oomph not working with Eclipse 47
+
+enhancement Add new stimuli type Synthetic
+
+enhancement Add new distribution Beta distribution
+
+enhancement Add new attribute SamplingType to Deviation
+
+normal Do not call monitordone in ApiAnalysisBuilderbuildAll
+
+normal Warning about missing Applicatione4xmi but it is existing
+
+normal CPS test failures
+
+normal Grammar for PHP tag doesnt support all cases
+
+enhancement Rework Data Consistency need handling
+
+enhancement Rework Affinity Constraints
+
+normal release ecdche 470
+
+critical Update m2eclipsemavenarchiver to 0172
+
+normal App turned into blank page
+
+major App constantly crashes
+
+normal Egit diff git does not have option to toggle whitespace changes
+
+normal Crash in node server nodegit
+
+major Ignores every method defined via prototype in outline and content assist
+
+normal Opening and synchronizing review always causes patch set contents to be retrieved
+
+normal client ActiveShellStatusFilter does not work for dropdown toolitems
+
+critical EGit HIPP cant reach JGit HIPP anymore
+
+normal No route to host between HIPP instances
+
+normal Repeated attempts to download oomphjar probably because it cant be processed
+
+normal AssertionFailedException null argument  when A inserted in field editor
+
+normal Contextual menu items wrongly ordered with e4
+
+normal Offer option to delete files without confirmation
+
+normal Use png files for Plugin spy
+
+normal Define IPZilla workflow for Type A artifacts
+
+normal Consider an API for submitting IP content for review
+
+normal UMLRTBaseCommProtocol redefinition missing from protocols
+
+enhancement problems view Add buttons to Problem View to open Filter
+
+normal RSA  Tag values referencing model elements set to null on import
+
+normal I think unsubscribe is not working
+
+normal Red Hat Linux The icons doesnt appear in UI
+
+normal Red Hat linux The icons doesnt appear in User Interface after running the program
+
+normal HighDPI Wizard banner icons blurry
+
+normal Releng Update dependencies for Neon1 RC2 Tag the release
+
+normal compiler9 Implement Target Platform equivalent in jdtcore for modules
+
+normal Warnings in orgeclipsepdeui
+
+normal needinfo Info dialog should show requested but unavailable needinfo processors
+
+minor SysML 14 Add QuantityKind in Model Explorer New Child Menu
+
+normal NPE requesting a compare against base working copy at project level
+
+normal RichTextEditor in RAP runs only in development mode
+
+normal Properties view refresh to top when focus gained
+
+normal Inconsistent metaclass tags in labels of model elements
+
+enhancement DI Provide dependency injection for 3x API views
+
+normal Quickfix for missing library in the ternproject file doesnt close
+
+normal Java update on Mac test machine
+
+normal Exception while dispatching event orgosgiserviceeventEvent topicorgeclipsee4uimodeluiUIElementwidgetSET
+
+normal With API Baseline set API tooling complains about since missing on old APIs
+
+major Target definition overrides plugin in workspace
+
+normal newindex Cleanup for FileFingerprint
+
+enhancement Outline view Link With Editor could be enabled by default
+
+major javalangNullPointerException is thrown when Photran indexer encounters a subroutine declaration with many continuation lines
+
+normal Rename Eclipse Git Team Provider in SimRel to Eclipse Git Support
+
+normal Comparing files from the commit dialog always yields a no differences result for unversioned files
+
+normal Componentsdoc enhance doc for creation denovo of a DSML components
+
+enhancement Move Composer preferences under PHP category
+
+normal Merge issue
+
+normal Table bug with synchronized table when it is opened
+
+normal usercode3 for C is not generated
+
+normal NullPointerException in DockerConnectionpullImage
+
+normal Wrong behavior Debug checkbox in Tool Bar Visibility tab of Debug Perspective
+
+normal Tooling Add missing unit tests for protocol message naming
+
+major RCPTT test failures cause product build to fail
+
+critical Virgo kernel services timeout intermittently
+
+normal Target file generation should escape invalid XML characters
+
+normal request omrwebsite github repo creation
+
+normal XWT usrbinsign javaioIOException javaioIOException error13 Permission denied
+
+normal Use enhanced for loops in MarkerContentGenerator
+
+normal Friends of Eclipse campaign banner can
+
+major Aspectj inproperly instuments classes that contains methods with fake variables
+
+normal newseclipseorg is shutting down the reference needs to be removed
+
+enhancement improve runtime performance by using rvalue semantics
+
+enhancement Support for NONNLS block
+
+normal GitGerrit integration issue merge is not reported as bug comment
+
+enhancement hierarchical project presentation not working
+
+enhancement Empty history view should provide link to history related actions
+
+normal IndexOutOfBoundsException for Columns not having a value type
+
+normal orgeclipsephpcomposercore should not have dependencies to UI plugins
+
+normal Deletion of branch 10 on Gendoc git
+
+normal Prepare documentation for Composer support
+
+enhancement Add support to respect line wrapping behavior on export
+
+normal Build Failed ArrayIndexOutOfBoundsException in Method Reference Scope Resolve
+
+normal Error during clean build The method x of type y must override a superclass method
+
+normal Refresh problem on no properties available
+
+normal Integrate e4 tools from eclipseplatformuitools into SDK build
+
+normal MessageBoxopen hangs if display is disposed and recreated
+
+normal Code generator errors in case of generic Java types
+
+enhancement default XML Editor tab
+
+normal 9 Read modules from JMOD
+
+normal Value is stored in the wrong cell when editing a cell in the Data Sets View and clicking on another cell after editing
+
+critical Equinox launcher upgrade breaks installation of Eclipse on shared drive
+
+normal Subprocess handled as expanded with attribute isExpandedfalse
+
+normal MKDIR definition in agentMakefileinc may conflict with VxWorks definition
+
+normal Image with removed tag is displayed as nonenone
+
+normal trademark Trademark approval required for JDTLS
+
+major CSS Unsupported Content in Editor 2016
+
+normal 19 reconsider PackageFragmentRootisModule visavis working copies of moduleinfojava
+
+blocker Eclipse not installing on Mac OSX
+
+normal content assist does not remember the last choice
+
+enhancement MPC wizard should show feature descriptions and other data
+
+enhancement Designerjavagenerator apply by default the project stereotype
+
+normal Designerjavagenerator improve the reverse fonction
+
+normal Designerjavagenerator apply a clever reverse mode
+
+normal Data Value for department is not correctly retrieved from referenced model
+
+normal In some scenarios deployments with external authorizationauthentication throw an exception if no model is deployed
+
+normal Including Root Process Instance Processing Time in Report leads to SQL Exception on Oracle
+
+normal cg Support incremental execution
+
+normal Designerjavagenerator add an option to not take into account the first element of Qualified Name
+
+normal jgit must ignore trailing spaces in folder ignore rules
+
+normal Duplicate registry info in combo after changing settings
+
+normal Test framework does not catch errors in eval
+
+normal TabRenderer should be able to show validation problems on the tab item
+
+normal Unify naming of interaction callback methods
+
+normal linked mode difficulties in shortening a proposed name
+
+normal debug NPE when terminating multiple sessions apparently related to gdb source lookup
+
+normal Codegen Java Root element stereotyped Project should not appear
+
+normal sporadic Failed to execute runnable when doing undoredo
+
+enhancement Support export of images
+
+normal Local History settings exceptions
+
+normal Apache credentials provider creates incomplete NTCredentials
+
+normal Unable to push a commit to simrel
+
+normal Fix UI test failures due to uncontrollable entries
+
+normal trademark Trademark approval required for USS SDK
+
+normal Filter by label menu item has improper name
+
+major SysML 14 port symbol does not show arrow when containing flow property
+
+normal newindex Test failures in NullAnnotationModelTests
+
+normal Designerreleng creation of 103 version in bugzilla
+
+normal Enhance local search implementation
+
+normal Java9 Ensure FXCanvasEx is Java9compatible
+
+normal Prebuild steps not terminated before build is started with enabled parallel build option make j
+
+normal IOpenableisOpen returns false for an open JavaProject
+
+normal New CC wizard not in main menu and context menus
+
+critical Duplicate ESETFLAG values when 32 featuresclass
+
+normal Memory leak in dtlsconnect
+
+normal RepositoryExplorer does not flush the repository caches when refreshing
+
+normal temp disabled bpmn2modeler in Oxygen master aggregation
+
+major Fragments not working with and operator in Rule
+
+normal Mapping Allow rules to store target elements in data set
+
+normal History tab Patch Sets drop down menu is missing the commit id
+
+enhancement Introduce CONFIRMED state
+
+enhancement Enhance some of the exception messages
+
+normal System Profile Validation bundle metadata problems
+
+normal E4 needs to have public API to set element id and asking for it to be restyled
+
+normal Compare editor Go to next group of comment annotation not working
+
+normal Messages Details Switching patch set does not refresh the information in the messages and details tabs
+
+trivial Bugzilla REST OpenWithBrowserAction did not work
+
+minor Snipmatch doesnt work in Untitled test file
+
+normal Oomph setup for JSDT IDE fails
+
+normal CodeEdit Forward word ctrlright arrow should stop at start of line
+
+enhancement Reduce window margins to provide more productive space
+
+normal css formatter bug
+
+enhancement Remove composer nature
+
+normal Cleanup warnings in oerelengtools
+
+enhancement Add Composer Support should open composerjson editor
+
+normal Make Docker Explorer filters easier to activate
+
+normal Do not hide image with nonenone as a result of a build
+
+minor XML formatter cant do simple attribute wrapping at line width
+
+enhancement Add option to extendoverride code stubs
+
+normal Wrong Error Text Message for Reverted Values
+
+major Incremental Find Switches Focus To Editor While Query Is Being Typed
+
+normal NullPointerException in JSONCatalogURIResolverExtensionresolve
+
+normal Remove redundant type argument information in orgeclipsee4uiworkbenchswt
+
+enhancement call hierarchy Offer next and previous buttons in Call Hierarchy view
+
+normal Add database schema validation
+
+enhancement Replace Navigator by Project Explorer in windowshow view menu inside PHP Perspective
+
+major Request for installing metacity on the Sirius HIPP
+
+normal Update version numbers in eclipseplatformuitools
+
+normal JSON Editor issues with Arrays
+
+normal Commands Add test for the creation of a parameterized command to DefineCommandsTest
+
+normal Pauses before completion of simulation
+
+normal Inheritance Editor bugs
+
+normal ids for transition chains not generated completely C Generator
+
+normal Bring back metacity command or a working window manager for CDT HIPP
+
+normal CA looses ability to interprete this in file with global and nonglobal namespace
+
+normal HiDPI FileImageDescriptor  ImageDescriptorcreateFromFile should support 2x convention
+
+normal Update IP Log generator to take IP Due Diligence type into consideration
+
+enhancement change model to allow more than one buildmaster
+
+normal refactor Change class hierarchy for REST Bugzilla connector
+
+normal There is delay in typing in text for findreplace and take long time to replace all words in IE
+
+normal Document step in httpseclipseorgarticlesArticleProgressMonitorsarticlehtml
+
+normal Two editors side by side create ugly white area
+
+normal add orgeclipseeasemoduleschartingviews to exported packages of charting module
+
+trivial Preferences Font for Text file encoding is smaller than other text on dialog
+
+normal target  Add Target name to the Target resolve job
+
+normal Remove Composer plugins from incubation folder after merge
+
+normal Add data type information to USS
+
+normal Plugin Shortcut doesnt work for synchronized project
+
+normal attempting to drag an empty folder causes TypeErrors
+
+normal Bugs concerning the Behavior editor
+
+normal Please create a new github repo for a smarthome subproject
+
+major Reload Configuration from Disk or POSTing configxml fails the running builds
+
+normal 18content assisttrycatch block inside lambda causes code completion to fail
+
+normal Next View skips onto second next
+
+normal Keyboard Shortcut list is missing Indent lines
+
+blocker Web Tools Project for Oxygen WSDL feature references wrong version of javaxwsdl
+
+enhancement Improve TMDAPI selection and focus handling
+
+normal ASTRewriterewriteAST doesnt format enum constants
+
+normal Colors in appendStyleSheet should not be hardcoded
+
+normal Use blocks for single statements in orgeclipsee4uicssswt
+
+enhancement Migrate to generic merge viewer
+
+normal 18 Intersection of two functional interfaces with same signature allowed
+
+normal Charting CurrentModificationException in function removeSeries
+
+normal Include Tag does not replace variables
+
+normal Remove unused constructor in RegistryCSSElementProvider
+
+normal Fix NPE RegistryCSSElementProvider
+
+normal SysML 14BDD rcp test are failing
+
+normal Change data types for runtime and generated code to fixed size types c
+
+normal Componentsarchetype correct several typos in the product generation
+
+normal release modelingepsilon 140
+
+normal Errors during renaming of fields
+
+normal 9 Consider displaying the moduleinfojava file in the source folder root
+
+normal StyledText enters characters that are none
+
+normal Component Additional MARTE component and versions in Bugzilla
+
+normal Designer duplication of a job
+
+major Open menu entry is available on a deleted diagram
+
+normal False positives in automatic error reporting
+
+enhancement try using fast search for filename and content search
+
+critical Many undesirable menu entries in random places
+
+enhancement Ability to decorate source code
+
+normal Search in Add dialog often ignores artifacts in an indexed repository depending on order of repos in pom
+
+enhancement Automatic source download should try to download JavaDoc if source isnt available
+
+normal makefilegen more verbose error message when asn1 filename is not correct
+
+major Help need on SSL on mqtt for cc3200
+
+major Help need on SSL on mqtt for cc3200
+
+normal HighDPI JUnit Icons appear unsharp on retina display
+
+enhancement Provide a way to control contributions for products and end users
+
+normal HighDPI orgeclipseltkuirefactoring still uses GIFs
+
+normal Null annotations not shown for varargs
+
+normal Null annotations not shown for varargs
+
+normal ui Open Diagram Editor hotkey does not work at all locations
+
+normal Error message shouldnt be displayed in standard dialog
+
+trivial Project Explorer  Filters and Customization dialog bad title
+
+normal Update JDT core compiler and apt compiler to use Oxygen M2 to produce M3
+
+normal null18 Missing warning about redundant nullness annotation
+
+normal Remove workaround for Solaris pre10 in WebBrowserUtil
+
+normal Disassembly view colors can not be configured and do not change correctly with theme
+
+enhancement Import Projects command should use standard icon
+
+enhancement Import Changed Projects command should use standard icon
+
+minor client Provide description of notifications
+
+normal Bundle pool artifact repair doesnt work properly
+
+normal Problem in abstract AfterThrowing advice
+
+normal Improve wizard to add required dependencies when adding new views
+
+normal Restart button
+
+normal TMF Problems importing an archive containing colons  in the names on Windows
+
+enhancement Refactor code generator to allow it to be extended via another Acceleo generator project
+
+normal Merge release401 to master
+
+normal Merge release401 to development
+
+normal Add support for style for the reference widget
+
+normal Prepare build scripts for 410
+
+enhancement Remember preference recorder enablement setting globally
+
+normal Class File Editor Source Not Found  does not name JAR
+
+normal Fix How to contribute a bug fix to SWT page
+
+normal compilernull Nullanalysis works improperly on library using old findbugsjsr305 null annotations guava
+
+major Improve performance of checksum calculation
+
+normal Performance of UML definition lookup in static profiles
+
+normal SWT Tooltip is displaying blank with black background in system tray icon in SLES 12
+
+enhancement Change the default direction of the compare editor by default
+
+enhancement Cleanup OSGi component implementations in runtime
+
+normal Context spy lost all of its Icon in the latest version 20160916
+
+normal Orion switch command needs to be accessible
+
+normal Change description of several e4 repos to Not used anymore
+
+normal IDTB04J
+
+normal Incremental builds should be launched on accessible projects only from JavaSourceSettingsUpdater
+
+normal Ignoring HibernateMapping test due to proxy issue
+
+normal Sanitize pango bindings
+
+normal Tooltip obscures markdown split pane switch
+
+enhancement GTK Add script to check which dynamic functions are deprecated
+
+normal System Explorer does not show working sets
+
+major No mail for edwillinkmeuk
+
+normal isVersion method from SingularAttributeImpl throws NPE when using custom OptimisticLocking on fields level
+
+minor Graphics Refactor SVG element names to have semantic meaning
+
+major 30 or so projects decrease feature versions from Neon1 to Oxygen M2
+
+normal EMF Compare Papyrus EMF Compare integration must be deleted from the Papyrus Git Repository
+
+normal Papyrus adding rights
+
+normal The selection variable on hyperlink widget carry an incorrect value self
+
+normal Failed to delete launch configuration running tests on build machine
+
+enhancement Renaming a Parent Project breaks the links with child projects
+
+normal Codegen Java Classifier owned by root element stereotyped Project has wrong package name
+
+normal Rule Add a not equals compare type and null support
+
+normal Resolve CDT Build instability too many UNSTABLE cdtverify  cdtmaster jobs
+
+normal Eclipse NeoSCADA would like to publish to maven central
+
+enhancement Add word wrapping support in text painters
+
+normal HIPP request  IoT hawkBit
+
+major Editor is breaking composerjson schema
+
+normal Composite Wrong hyperlink contribution
+
+normal cant download
+
+normal Execute External Command directory has escape issues with back slashes
+
+normal Allow running Code Recommenders on Java 9
+
+normal Project Explorer Duplicate menu entries on php project context menu
+
+normal Cut Element Handling
+
+normal Designer missing transformation feature in p2
+
+enhancement Add option to open Composer editor in composerjson page
+
+normal User Profile  Statistics  Bugzilla
+
+normal User Profile  Statistics  Gerrit
+
+normal User Profile  Statistics  Speaker
+
+normal Investigate asynchronous installationuninstallation of IRefreshMonitor on workspace resources
+
+enhancement Make TextFileBuffer more flexible
+
+normal Model Explorer ExpandCollapse buttons should be work at selected element
+
+enhancement Model Explorer ExpandCollapse buttons should be work at selected element
+
+major tychoextrascompareversionwithbaselines does not work for features
+
+minor Default generated userdoc removes first word of EClass name if equals to package name
+
+enhancement Plugin related options not appearing in New wizards or Editor Selector windows
+
+enhancement NetSuite SuiteScript Proposal not Showing up
+
+enhancement add support for matrix builds
+
+enhancement Mylyn refreshes a users most relevant tasks more frequently than the full Task List refresh
+
+normal Too much spaces bottom and up for contextual palette when there is a bottom pad
+
+normal orgeclipsee4coreservicesAdapter class should be renamed to EAdapterService
+
+normal Editor not in registry leads to NPE
+
+normal GTK Ubuntu Radio button menu item does not change selection state
+
+normal Remove ensurePreferenceStoreBackwardsCompatibility as 2x plugins are not supported anymore
+
+normal newindex Add new tracing options to detect changes in the invalid archive cache and resolved classpath cache
+
+normal simrel Improve sanityCheckComposites job to catch too few IUs returned
+
+enhancement create configurable TableViewerSupport
+
+critical All jdtcore gerrit jobs seem to be hanging when recording test results
+
+normal Designer Issues in generated models
+
+blocker Releng Product must include codegen feature
+
+normal runtimecpp Review cpp runtime
+
+normal Errors updating engines from configxml
+
+normal Bundle Pool Management cant manage repositorie
+
+trivial Composite Quality Remove reference to deprecated classes
+
+enhancement Please activate Travis for eclipseebr GitHub repo
+
+normal SequenceDiagram Message creates new Action Execution Spec but points to wrong one
+
+normal tests 2 SmartImportTests are unstable
+
+normal Cannot download Eclipse Orion build 5 for Windows 32 bits from the archive Website
+
+normal ClassCastException in JSONModelParserinsertValue
+
+enhancement JS package should mention Cordovahybrid mobile development
+
+normal Add Restart Container to Containers View toolbar
+
+trivial Class Quality Remove reference to deprecated classes
+
+normal Split mouse move from downup in Displaypost
+
+normal Contribute Eclipse 4 wizards to the Plugin Development category for new wizards
+
+normal Extract to method refactoring creates method with redundant nullness annotation warning
+
+normal newindex Test failures in orgeclipsejdtuitestsrefactoringInlineMethodTests
+
+normal Eclipse Builder cant build valid Xcore project
+
+normal Shift Selection doesnt stop when keys no longer held down if scrolling
+
+normal Orion occasionally hangs on loading Suspected incorrect state in session or local storage
+
+normal Label Package Visibility Eclipse 31 or later should drop Eclipse 31 or later
+
+enhancement Print Support repeating the column header on every page
+
+normal Eclipse compiler gets stuck in infinite loop
+
+normal Model Explorer FACET PapyrusRT Protocol menu item is not expanded when create a protocol message from the new child menu
+
+blocker repoeclipseorg is down
+
+enhancement Allow tycholocalArtifactsignore to be configured in targetplatformconfiguration configuration
+
+normal cg Generated transformation should autoinitialize
+
+normal Please allow user branches for project modelingcapra
+
+normal Setup development environment
+
+normal Incomprehensible error message
+
+normal Cannot clean project after expanding Binaries node
+
+normal Move Equinox Framework up to Java 7
+
+normal Adopt the Extensible Registry UI
+
+normal bugs in EPP makevisible script
+
+normal core Improve duplicate name validation
+
+normal Committer Paperwork improvements  Let users upload their forms
+
+normal Committer Paperwork improvements  Show number of days remaining
+
+normal Add unpackfalse to platform feature for orgeclipseuiintrouniversal
+
+major Wrong type inference causes adding type parameter to change generated code behavior
+
+normal Analysisos The follow process could highlight the events concerning this process
+
+normal Activity tab  Bugzilla
+
+normal Activity tab  Github
+
+normal html Add tagclose html validation rule
+
+normal Storage  Data improvements
+
+normal html NLS html validation problems
+
+normal Activity table  Statistic block
+
+normal Storage  data
+
+normal Neon still reports a p2 header of p2 marssr0
+
+critical Slow test result opening times in current build
+
+enhancement CSS Have a support to insert images in the compartment symbol
+
+normal Consider adjusting the text on the workspace launcher
+
+normal Mokareleng change plugin repository name to match Components architecture
+
+normal Tooling Improve dragandrop in model explorer including support for UMLRT protocols
+
+normal Table Improve performances of nested filtering
+
+normal Add toString method to CSSStyleRuleImpl
+
+normal Namespace proposals duplication
+
+normal Provide a specialized viewer for directed comparisons
+
+normal HTML HTML validation should be configurable in the settings
+
+normal Table Property Disconnect Columns Axis is not provided by  Table property view
+
+enhancement evaluation Improve type discrimination
+
+normal 9compiler Follow up tasks after if the patch for bug 500265 goes in
+
+enhancement orgeclipseuieditors ext point should allow binding without redefining an editor
+
+normal Remove Activator in orgeclipseswttoolsspies
+
+normal Project dependencies to modules that are implicitly readable is not resolved
+
+normal Provide Quickfix to change a qualified static method call to a static import
+
+normal Improve help text on removing plugins
+
+normal Security Demo Project
+
+normal Custom Templates Demo Project
+
+normal Overhaul Genie Gerrit  Bugzilla
+
+enhancement Navigation Open the unique owned diagram
+
+normal Activate buildindividualbundles profile automatically if parent pom is available locally
+
+normal Documentclarify e4 extensibility story for IDE plugins
+
+trivial NullPointerException in NewSubTaskActionupdateSelection
+
+blocker New eclipse not coming up  Giving java error
+
+normal Enhance ressources of Polarsys Capella HIPP
+
+normal FileNotFoundException below BuildDockerImageJobcountLines thrown in FileInputStreamopen
+
+critical Restart releng hipp
+
+normal Put the E4 spies on market place
+
+normal Setup Add import and compare feature and remove superfluous DSML validation feature from tester setup
+
+normal RCPTT Extract Rcptt test from the Product build
+
+normal 18compiler Eclipse does not issue an error when inheriting an interface with overrideequivalent signature
+
+minor simrel hash is ambiguous
+
+normal Table Fail to create NattablePropertyEditor
+
+normal refactor Inline rename should not fail for undefined vars
+
+normal newindex IndexException thrown during TextViewerHoverManager4runTextViewerHoverManagerjava
+
+normal cmake NPE in GCCToolChaingetDefaultScannerInfo with new cmake project
+
+normal lldb Move to line Resume at line do not work
+
+normal lldb Watch points dont workon Linux
+
+normal Feature Allows Capra to reference Microsoft Office documents
+
+normal Viewers Use enhanced for loops in orgeclipsejfaceviewers
+
+normal Space in resource names not treated properly
+
+normal Generic Editor doesnt show popup for problems on text
+
+enhancement Move orgeclipsecoreresourcesfilterMatchers contributions from orgeclipseuiide to nonUI bundle
+
+normal release technologyrdf4j 210
+
+normal Test Commandline Bundlor
+
+normal Designercodegen problem with the deployment with the default package
+
+normal wayland Mouse button release event not triggering from gdkeventget causing DND timeout
+
+normal otdreimpl use ASMs CheckClassAdapter to harden the transformer implementation
+
+normal Classpath ordering is not preserved when Gradle 30 is used
+
+normal Java 9 Support BETA for Neon cant be installed into Neon1 ie 461
+
+normal Use new capability to identify UMLRT system classes in C code generator
+
+normal tmfui The state system explorer should not execute the analysis
+
+normal UI thread got blocked by the reconciler
+
+blocker My classpath is invalid and it wont let me run anything
+
+enhancement Make merge information available in CDOCommitInfo
+
+normal Component Name Pairs
+
+normal Componentsrelease 0018 version
+
+enhancement Improve UI avoid borders to have clean UI on Windows
+
+enhancement SysML 14web add clear link to rcp p2 nightly
+
+normal Zorder of Elements is wrong when using ParticipantLane
+
+enhancement Generic Editor Adding support for completion filters
+
+normal Codegen menu named UMLRT Menu in the main menu bar
+
+normal NoSuchFileException Ccertificatecapem on Windows error
+
+enhancement BPMN various enhancements  corrections
+
+normal E1 to E9 seems not to be a valid name
+
+normal CyclePageHandler  should extend FilteredTableBaseHandler AltF7 AltShiftF7
+
+normal Static checker mistakenly errors
+
+normal Accessibility Screen reader does not read first column of TreeViewer object
+
+major Browser getShell dispose kills calling thread app
+
+minor add bold style to return types shown in tooltip description
+
+normal Neon1 JSON Editor formatting issue
+
+normal scalability Initial synchronization needs one minute on a big project
+
+normal trustedContribution is not easy to use
+
+normal Properties view Select widget initialization issue
+
+normal Table Fail to create NattablePropertyEditor from Papyrus project
+
+normal Overlapping lines
+
+normal Build CI builds for each component archive both 072 and 080 ZIPs
+
+normal No compartment hide option
+
+normal Pop up commands appear much too quickly
+
+normal Tooling Remove temporary fix to display correct initial table size
+
+normal Table duplicate style can be added to table style
+
+normal accountseclipseorgusers should redirect to the root of the site
+
+normal mentors Mentor required for Yasson
+
+normal trademark Trademark approval required for Yasson
+
+normal Changes to IPZilla to support IP policy changes
+
+normal No Eclipse Neon needs launcher icon
+
+normal Add optional parameter to CloudServerUIUtilgetAllUrlsgetDefaultUrlgetUrls to allow these methods to run off the UI thread
+
+normal simrel Hudson aggregation jobs do not work as expected
+
+normal can add transition point to an initial point
+
+major Unable to postprocess importedmigrated RSARTE model with proprietary profiles
+
+major Namespace Empty when creating a Data Store Node
+
+normal Replace XTestFakeButtonEvent with pure gdk implementation
+
+normal diagrams deactivate scaling of diagrams
+
+normal Migrated diagrams dont get saved
+
+normal Neon still reports a p2 header of p2 marssr0
+
+normal It is possible to add a second transition to an inherited entry point in the graphical editor
+
+normal RCP and Product List of missing requirement for the RCP Product
+
+normal GTK3webkit Support Javascript evalute in Webkit2
+
+normal Add test cases for Browserevaluate to browser test suite
+
+normal Blank menu entries right clicking on txt files in projects
+
+normal Release archives are not discoverable
+
+normal Designer documentation The documentation for papyrus designer is not uptodate
+
+normal xcore inferred JVM type of a package contains invalid members
+
+enhancement Ecore Diagram EReference Properties are poor
+
+normal No Landscape printing options
+
+enhancement content assist Add tests regarding proposal sorting
+
+normal Refactor features
+
+normal NPE in Projects Build Refresh
+
+trivial ScriptShell DnD of scripts does not always execute include
+
+enhancement Generic Editor should support completion trigger characters
+
+enhancement Completion trigger character according to input document
+
+normal XER when encoding or decoding attributes with qualified names
+
+major Wrong query render with FIELD function and List parameter
+
+enhancement SysML  14Constraint Add constraint for DirectedFeature ChangeStructuralFeatureEvent EndPathMultiplicity
+
+normal SysML 14web add the missing pdf
+
+enhancement Remove javalangException from stack traces logged by UI responsiveness monitoring
+
+major UnixProxyProvider fails for httpproxy without protocol
+
+normal JavaScript Model Exception is printed out to the Console when renaming a folder of a JS file opened in Editor
+
+normal XER TITAN encodes INFINITY and notanumber incorrectly
+
+major tmfui time graph views are broken with recent GTK2 and Linux
+
+normal Numerous dialogs do not support copy
+
+normal TableTree Client side error on touch event when no items exist
+
+normal Add getter for Connection destination
+
+normal Contextual Open User Guide action in entities diagram fails
+
+normal Investigate root cause for broken layout in compare dialog
+
+enhancement Simplify files used in Hudson aggregation jobs
+
+normal Add a manual pattern parsing api to the patternlanguageemf plugin
+
+enhancement Introduce notification manager API
+
+normal makefilegen should check only the name of the asn1 files for  characters
+
+normal SysML 14web review the mainpage and menu
+
+blocker Codegen C Source folder breaks generation
+
+normal Icons are missing in the Remote System Details View with Eclipse Neon
+
+normal Remove legacy project configuration handling
+
+normal Missing validation message on sequence calls
+
+enhancement categoryxml to support filters and optional
+
+enhancement A parameter to treat content of categoryxml as optional
+
+enhancement File Search Please allow ignoring library folders
+
+enhancement Add ICPPVariableisConstexpr method
+
+normal generic editor Test failures in official build in HoverTest
+
+normal Add targetLocation property in templatejson
+
+critical Profile diagram Deletion of an extension relationship in the diagram removes all metamodel elements from the diagram
+
+normal Implement makefilegen port command in eclipse
+
+normal Internal Builder Cannot run program rm Command line too long
+
+normal hipp creation of a job to make the website
+
+normal gerrit activation of the security for all gerrit jobs
+
+normal hipp ensure gerrit website and gerrit product are triggered
+
+normal Font awesome css not working correct
+
+normal External Builder Cannot run program rm Command line too long
+
+normal Manual synchronization of code github  eclipse repo
+
+normal release technologyefxclipse 250
+
+normal Renaming web project allows whitespace characters in name and does not put underscore there
+
+normal Sleep function is used outside the platform folder
+
+normal Delete Paho repositories on giteclipseorg
+
+normal TableConfiguration Wizard Dynamic linkage between Axis Manager Manager ID and Label Provider doesnt work correctly
+
+major Intro Clicking link to minimized page does nothing in standby mode
+
+enhancement Relax the error handling requirements for JobManagerbeginTask
+
+normal Provide guidance for committers regarding the error level in logged events
+
+normal Add an appendix specifically concerned with issues related to extending the Eclipse Platform
+
+normal JobGroup API progress reporting broken
+
+normal Delete redundant if statement in PreferenceObjectSupplier
+
+normal No contents links for Task help page
+
+normal Counters prescaler and offset descriptions are exchanged
+
+normal Componentsarchetype respect the folderplugin name convention
+
+normal Compiler  EclipseCompilerImpl reports warnings when annotations should suppress
+
+normal Unable to deploy ECF snapshots to nexus due to 401 unauthorised error
+
+normal UI freezes reported in PackageFragmentgetElementName
+
+enhancement constantly show method return node in variables view
+
+enhancement Update icons for HighDPI
+
+major arduino avr platforms dont get installed  Downloaded file is smaller than should be
+
+blocker Missing commit rights on CBI project
+
+normal GTK clean up dynamic function calls
+
+normal Add Description for the CMIS Environment Variables
+
+normal Device Inputs are shown as outputs
+
+normal Provide more user control over what the p2 task does on startup trigger
+
+normal Email address change
+
+normal no subtype checking when righthand side of assignment is a function
+
+enhancement ScriptShell update UI on execution start not on end
+
+minor Module parameter reference errors change the overall verdict to error
+
+normal NullPointerException in NattableModelManagerupdateCellMap
+
+minor Composite structure diagram Menus AllNoManage connector labels available if port is selected in diagram
+
+enhancement Provide quick search box for validation preference pages
+
+enhancement Drop XULRunner support on macOS
+
+normal Cannot add Gradle Nature to a Project if the buildgradle in the project has errors
+
+normal quick fix Null annotation correction quick fix doesnt work if parameter name is different in overridden method
+
+normal Enable travis CI service for eclipserichbeans
+
+normal Generation fails if the default workspace JRE version is 8
+
+normal Makefilegen segmentation fault when files are not found
+
+normal Remove TransformProvider integrate in AbstractVisualPart
+
+normal Support cygwin on Windows
+
+normal Make public members within FXRootPart private
+
+enhancement support context decorator in Ant outline view
+
+normal Socket closed while cloning a repository
+
+normal UISynchronizersyncExec leaks the interrupted state
+
+normal Eigen vector components are not resolved
+
+enhancement Allow to reference external setup tasks
+
+normal Ensure IViewer provides sufficient abstractions
+
+normal StackOverflowError while indexing type hierarchy
+
+normal Launch is not multithread safe
+
+enhancement Integrate CppCheck on the hudson build server
+
+normal Revert or improve ConstraintSelectTransfomer
+
+normal cannot create files with more than one dot in the name eg xminjs
+
+normal Two additional Github projects for IoT hawkBit
+
+normal IoT hawkBit examples and extensions deployed to repoeclipseorg
+
+normal XER Untagged optional record decoding error when omitted
+
+enhancement Push to Gerrit should remember that it pushed to refsdrafts
+
+enhancement Enable redirected catalogs visibility through a command line parameter
+
+normal Designergenerator Customize Maven Project Wizard
+
+normal Formatter inserts an extra space in certain cases
+
+normal extract method Refactor  Extract Method should fill in the method name extracted
+
+normal Preferences dialog rendering issue in left pane
+
+normal do CherryPick doesnt refresh the git command list
+
+normal Infer Generic Type Arguments command should use diamond operator when possible
+
+normal Type inferrer assumes type from negative pattern call
+
+normal Report dockercompose error when the process failed to start
+
+normal Use JavaFX Transform instead of Affine and AffineTransform
+
+normal TableReconcilerTable must save its version number to be able to call a reconciler later
+
+normal TableControl should allow disabling objects for edit
+
+normal Fix an issue with the default rules if the literal does not equal the name of an EEnumLiteral
+
+major SysML 14BDD Closing and reopening diagram changes compartment visibility
+
+normal C formatter breaks switch indentation
+
+normal codegen Incremental regeneration ignores element dependencies
+
+normal New Browser Drag and drop support
+
+normal IoT hawkBit HIPP instance build not working
+
+enhancement Table The table widget should provide the drag support
+
+normal Replacing a VSM in the workspace with a different version is not always taken into account
+
+normal Replacing a VSM in the workspace with a different version is not always taken into account
+
+normal Update help for Connection Limit for Bug 499385
+
+normal tooling Automatic layout with ELK throws NPE
+
+normal 19 both internal and external packages accessible
+
+normal Stop using syncExec in UIExtensionTracker
+
+major HiDPIwin32 Checkbox text is placed inside checkbox rectangle
+
+normal editors Use distinct CS and AS top level editor classes
+
+normal 19 Renaming a package does not rename it in moduleinfojava
+
+enhancement Print Support stretching with fittopage
+
+normal Fix SortableTreeComparator for same root element values
+
+normal 18compilergenerics Generics bug when overriding method cause CCE
+
+critical repoeclipseorg is down
+
+normal repoeclipseorg seems to be down
+
+normal JGit HIPP cant connect to repoeclipseorg any longer
+
+enhancement ToolingTest StateMachine diagram test coverage should be improved
+
+normal CoreException in PrepareInstallProfileJobresolve
+
+normal CoreException in PrepareInstallProfileJobresolve
+
+major Discovery CoreException in PrepareInstallProfileJobresolve
+
+enhancement DocumentationDocumentation  Plugin for the new documentation View should be written
+
+normal Test Test for new customizable label provider should be created
+
+normal CriteriaQueryImplcreateCompoundQuery assumes that the query class is always set on first compound selection item
+
+normal 19 NPE in SelectionEngineselect on hover over module
+
+normal Using CSS for styling font size in px pixel apparently interpreted as pt point
+
+normal 19 Formatter support for moduleinfojava
+
+enhancement JDT project settings should be used by Tycho build
+
+normal 19 Search for package references doesnt return the package reference in moduleinfojava
+
+normal Ttcn3Parser support select union syntactic and semantic check
+
+normal Science WG  cant update slider image
+
+critical HIPP Help
+
+enhancement navigation Asynchronous hyperlink detection
+
+major incorrect patch set diff
+
+normal Failed to read artifact descriptor
+
+normal Remove template for orgeclipseuipopupMenus
+
+normal Need clear indication in Error Log and Package Explorer when dependency JAR corrupt
+
+enhancement Line wrapping policy is missing a common policy
+
+enhancement JDT could contribute extensions to Generic Editor
+
+enhancement All Diagrams Drag semantic element from diagram into semantic destination eg table cell
+
+normal fetch on treat is ignored
+
+normal Add Override to orgeclipsecomparecore
+
+normal SysML 14BDD Full Port visualisation to be supported
+
+normal Branching for Oxygen upgrade master to neon new maintenance branch for Neon
+
+normal HIPP Help  OSEE HIPP
+
+normal Rename of a plugin is not updated in featurexml
+
+enhancement Support for tracking changes in the generated documents
+
+enhancement Move Service annotation from efxclipse to platform
+
+normal Custom class loaders mapped to Java 9 modules must override new findResource and findClass methods
+
+normal Update orion dialog should warn me If you do so you will lose your current context
+
+normal Alter the list of Past Conferences
+
+normal OutOfBeerException at 1030pm
+
+enhancement Allow to trigger the export installation wizard via the Eclipse About dialog
+
+enhancement Allow to trigger the import installation wizard via the Eclipse About dialog
+
+enhancement hovering Allow to disable Java hovers via the Java hover popup
+
+normal It should be possible to inject expected adornments for preparation via hints
+
+normal GaugeFigure lacks title and unit of value
+
+normal IllegalStateException while evaluating query using generic API
+
+normal website Broken image link in header demo
+
+enhancement Extend documentation at eclipseorg with a tutorial
+
+normal Internal compiler error javalangNullPointerException at orgeclipsejdtinternalcompilerlookupFieldBindingconstantFieldBindingjava218
+
+normal Internal compiler error javalangClassNotFoundException lomboklaunchAnno at javanetURLClassLoaderfindClassURLClassLoaderjava381
+
+normal Eclipse doesnt claim about missing a parameter in a method invocation
+
+normal Control flow view zoom out button have no effect when to zoomed in
+
+normal patch The order of the entries in a target file is not predictable leading to difficulty reviewing changes in a VCS
+
+normal TestorgeclipseswtwidgetsDisplaytestgetActiveShell fails on Mac OS X
+
+normal designer generator Change the project mappings to store the user selected project name
+
+normal Remove Ecore bundle
+
+critical Eclipse hangs forever after an unsuccessful draganddrop of a file from OSX Finder into Windows Virtualbox
+
+major CtrlE bugs Next EditorViewPerspective switcher popups
+
+normal Bugzilla search index updates are delayed
+
+enhancement Table Table Framework must be refactored in order to delete dependencies on others Papyrus plugins
+
+blocker equinox download website is down
+
+normal Copy Stack context menu item broken
+
+normal All Diagrams Rectilinear edges with rounded bendpoints gets corrupted
+
+normal Evaluation of multiple rules for the same control
+
+normal Refactor b3 aggregator packages to be cbip2repo packages
+
+normal ternproject Including json at the end of a custom index results in a JavaScript error
+
+enhancement Generic Editor Support for Outline  Quick Outline both
+
+normal Inject support objects making the support classes adaptablebound to the viewer where needed
+
+enhancement Installer PapyrusRT specific banner for simple mode UI
+
+normal JavaModelException below TypeHelpergetQualifiedRoleSplitName thrown in JavaElementnewJavaModelException
+
+enhancement NamedElement element names shall be configurable
+
+normal Performance improvements for SVNUtility
+
+normal HIPP Help  OSEE HIPP
+
+normal Dark theme disables side scrolling in code editor
+
+normal New commit can change the base revisions of a just created branch
+
+normal NPE in the AstEvluator with EEnumLiteral
+
+normal Running a container without the Terminaltm
+
+normal Ignore optional compile problems Java build path option not honored
+
+normal IDCPYE3
+
+major orgeclipseswt 31051v201609070248 java crashing in MAT blaming swt and libgtk Arch Linux KDE
+
+normal Find and understand role of aggregator schemas
+
+normal Transition lost from model explorer when kind set to internal
+
+normal Transition kind should be to valid kind by default
+
+normal Performance improvements for ResourceStatesChangedEvent
+
+normal TMF Critical Path view refreshes too early
+
+enhancement language Support multimodules
+
+enhancement Strange eclipse icon while installation
+
+normal serializer Provide better diagnosis of noPDA
+
+enhancement organize imports specify wildcard policy for particular packages
+
+normal m2e does not inject MavenSession
+
+normal AbstractCLaunchDelegate doesnt reset buildFailed flag on new build
+
+blocker HIPP Help  OSEE HIPP
+
+normal View on Site site link is invisible
+
+normal Transition Conditions witout Event should have the square brackets
+
+normal related reviews in reviews editor always claim to be owned by the current reviews owner
+
+normal Script locations are lost
+
+minor models Update b3 aggregator editor in Simultaneous Release setup
+
+normal 9 Provide means to support automatic modules
+
+normal ToolBarManagerRenderer exception
+
+normal Transitive EMF dependencies missing for DSE Maven artifacts
+
+normal Feature Enable navigation to connected elements from the graphical view
+
+normal Feature Connection to DOORS through OSLC
+
+normal Feature Support linking to Travis CI test results
+
+trivial Dependency comgoogleguava v1500
+
+normal Problems View Add Activate on new events for Problems view
+
+trivial Dependency xmlbeans v260
+
+normal View Model IDE Allow Preview to load additional view models
+
+minor Custom user agent for javadoc http connections
+
+normal JFace Snippets need some love
+
+normal Provide JFace Wizards with Progress Monitor
+
+normal Replace MANIFESTMF editor with generic editor implementation
+
+normal Customize Data selection not displaying name
+
+enhancement Generic Editor Editor doesnt have position on status bar
+
+normal SequenceDiagram Diagram corruption
+
+normal Toolsmiths validate the name of the ToolSmiths
+
+normal Infoplist CFBundleGetInfoString is out of date
+
+major Broken editor dirty detection causes data loss
+
+normal Selection is not changed if not default tab is selected in tabbed property view
+
+enhancement Provide template for making constructor function in class
+
+normal codegen missing notification of SAP registration when using inheritance and optional parts
+
+normal DeleteResourcesProcessor unnecessarily checks synchronization of linked resources
+
+enhancement Improve  target definition generator to support minimized implicit units
+
+enhancement ECF would benefit from an Oomph setup
+
+normal Content assist insertion for EPackages adds extra quote
+
+normal Electron does not remember maximized state across restarts
+
+normal Update time and default enhancement
+
+normal Wrong remote sha in prepush hook
+
+normal orgeclipsextextxbaselib2110v201610211047jar is corrupt
+
+normal releng Xtext Nbuild repos suppressed
+
+normal Ignoring problems on source folder needs to be configured for Tycho too
+
+normal Use fitting colors for Problem assist view
+
+normal Product export on Mac uses wrong directories
+
+normal No longer possible to annotate as designed with null type annotations in mind
+
+normal content assist Use fitting colors for Content assists additional info pane
+
+normal releng Xtext Nbuild repos suppressed
+
+trivial Toggle banner and Toggle side panel command names dont use title case
+
+critical Eclipse fails to start An internal error occurred during Initializing workspace
+
+normal qvts Rationalize mergers
+
+normal Include EclEmma in Java Package
+
+normal extract method Extract method with replace additional occurrences produces compile error
+
+enhancement 9 Consider NonNullByDefault in moduleinfo
+
+normal Extract function adds extra namespace to function parameter
+
+normal Build aggregator against Neon1
+
+normal Cant update RCPTT IDE
+
+enhancement Designer UCM support Designer should support the creation of UCM models with an initial template
+
+enhancement Designer UCM support Designer should support the creation of UCM models by using an adapted palette
+
+enhancement Designer UCM support Designer should support the creation of UCM models by defining a UCM diagram language
+
+normal 9 Reconcile new indexer work and JRT file system
+
+normal Clicking on the very end of an hyperlink label does not trigger the corresponding action
+
+normal No splash screen is shown Linux after update from 460 to 461
+
+normal Enable TravisCI for Eclipse Concierge hosted at GitHub
+
+enhancement Make console for engine optional
+
+trivial Remove duplicated sopaddGerritContributer
+
+normal Publish inside listener hangs forever
+
+normal HandlyXtextDocument is forcibly reconciled twice when Xtext editor is created
+
+normal AssertionFailedException below ImageBuildDialogcreateDialogArea thrown in StructuredViewerassertElementsNotNull
+
+normal Componentsrelease 0019 version
+
+normal JUnit 5 JUnit view bar shows success when test factory method fails
+
+normal GTK2 Clean up Combo code to use GtkComboBoxText
+
+normal SysML 14 rcptt tests should not use the userhome variable which seems not to be accessible on hudson
+
+blocker Build failure on N201611072000
+
+normal Offer commands which allow progress reporting
+
+normal View dragdrop broken on Ubuntu 1610 46 47
+
+normal Missing copypaste in Eclipse Repository Search
+
+normal ST editor interleaved Case Of with ELSE default and IF with ELSE not working
+
+critical Internal variable treated as array by the code exporter although array size is empty
+
+enhancement Update dependency to Nebula RichText 11
+
+normal model spy feature should include the  orgeclipsee4toolsemfui plugin
+
+normal Manually added system include folders are not passed to build
+
+normal PTP does not recognize Open MPI 20
+
+normal quick assist Quick assists for Strings should be available if String literal is selected
+
+normal Unable to set Domain Model Reference for TableControl View
+
+major Test jobs did not get triggered for N201611062000 and I201611081015
+
+major Win32 Serial Layer not working
+
+normal Tooling Support for protocol inheritance
+
+normal AnimationManager is not disposed properly
+
+normal DND Editor tab reordering sometimes stops working
+
+normal Componentsrelease 0020 version
+
+major RegistryReaderorderExtensions doesnt rely on dependency order
+
+normal Use fitting color for Heap Status
+
+enhancement Element Types PapyrusRT filter plugin should be in Papyrus
+
+major New planned user page
+
+normal XML example project should not be part of the Quick links in Java perspective for File  New
+
+normal null Annotationbased null analysis of wildcards gets more strict if assigned to local variable
+
+normal Quick Access Filter Previous choices from normal result list to avoid double entries
+
+blocker Eclipse forgets about global settings and installed features
+
+normal Java 9 support not well integrated with Tomcat webserver apachetomcat856endorsed is not supported
+
+normal Open Folder CtrlO hotkey conflicts with Source Outline
+
+major Unable to access platform hipp
+
+normal Invalid view in oeeuiscripts
+
+normal Add user Kit Lo as maintenance committer for LTS
+
+major Deadlock in EGit when restarting Eclipse while files are being changed outside of Eclipse
+
+normal FileNotFoundException for a key while interacting with a remote
+
+normal codegen generated CDT project doesnt have the required toolchain includes on mac
+
+normal Drawing a filled arc does not produce a pie
+
+enhancement Target Lookup for bundles in current installation bundle pool
+
+normal The preference recorder dialog truncates the icons in the Local Policy column on GTK
+
+enhancement The problem with the launch SEGGER JLink GDB Server
+
+enhancement Binary artifacts are not stored in the bundle pool
+
+enhancement Add support for emBRICK system to forte
+
+normal CustomHiDPI Table header with images has wrong header height for scale bigger than 100 percent
+
+normal Eclipse Neon 1a on Ubuntu Yakkety
+
+normal Use JSON format by default for notifications
+
+normal Use JSON format by default for notifications
+
+normal Use JSON format by default for notifications
+
+normal Use JSON format by default for notifications
+
+normal Use JSON format by default for notifications
+
+enhancement Allow to copy plugin versions from the About dialog
+
+normal ToolingUsability Superfluous scrollbar always present on top level state machine as well as composite state diagram
+
+normal Groupby display name shows original name
+
+enhancement Support for building Docker images
+
+enhancement Provide a simple profiler for local search executions
+
+enhancement Provide a simple profiler for local search executions
+
+normal RcpTT Navigation in diagram shall be test with RcpTT
+
+normal Connection issue with Authentificated mode
+
+normal Manifest editor doesnt cooperate well with file based commands like Team  Show Annotations
+
+normal Model Migration from 070 to 071  CallGraph content inside ISR is not migrated to 071
+
+normal Provide Eclipse Simultaneous Releases on JFrog Bintray and Apache Archiva
+
+normal Model Migration from 070 to 071  CallGraph content inside ISR is not migrated to 071
+
+critical FetchGerritChangeWizard doesnt checkout branch when there are conflicts in the local branch
+
+normal SequenceDiagram Editing message artefacts through message label
+
+normal SequenceDiagram Moving several elements together
+
+major Nested brackets in template literals breaks the javascript formatter
+
+normal Compile warnings in JavaCore IDE and official build
+
+normal Push to Gerrit fails with Permission denied during unpacking
+
+normal Add syntax highlight for xml compare
+
+normal Delete branch asailertamodelchanges071 and refsheadsasailersphinxvalidationsta in orgeclipseapp4mcgit
+
+enhancement Widgets Display button on oneline
+
+normal Genie posts 3 identical comments for 1 commit merged via Gerrit
+
+major big usability issues with sequence diagram CombinedFragment
+
+normal Merge project selection and gradle distribution wizard page into one
+
+enhancement allstopasync Allow DV refresh button to refresh thread list
+
+critical Strange build failures related to Maven central mirror
+
+normal Use multinode listing API endpoints in MPC
+
+normal Delete last commit from recommendersincubatororgeclipserecommendersprivacy
+
+enhancement AbstractHyperlink Make focus indication configurable
+
+normal Refactor genetic operators not to calculate fitness for duplicate child
+
+enhancement Mapping Support contributive bridges
+
+enhancement Allow committers to log into repoeclipseorg and administer their releasessnapshots repositories
+
+enhancement UsabilityWorkbench refactor the Papyrus menus and popups
+
+blocker Comparator errors in M201611160400
+
+normal Discuss concept for error handling in cpp runtime
+
+normal release toolsoomph 160
+
+normal CTabFolder has wrong initial size rendering without focus broken
+
+enhancement IDE Discussion Open the Workspace behavior making the project optional
+
+normal encapsulate field A behavior preserving transformation Encapsulate Field Refactoring is rejected Cannot convert postfix expression  It is used inside another expression
+
+normal CreateEditBasedElementCommand does not use the factory registered in the resource set
+
+normal New Browser The copy handler hides handlers of other parts
+
+normal SysML 11Requirement No way to add Traced to relationship
+
+normal Text of of menu items is not aligned when some items have icons
+
+normal Harmonize attribute names in AffinityConstraints
+
+normal Harmonize model elements to describe probability
+
+enhancement Implementing interface with default should generate skeletons for default methods
+
+normal Transfer eclipseplatformrelengbuildtools to eclipseplatformreleng project
+
+normal IOConsoleOutputStream and IOConsoleInputStream throw Exception if close is called twice
+
+minor Validate button for Javadoc location path should be disabled if path is empty
+
+normal IOConsoleOutputStream does not handle multibyte characters at buffer boundaries correctly
+
+normal Store solution trajectories in hash set
+
+normal Major UI hang saving file with API tooling issue changes
+
+normal Move orgeclipsebuildtools to Java 8
+
+normal BPMN Data Input  Data Output for Activities
+
+normal Toolsmithsuserxp group the developer menu under the Papyrus menu
+
+normal win32 Invisible characters printed into console instead of real
+
+normal Read collection inherited name instead of property only
+
+normal Trying to create a project with the same name as an existing one yields strange error
+
+minor Respect changes of dialog font
+
+major Cocoa StyledText getTextBounds does not work properly
+
+normal Add remote proxy agent
+
+normal codegen support UML Package as root element
+
+normal Selection highlight spills to new line when using ctrlbackspace or deleting a selection
+
+normal Hover on stars is not very useful
+
+normal 18inference inference failures due to duplication of inference variables
+
+normal GenericEMFPatternPQuery does not include the specified hints
+
+enhancement Support HiDPI icons
+
+minor Empty parentheses  in tooltips for CountersComplexity menu items
+
+normal Menu Provide a menu to set read only all the models resources
+
+normal viatramavenplugin cant handle platformresource URIs in metamodels
+
+normal Registry UI Management View for Passwords
+
+normal ClassCastException when receiving notifications from unsettable features
+
+normal CDO CDOAwareModelSet adds invalidationListener multiple times
+
+normal UI freeze while switching perspectives
+
+enhancement Launch configuration for running images cannot be saved as shared file
+
+normal Icon selection wizard should show and preselect the already chosen icon
+
+normal 18null Null type safety unchecked conversion warning shows even if target is marked as nullable
+
+normal javascript content assist dont work in eclipse neon
+
+minor Inconsistent text in Add task repositories wizard for the Mylyn Bugzilla connector
+
+minor Extensions are ordered randomly in pluginxml
+
+normal Constructor or destructor with wrong name should produce a semantic error not a syntax error
+
+normal Compare editor support
+
+normal HIPP for Yasson
+
+normal scheduler CGed CS2AS transformation for Companies example cannot be compiled
+
+critical Autocomplete inserts wrong text for generics
+
+normal NPE when adding a Device
+
+normal Hudson jobs aborted at 230 AM on Sunday
+
+normal Missing ENDIF not marked as an error in the algorithms editor
+
+normal Scaling Aggregate size looses rounded up pixels
+
+normal Model Import Update the model import to add port label into composite structure diagrams
+
+normal extract interface Extract interface looses Deprecated
+
+normal Progress reporting during git clone not in sync
+
+normal Toolsmithsuserxp group the diagram menu under Papyrus
+
+major Missing dependencies in BIRT 460 Maven build
+
+normal Remove trailing whitespace in orgeclipseswttests
+
+normal Trim bars contained in a part descriptor will only be added to the 1st part created from such a descriptor
+
+normal Check for updates stops with error due to Marketplace Client update site not found
+
+normal p2inf which provides an osgibundle causes an NPE
+
+normal release toolslinuxtools 520
+
+normal 9completion Illegal Argument Exception while code completion
+
+enhancement favorites New Type Favorite dialog possibly unnecessary intermediary step
+
+minor Dropping the f prefix convention
+
+enhancement releaseneon2RC2 release
+
+normal Mouse pointer draws with white nontransparent rectangle with GTK3
+
+normal Tasks services DELETE is unimplemented for the all tasks case
+
+normal Hosting plugins on dedicated eclipse servers
+
+normal Provide application extension in installable feature to execute obfuscator from command line
+
+major ArrayIndexOutOfBoundException from JDT index on too large workspace
+
+normal CompositeCompositeDiagramGmfGen model is invalide
+
+normal Repair Editor tab stacking order please back to how it was in Eclipse 37
+
+enhancement move analyzers build to Tycho 026
+
+normal SubMonitorsplitint SubMonitorSUPPRESSISCANCELED should not perform cancellation checks
+
+normal mentors Mentor required for Time4Sys
+
+normal trademark Trademark approval required for Time4Sys
+
+enhancement Enable orgeclipsee4emfxpathtest tests in Gerrit
+
+normal Create a workinggroups sub directory
+
+normal RFE support net option in Docker run image UI
+
+normal Explain what the purpose of a virtual folder
+
+normal Incorrect doc about resources moves
+
+normal Deadlock on shutdown with forte 182
+
+normal X11Wayland Stop using XRender directly in SWT
+
+normal AssertionFailedException below ImageBuildDialogcreateDialogArea thrown in StructuredViewerassertElementsNotNull
+
+normal Win32CustomHiDPI New ownerdraw checkboxes dont respect HiDPI monitor
+
+normal Show reverse debugging toggle by default
+
+major Cannot push a change to Graphiti Git neither Gerrit nor direct
+
+normal Win32 Tree selected item hard to read with selected foregroundbackground if unfocused
+
+normal Declarative Services fails to unreference unregistered services
+
+normal add other stations
+
+normal EDatatype parameter type info marker and proposed quick fix
+
+enhancement Check for already existing projects ignoring the case
+
+normal Containers with Workspace Image style do not take Size Computation Expression into account
+
+normal Support Clear and Cut Operations on Nebula Grid
+
+normal Table of contents in default template
+
+normal Update the documentation on how to acquire a heap dump
+
+normal ChangeRecorder inconsistent state after applyAndReverse with eOpposite
+
+normal HIPP for kapua
+
+normal Git settings Enable Storage checkbox missing
+
+major No easy way to export from a categoryxml
+
+enhancement Having the functionality for showing a file in the explorer as a handler in orgeclipseuiide too restrictive
+
+normal Provide branding guidance for Eclipse Marketplace entries
+
+enhancement Righthand side of  operator should automatically be optional
+
+normal cg Introduce EcorePropertyId etc
+
+normal Error evaluating expressions with multibyte characters
+
+normal Dangling reference on DNodeoutgoingEdges and incomingEdges after undo on Edge creation tool
+
+normal release technologyease 040
+
+normal NPE in Preview dialog
+
+major UsecaseDiagram Extension point child cannot be added to diagram from palette
+
+critical SVN Kit 1814 has an issue in SVN 18 API support
+
+normal Dangling reference on DNodeoutgoingEdges and incomingEdges after undo on Edge creation tool
+
+normal Cleanup SiriusFormatDataManagerWithMapping interface
+
+normal Dangling reference on DNodeoutgoingEdges and incomingEdges after undo on Edge creation tool
+
+normal StateMachineDiagram Resize of EntryExit point move them
+
+normal Info message in CF login prompt should be a warning so it will not hide
+
+normal Add tests for  lambda helper methods for FocusListener
+
+normal Restarting JGit HIPP from portal fails
+
+critical Platform hipp appears to be down
+
+normal Dangling reference on DNodeoutgoingEdges and incomingEdges after undo on Edge creation tool
+
+normal resetHardjs fails with an error that a method cannot be found
+
+normal EGit and EGit UI project names conflict
+
+minor Tag Image shell does not have a title
+
+major Legacy CDOView Lock fails with StackOverflowError upon deep object hierarchy
+
+normal JFace Test shouldnt run in workbench with Maven surefire
+
+normal SequenceDiagram Start and finish of execution specification must be in same interaction operand
+
+normal SequenceDiagram  Ensure consistency between semantic and notation model for messages
+
+enhancement asciidoc generation support for table
+
+normal Run UI tests on different platforms
+
+normal trademark Trademark approval required for Texlipse
+
+normal release ecdche 500
+
+normal Update the IP Due Diligence Process Poster to take IP Due Diligence type into consideration
+
+normal GTK3Webkit Implement webkit2 support for browser function Part 1 JavaScript to call Java
+
+normal Nullable cannot be assigned to a qualified type
+
+normal Source Not Found Editor pops up after evaluation in Snippet Editor
+
+normal Invalid read in MQTTHandlerregisterLayer
+
+minor button download should be called upload
+
+normal Potential deadlock under Linux on startup
+
+enhancement The variables available in properties views callbacks should be more discoverable
+
+normal a bit transparent yellow box for watched elements
+
+enhancement asciidoc generation several improvements
+
+normal DockerException in DockerExplorerContentProvider1run
+
+normal ECFURIHandlerImpl has special handling for bitbucket that no longer works
+
+enhancement Add common ST export templates algorithms and conditions for Clike languages
+
+major SWTException below CLabelObservableValuedoSetValue thrown in WidgetcheckWidget
+
+enhancement Linker Script Editor
+
+normal Palettes EditHelper not called by the palette customization
+
+normal FreeEdit behavior in ComboBoxCellEditor deviates from TextCellEditor
+
+normal The generator does not have a stable ordering of types and methods leading to code changes upon regeneration
+
+normal Decoration Calculation is not cancelable and only gives an approximation of the progress
+
+normal Add description how code should be handled in the NN
+
+enhancement Indirectly referenced class file error if generic super type in library references a type absent from classpath
+
+normal Membership pages cant connect to a database
+
+normal Model Import Importing legacy model should adjust visibility according to isService
+
+critical Dummy Page overrides CC Build if CDT Standalone Debugger is installed with CC Development Tools
+
+normal CompletionProposalPopup does not trigger on ShiftEnter nor CtrlEnter on Linux when the popup has focus
+
+normal Escope library is too big
+
+critical Corrupted artifacts when several projects are opened during eclipse start
+
+normal AllDiagrams Difficult to restore hidden connectors
+
+normal Tests testSystracelBreakpoint failing on all platforms
+
+normal Architecture files are easily to be mixedup with other libraries headers
+
+normal Using local data in multi model deployment may break process trigger event action
+
+normal Reporting Report sent by Email contains unexpected modeldata
+
+normal Showing log of a single file causes three requests to be sent
+
+normal Outline wrong on forward navigation for an inner interface thats not in source and move to outer class
+
+major Erroneous export of CASE OF cases
+
+normal Save and suspend option of an activity is not working in case of disabled Delegation grant
+
+normal initFORTE should provide method with CLinkage
+
+normal Fix copy to container to support stopped containers
+
+normal Cant rename interface in macOS
+
+major None of the JS config files are recognized as JSON any longer
+
+normal IE 11 Double click on string in single quotes does not select the content
+
+enhancement Choose consistent prefix for types names
+
+normal memory  Floating Point and Traditional Rendering Preferences Editor empty tree on the left
+
+enhancement Add support for codelens
+
+normal Connection to LS and feedback is delayed
+
+minor Connecting to LS Launch Configuration asks for saving dirty files
+
+enhancement Consider the debug server protocol
+
+enhancement Outline to provide Link with Editor
+
+enhancement Improve SymbolKind and CompletionItemKind icons
+
+enhancement How to support custom extensions
+
+major Hovers must be rendered as markdown
+
+major cocoahidpi ImagegetImageData on retina is garbled for PNG images created via ImageDataProvider
+
+normal Add information color api
+
+critical Perspectives Legacy PerspectiveListeners arent fired for perspectiveActivated during workbench startup
+
+normal Toolsmiths problem of installation throgh update site
+
+enhancement A multibrowser editor
+
+blocker e4uitestscssswt tests terminate with code 137 kill 9 on CentOS
+
+normal Model Explorer Removing profile filter broke the search
+
+normal hcr Changing code in unrelated project triggers Hot Code Replace Failed dialog
+
+minor Papyrus Fallback Text Compare is missing for PapyrusTreeContentMerger papyrus types
+
+normal Parse tree logging
+
+enhancement SysML 14 Property view shouldnt be empty
+
+normal Tooling Add a UMLRT properties context menu for ports
+
+normal Provide guidance for including vendorcompanyspecific links
+
+normal Job labels shall not include job
+
+normal File not found error show up more than once
+
+normal Project containing Java Services has to be open in both runtime and development Eclipse instances
+
+normal Provide guidance regarding the use of IP in milestone builds
+
+normal proposal technologytm4e
+
+major Posting replies in the EGit forum is very slow
+
+major LoginSystem does not displaying any error message if user enter more than 10 characters
+
+normal Simplify GTK initialization
+
+normal Convert the DotExtractor to a toplevel class
+
+normal Yellow ALREADYUPDATE status message when merging nothing new to the active branch
+
+enhancement Make type inferrer results available in runtime
+
+normal JUnit Search  Referring Tests doesnt work for LibrarysomeLibraryMethod from quick start
+
+normal inheritance using mongodb throws operation not supported
+
+minor Rationalize the 20 implementations of StringMatcher
+
+normal Upgrade mongodb driver to 322
+
+normal Failed updates can prevent further updates
+
+normal XViewer column sorters do not store direction in table customization
+
+normal mentors Mentor required for JNoSQL
+
+normal trademark Trademark approval required for JNoSQL
+
+normal license Dual License Request for JNoSQL EPLALv2
+
+major Code exporter is crashing at case statement
+
+trivial typos in javadoc of Section widget in orgeclipseuiformswidegts
+
+enhancement Add support to specify additional line spacing for text rendering
+
+minor Server stops but does not restart when clicking the Start button
+
+normal Wrong base URL in the Swagger descriptor when subfolders
+
+normal Implement check for redundant interfaces for roles
+
+normal Use ExtensionRegistryRunnable to allow for running filetransfer providers without service registry
+
+normal Spam protection may drive away new users
+
+normal Need Timestamps during execution of hudson jobs on platform hipp
+
+normal C17 Add support for fold expressions
+
+blocker repoeclipseorg is down
+
+normal Improve the UX for the Docker Machine search dialog
+
+normal asciidoc   Respect word boundaries in text styles
+
+normal Search   actions should activate the correct tab
+
+normal win32 Finish custom Button foregroundbackground color feature
+
+normal HIPP Help Cannot restart Eclipse Socut HIPP via Account page
+
+normal Open Schema action doesnt open workspace file
+
+major Resource Filter fails to use correct profile when executing clean package
+
+normal No support for parametercursor capturing    in completion
+
+normal File search loses project context unnecessarily
+
+minor Breakpoints view menu  GroupSort By use same order as Problems view
+
+normal qvts Rationalize mapping names
+
+normal AutoResizeHelper  No more handles for huge datasets
+
+normal EclipseJava does not shut down looping JTests
+
+normal Error marker at wrong place for default method addition
+
+minor Consider not using a Timer to send ServerPush
+
+normal List of mirrors unavailable when downloading
+
+normal PortLocator may return a lot lot of warning
+
+normal ClassCastException below ResourceUtilsresolveAll thrown in EContentsEListFeatureIteratorImplhasNext
+
+critical Bugzilla search results are not uptodate
+
+normal Mars contentxmlxz missing from update site
+
+normal Resolver plugin preventing Tern from capturing all types in the global scope
+
+normal release technologyjgit 460
+
+minor Projects Registry
+
+enhancement Hover window should be focusable
+
+enhancement Hover window should adjust styling to main theme
+
+normal Register custom color lexer for content assist and highlighting
+
+normal Typo in Formatting sections of Settings page
+
+normal Cocoa Inconsistent look of themed text and combo
+
+normal Referencing EStringToStringMapEntry results in compile Error in generated AbstractSemanticSequencer
+
+normal ci removing repositories
+
+minor Use fitting color for Heap Status in dark theme
+
+normal Information Modelingrcp error when starting IM rcp with a java version lower than 17
+
+enhancement Content assist More flexible API in IContentAssistProcessor to decide whether to autoactivate or not
+
+normal Internationalization Label used even when empty after clicking into Label in Properties
+
+enhancement Generic Editor provide a way to customize reconciler
+
+normal Superuser can login with two passwords
+
+normal release technologydltk 570
+
+critical otre Team causes ClassNotFoundException if roles bind to different base plugins
+
+enhancement Eclipse forums database dump
+
+normal pmi Release review editor seems to be broken
+
+normal Code completion breaks following a lambda which contains a dowhile loop
+
+normal DOT Graph View  Dot2ZestAttributesConverter needs to properly handle EscString values
+
+normal NPE in LSSymbolsContentProvider
+
+normal Fix Move TraceCreationHandler from orgeclipsecapraui to orgeclipsecapracore
+
+normal Fix Rename and simplify the methods in the ArtifactHandler interface
+
+normal Fix Show only relevant information in the traceability matrix
+
+normal Feature Use Show in functionality to navigate to model elements in the Zest view
+
+blocker Explicit UpperLower Case for DB Artefacts to be configurable
+
+normal Filter Improve performance of filtering
+
+normal Oxygen plan update 2
+
+normal Infoplist CFBundleGetInfoString is out of date
+
+major Upgrade hippcentos to a machine with more resources
+
+normal contentassist window causes freeze
+
+minor Export  Mac OS X application bundle Meaning of star  in JVM version unclear
+
+minor Generic text in help pane of Open Task dialog
+
+normal CVS tests leak running jobs
+
+normal Smooth out progress reporting in JavaCorerebuildIndex
+
+normal newindex Improve error detection for case where the index is cleared during indexing
+
+normal Add Override and Deprecated to orgeclipsecompare
+
+blocker Installation aborted on debian sid arm64
+
+normal AssistQuickFixTest18 test failure in build
+
+normal nullexternal Null safety warning cannot be avoided Collectorsjoining
+
+normal Configuration view only dirty for slider changes  1
+
+enhancement InteroperabilityRpy Papyrus Rpy migration tools should try to avoid to depends on orgapachecommonio
+
+normal deadlock on startup
+
+blocker NPE in DirectCollectionMappingcompareListsForChange
+
+normal Adding a formatNumber function
+
+normal Adjustments to the documentation prior to 84 release
+
+normal Log server exceptions to Eclipse log
+
+normal Provide context menu abstractions policies behaviors etc and demonstrate the functionality in the MVC Logo Example when the right mouse button is pressed
+
+normal Fix copyright statements for files in DB2 enablement component
+
+normal UI choosers and property view need to show qualified names to avoid ambiguity
+
+major Blank folder picker dialog
+
+normal Further performance improvement in API tools build for large workspaces
+
+normal Further improve progress reporting for large number of p2 software site target locations when resolving
+
+normal Confusing output on console when starting Neon
+
+normal Use enhanced for loop in orgeclipsepdeui
+
+major focus losses in POM editor
+
+enhancement Statistics Drag to Install vs direct Help  Eclipse Marketplace
+
+enhancement Server extension point should provide initialization options
+
+normal ActivityDiagram CSS property canonical not working for some Actions
+
+normal SysML 11 several tests are in failure No nested connector end stereotype should be applied
+
+normal Use enhanced for loop in orgeclipseswtexamples
+
+normal Fix incorrect copyright headers in web services explorer plugin
+
+normal doc Remote Java Application page connection limit 0 not explained
+
+normal hipp4 is super slow
+
+normal ExamplesResolve unused import and redundant type arguments warnings
+
+minor Text Editor Font Zoom No change when calling from within compare view
+
+normal Improve display of HTML information everywhere
+
+normal releng test configuration hipp
+
+normal NullPointerException in AlgorithmsSection1modify
+
+normal About dialog hides plugin names
+
+normal trademark Trademark approval required for NG661 Designer
+
+normal Moka Viewpoint Simex viewpoint overrides all other viewpoints
+
+minor Short description of different length in wizard vs marketplace search
+
+normal 18search Search for references returns bad element for anonymous inside lambda expression
+
+normal create a proper download page for aggregator
+
+normal Link for Neon update download throws http error 403
+
+normal No semicolon inserted when completing usingdeclaration for type
+
+minor dead code analysis is incorrect
+
+blocker hipp4 cant connect to repoeclipseorg
+
+enhancement papyrus releng The jarsigner dependency should only be resolved when the profile is activated
+
+normal Xmlworkflow bin2 tests
+
+normal TableTreeDragSourceEffect assume cairo xlib surface which breaks on nonx11
+
+normal Make Cairo bindings nondynamic where possible
+
+normal Refactor building of standalone products
+
+major Outline view remain empty when a diagram is open
+
+enhancement ListenerList should override Iterablespliterator and implement stream and parallelStream
+
+normal Rename GEF Bugzilla components
+
+normal Table Extra empty spaces added below the table inside the table group
+
+normal CBI has no webpage
+
+normal Remove extra space below table in properties view
+
+normal pmi Add a field to track whether or not the release can update previous releases
+
+normal Eclipse fails to start after upgrade to 47M4
+
+normal DB Indexes cant be createdmodified for existing tables
+
+normal Formatter tests failing with JRE 9 due to mismatch in whitespace
+
+normal Move oerelengtools to Java 18
+
+normal Run button is missing in the Executor perspective
+
+normal InternationalizationDiagramTable Diagram and Table labels in Model Explorer must be managed by custom facet
+
+normal rcp rcp seems not to be executable
+
+normal releng plugins dependencies error
+
+normal rcp ensure java 8 is presetted
+
+normal no new EFM project available in main menu
+
+blocker Something seems amiss with mirroring
+
+normal Improve integration of Application FunctionBlockCode into FORTE
+
+major pmi Add a dependency type field to the CQ creation form for Workswith Requests
+
+normal Electron on Mac only The Ui of context menu of tree table went wrong for Open With command
+
+normal Downloadeclipseorg download2 returning 404 File Not Found intermittently on files that are there and is very slow
+
+trivial newindex Polish preference for disabling the new index
+
+normal Improve handling of inner types of parameterized types in reflection type convertor
+
+normal DelegatingModelConstraint raises IllegalArgumentException
+
+normal RcpTT rcptt tests are in regression
+
+normal Problem to navigate through multiple facet references
+
+normal Need to enable sync gcc build output parser by default
+
+normal Type conversion doesnt work in streamlambda cascades
+
+normal Generic JAXB 22 Platform with Java 18  Eclipse Neon
+
+normal Remove the concept of identifier from the Properties DSL and replace it with labels
+
+enhancement Handle Nebula RichText Widget
+
+normal Model Explorer Rename Contextual menu doesnt exist anymore for element
+
+normal Layout Mode disables double click
+
+normal performance Share RepositoryCache between invocations
+
+normal 9 Unable to find correct source file for moduleinfo from JRT
+
+normal bugs in EPP makevisible script
+
+normal Move generated monitoring model classes to srcgen directory
+
+enhancement Cannot import composite build with war and eclipse plugins on one of the projects
+
+normal Consider adding security review to the release process
+
+normal Print Incorrect page count calculation with extended multi print
+
+normal Move JSP HTML and JS MTL files into a separate folder
+
+normal PropertiesView No update after selection change in maximized view
+
+normal Hierarchical project view does not show submodules when projects share prefix
+
+normal XML Catalog Resolver with catalogs under mapped flexible project folders is unable to resolve URIs
+
+normal SWT Layout Spy  Overlay is shown on all virtual desktops
+
+enhancement Move ant plugins to Java 8
+
+normal There is no errror marker on not existing timer in altstep
+
+normal SequenceDiagram Cannot hide stereotype display on a message in a sequence diagram
+
+normal custom swt controls in dark mode
+
+normal pinnedovrpng needs white border to make it hover over base editor icon
+
+normal PropertySourceProvider dependency on implementation instead of interface
+
+enhancement Allow specifiers to specify the resulting shape of Workspace Image styles
+
+normal restructure modelinggmfruntime Merge GMF Notation into GMF Runtime
+
+normal Commit viewer editor forgets  doesnt take focus
+
+normal restructure modelingemfservices Create EMF Services from EMF Query Transaction and Validation
+
+major Project share silently fails when git conflicts exist
+
+normal Delete empty overrides of default methods of WidgetTreeProvider
+
+normal Debug view Monitoring of ID from FB netSUBSCRIBE shows wrong data
+
+enhancement Make classes related to extension point public API
+
+enhancement Log logMessage in Console view
+
+normal Breakpoints view sorted by Creation TimeName adding breakpoints removes previous from view
+
+normal E4 Tools Update Site should be updated
+
+normal CSS dark theme set background color of the StyledText widget contained in a Group widget
+
+normal Tag Neon2 462 release
+
+normal Have a way to create Widgets without the parent Null safety
+
+normal Editors The E4PickList buttons should not contain text
+
+enhancement Add deadlock protection and inheritance of scheduling rules to Jobjoin
+
+trivial Unbound placeholder in Reset dialog
+
+minor NPE when calling method GenTypenmodel invalid without ecoreFeaturedElementImplisListType on a ge
+
+enhancement Provide our jdeps report to other projects
+
+normal e4 model editor shows duplicates entries for the application node
+
+normal 19 NPE in ASTResolvinginternalGetPossibleTypeKinds when trying to hover reference in moduleinfojava
+
+normal Model Application model not refreshed after refactroing
+
+minor InformationModeling Source file for splashbmp is missing
+
+normal Updating the MAT feature within the MAT RCPs causes errors
+
+enhancement products required VM level should allow upper as well as lower bound
+
+normal XXIgnoreUnrecognizedVMOptions should be specified when ever XX options are used
+
+critical Model Editor is always reloaded when we switch to another editor
+
+normal Should rebuild analyzers with Neon2 target
+
+normal StackOverflow when editing in the StringFragmentEditor
+
+normal Fix failing build due to missing dependencies
+
+major api Ensure that raw IProblem ID integer literals are unique
+
+normal Fragments with index merged in wrong order
+
+normal asciidoc Improve list handling
+
+normal Allow styling of table headers background in SWT GTK
+
+normal hover text thats shown when hovering over a fold annotation is not quite wide enough
+
+major Stats block  Link on Projects is broken
+
+normal Tool Model explorer direct edit cancelled due to refresh from SemanticUMLContentProvider
+
+normal HiDPIGTK3Linux Wrong font size in several components
+
+normal evaluator Introduce a small set value
+
+normal Prepare build scripts for 420
+
+normal Bad performance when removing many items from an EList
+
+enhancement EcoreUtil lacks of deleteAll and removeAll methods causing poor performance
+
+normal TMF Changes to mutable trace context can be lost
+
+normal Browser Add Browserfunction jUnit test cases
+
+normal jUnit Cursor tests failing in TestorgeclipseswtgraphicsCursortestConstructorLorgeclipseswtgraphicsDeviceI
+
+normal Autogenerate predelivered content
+
+normal Allow Oxygen to start on jdk9
+
+normal Update Oxygen to import JDK9 as a runtime
+
+normal Preview image for generation wizards like in Projects wizard
+
+normal SWTBotTextBox should not settype text if it is Readonly
+
+critical Import of Registry content does not work on SAP Cloud Platform
+
+normal GDB 712 freezes at 62 on Mac using new console
+
+major Java parser failure a incorrect code compiles and runs wrongly
+
+major Add JSON Forms Exporter to SDK and properly name feature
+
+normal Hovering over an include with error as the filename gives a hover for the error function
+
+normal 9 Tests fail when run using JDK9 due to IllegalAccessError
+
+enhancement Documentation plugin for Gendoc
+
+normal CDO AbstractHorizontalClassMappingcheckDuplicateResources fails when CDOBalancedTreeaddObjectWithSplitCDOResource is called
+
+normal Core Passthrough connector incorrectly violates port compatibility constraint
+
+enhancement a patch for switch to menu item working on multi select switching at once many git repos
+
+normal Connector discovery dialog showing too early
+
+normal StackOverflowError in IndexCPPSignatureUtilgetSignature
+
+normal MediaWiki bold text not recognized
+
+normal LambdaConversionException deserializing method reference to protected method in another package
+
+normal Support diffs for merge commits
+
+normal Single click sorting only works after calling refresh
+
+major Symantec reports a Trojan SONARAMCg24 in eclipse
+
+normal Javascript  Validator  The local variable is never read
+
+critical Unable to interrupt arm remote target with Neon and GDB 712
+
+normal Resolve ListenerList is a raw type warnings
+
+normal evaluator Preevaluation static AST analysis
+
+normal Edit swt bugs
+
+normal Incorrect URI for orgeclipselyodependencies Git repository
+
+normal Latest versions for projects missing CDT Trace Compass
+
+normal ResourceModelContentProviderpropertyChanged should not use DisplaysyncExec
+
+normal Invalid address breakpoints can cause launch to fail in final launch sequence
+
+normal emfquality Unsupported SuppressWarningsPMDUseSingleton
+
+trivial SysML 11quality AbstractSysmlCreateCommandHandler is deprecated
+
+normal Comparator errors in M201701040545
+
+normal The value of an annotation detail should be marked as supporting multiline
+
+enhancement clean up fix trailing spaces in platform help once and forever
+
+normal win32 Rollover tooltip on TreeItem of nonfocused shell drawn at wrong place
+
+normal Make GitHub pages use docs folder for Eclipse Collections repos
+
+enhancement userxp why not add uml specification link in Papyrus
+
+normal Drag and Drop of Conditions does not work in Test Suites
+
+minor developer abandon of the plugin to generate html and wiki page
+
+enhancement 19ast rewrite AST Rewrite support for moduleinfojava file
+
+normal ClassDiagram no print function
+
+normal Comparator errors in I201701050320
+
+normal SysML 14 web generation do not take into account the rcptt images
+
+normal Comparator needs to disregard size differences of plugins in featurexml
+
+normal Orion has at least three different confirmation dialogs
+
+normal NPE during target platform reload
+
+normal Tooltips for split editorsettings on editor page can cover the commands
+
+normal Would like geniecbi to be able to commit directly to cbi www site
+
+normal Reloading the page makes the import and export buttons disappear
+
+normal HIPP for atl
+
+major CSS Dark theme Slow switching between tabs with themed scrollbars
+
+normal Syntax error for uniform initialization in template argument
+
+normal Additional Tasks menu entries are enabled for readonly setups
+
+normal No quick menu key binding shown for menuContributionmenucommandId
+
+normal mvm releaseprepare timeout connecting to githubcom
+
+normal newindex The index should cache information about invalid JAR files
+
+normal Designerwebsite The officiel SW designer website does not provide installation information
+
+normal Change hover color for GTK3 currently its balck for most themes
+
+normal Add a nopiggybacks keyword
+
+normal Context root reset on Refresh
+
+normal Provide variables for userhome userdocuments etc
+
+normal Storage of common elements eg tags should be merged in one central location
+
+normal Empty log for hippcentos instance on platform hipp
+
+normal 18code assistlambda code assist does not work in specific situation with lamdas
+
+normal SysML 14css Unable to determine visibility of Connector label
+
+normal NPE on replace with  previous revision if started from editor
+
+normal mapped function blocks are not colored
+
+normal Since Neon SR2 type inference is incorrectly evaluated in JDT compiler for lambda expressions Type mismatch cannot convert from String to Comparable
+
+enhancement runtimecpp dont call getInstancePath for logging to avoid too many string operations
+
+enhancement runtimecpp use template specializations to minimize the code size of the Vector template
+
+normal RedefinableTemplateSignatureImplisSetTemplate always returns false
+
+normal NullPointerException in SemanticUtilsubstituteTypedef
+
+major Unable to install maven plugin in IDE
+
+major ToolbarMenubar enablementvisibility controlled by source provider and property tester works across all the open workbench windows
+
+normal relenggerrit are failing due to bad target platform
+
+major cocoahidpi AIOOBE in ImagegetImageData
+
+normal Bug Do not display the text artifactwrapper on the plantUML view and the matrix view
+
+normal EVM rule specification should allow jobs for activation states from different Enums
+
+minor Core Deprecate protocolrelated utilities
+
+major Validation triggers a Nothing will be left error when it should not
+
+normal Crash on wake up on MacBook Pro 2016 133
+
+normal release modelingeef 190
+
+normal Extract the noop default operations in the Spec classes
+
+normal Support custom widgets creation from domain class
+
+normal Fix WTP Web Site  wikieclipseorg links must be https
+
+normal newindex Make use of change deltas in incremental indexing
+
+normal Forms Always use blocks in orgeclipseuiforms
+
+normal Description of source features could be different by default
+
+normal Eclipse infers wrong type for StreamflatMap
+
+major Eclipse hangs on startup in Loading orgeclipseltkuirefactoring
+
+normal efxclipse is moving to github
+
+normal Add keyword for cron job scripts
+
+major Eclipse Kura uses a vulnerable version of Apache Commons Fileupload
+
+enhancement DSE 0150 depends on 150SNAPSHOT
+
+major Trying to delete a connection that is connected to the same part in both ends makes deletion impossible
+
+normal Merge issue with target filters in parent and child pom
+
+normal GTK3 Crash  SIGSEGV in gtktreestoreset
+
+normal DTD file loaded as semantic ressources
+
+normal ClassCastException in PHPCodeFormatterCommonPreferencesgetPreferences
+
+critical Oxygen GMFT Remove dependencies to GMFT
+
+normal Implement method leaves out nontype template parameter
+
+normal Multi selection bounds are incorrectly considering bendable parts without free bend points
+
+normal Resolve formatting issues and remove unused constructor for PartTemplate
+
+normal Use enhanced for loops in orgeclipsejface
+
+normal Use enhanced for loops in orgeclipsejfacesnippets
+
+normal UML2Utildestroy removes all adapters
+
+normal Use enhanced for loops in orgeclipseuiworkbench
+
+normal Add support for Service filters
+
+normal Virgo server reports osnamewin32 on Windows 10
+
+normal NullPointerException in PHPSelectionEngineinternalASTResolve
+
+normal Hudson Accessing projects hosted on hipp9 result in timed out connections
+
+normal whitespace characters in parameters are not escaped on windows
+
+normal Proxy Error accessing CI for Kapua
+
+normal Partial validation support
+
+enhancement ImporterRhapsody Imported BDD doesnt contains Actor Event and Package
+
+normal support testing for subapplications
+
+normal release toolstm 420
+
+normal Faulty error marker on template parameter of type TYPEASN1ENUMERATED
+
+normal Properties New port or capsulepart shows prematurely in list
+
+normal Remove deprecated references in orgeclipsepapyruscodegen plugin
+
+normal MDMBL does not appear in the dashboard
+
+normal Make Quickfix working in a headless environment
+
+normal DefaultCDOMerger produces incorrect results for MOVE deltas in manyvalued features
+
+normal Missing extension point schema in builds
+
+normal The AbstractScrollAction should use ViewportPolicy to determine the operation to execute
+
+normal FindReferencesTest are failing sometimes on my machine
+
+normal Update Documentation regarding latest TreeContentMergeViewer
+
+normal Wrong formatting indendation
+
+normal show subapplications within palette
+
+normal Add CSS editor from WTP to RCP  RAP package
+
+critical NoSuchElementException at orgeclipsesisuplexusRealmFilteredBeansFilteredItrnext
+
+normal Several silent NPE are thrown in ConfigUtilsgetFloat
+
+blocker Eclipse freezes with Registering Listeners on startup
+
+normal SWTException below ImportFavoritesPage21call thrown in WidgetcheckWidget
+
+normal drupal  On 403 pages redirect anonymous users to login form
+
+normal otdre binding to indirectly inherited base method is not activated
+
+minor eclipse word wrap in display view
+
+normal Semantic highlighting in inactive code blocks
+
+normal NullPointerException in PeServiceImplgetGaBoundsForAnchor
+
+normal Installation dialog  Move Find more software text to button
+
+normal Toolsmiths migrate oepcustomization in pluginstoolsmiths
+
+trivial hidpi Use high resolution images on Code Recommenders preference page
+
+major javalangStackOverflowError when opening three projects that reference each other
+
+normal Minor typos in SettingsContainerjs
+
+normal border colors for function block types
+
+normal 19 Classes only available by adding an moduleinfo dont show up in autocomplete
+
+normal Deadlock on eclipse startup when adding listeners to 2 servers
+
+normal Create new Java9 patch
+
+normal release technologyrdf4j 220
+
+normal SWTException NoSuchMethodError on comparing PHP file
+
+normal Update Apache Tomcat to version 8511 or later
+
+normal 19 Incorrect error with module having multiple source folders
+
+normal xsd2ttcn The type of the attributes does not follow the changed type name when nameconversion is present
+
+critical CVE in Batik 170 shipped
+
+normal 19 Incorrect error about visibility of class in moduleinfojava
+
+enhancement EGX Book TemplateappendString is not documented and is inconsistent with generateString
+
+normal e4 NullPointerException in HandlerServiceImplexecuteHandler
+
+critical Perspectives Legacy PerspectiveListeners arent fired for perspectiveActivated during workbench startup
+
+critical when exporting to pdf html tags are acting like space at end of line
+
+normal Add support for JavaFX development with Java9
+
+normal Some source bundles are missing
+
+normal Make efxclipse applications run on Java9
+
+normal codegencdt invoking the Edit source action results in too many warnings
+
+normal Toolsmiths Oomph configuration seems not to be uptodate with latest change with toolsmiths
+
+normal Tycho 026 fails to read MANIFESTMF with execution environment JavaSE19
+
+normal Gendoc HIPP Help
+
+normal ServiceNotFoundException thrown when model is refreshed
+
+normal Please change Stuartbot configuration for Virgo project
+
+enhancement Crossreferences support via require in Embedded Editor
+
+normal SetPropertyValueOperation should be contentrelevant per default and a setter setContentRelevantboolean should be provided
+
+normal Project context menu performs IO on UI thread  can block UI for long periods
+
+normal NullPointerException in DeleteInterfaceCommandexecute
+
+normal Scanner Discovery paths are not updated on compiler upgrade
+
+normal xsd2ttn special float values mishandled in enumerations
+
+normal Managing multiple inputs and outputs in new FB Type
+
+normal Core CreateEditBasedElementCommand does not support undoredo correctly
+
+normal Use asynchronous layout calls in orgeclipsepderuntime
+
+normal CocoaText lowered badly on Widgets when using system font with Italics style
+
+normal ThirdParty Problem Classification fails for problems referring classes from oracleeclipsetools
+
+normal Create database connector class
+
+normal Not able to map when connections are selected
+
+normal TableControlSWTRenderer should not display empty tooltips
+
+normal clean up Clean Up action convert for loops to enhanced loops create syntax error
+
+normal Validate Diagram doesnt works on non platform URI
+
+normal Validate Diagram doesnt works on non platform URI
+
+normal The OSLC4J release version 211 has the wrong release ID
+
+normal Editor doesnt color type names in function specializations
+
+normal Add support to pass non string types through the commandservice
+
+major 18compiler Bound mismatch in eclipse 462 compiles with javac
+
+normal The extension took too long to return from the computeCompletionProposals operation
+
+normal NoStackTrace in EthernetDeviceManagementCommunicationHandlergetValidMgrInformation
+
+normal NullPointerException in AdapterInterfaceElementSectionsetTypeDropdown
+
+normal getSectionGradientImage in FormImages always returns a new image although it already has one in the cache
+
+normal Autocomplete for type inside javadoc is not working
+
+normal Move the GMF Notation repo under the GMF Runtime project and enable gerrit for both
+
+enhancement Generic Editor is the name generic editor clear enough
+
+normal Cannot specify encoding when using readfile or readlines
+
+normal Facade Setting optional capsulepart to fixed doesnt account for bounds expressions
+
+normal SpaceTreeLayoutAlgorithm does not hideshow children as needed
+
+minor rcp log file  orgeclipsejubularccommonjar does not exist
+
+blocker Failure when attempting to scan bundle via jar URL  javaioFileNotFoundException
+
+normal Forms twistie on ExpandableComposite is not antialiased
+
+normal Make security page easier to find
+
+normal update eclipserunrepo to M5 to build M6
+
+normal Allow to disable sorting for table control
+
+normal Toolsmiths create a developer plugin to migrate the newchildmenucreation models
+
+major Deadlock on typing in the editor
+
+normal FXCanvasEx causes serious rendering delays when its bounds are too big
+
+normal Computing 23  message with asynchronous code completion
+
+major Strange errors when module cannot be loaded
+
+blocker Failure when attempting to scan bundle via jar URL  javaioFileNotFoundException
+
+major Empty Property View when restarting Jubula and open a project
+
+major Gtk3Webkit2 Port webkitwindowobjectcleared to webkit2
+
+major Missing source bundle for orgeclipseswttools
+
+major AspectJ 18 not able to compilation error but 17 works well
+
+major security securityeclipseorg should not be a moderated mailing list
+
+normal Add Explain incompatibility Quick Fix for Add default method problem
+
+normal lami Wrong X axis when using 2 numerical formatters
+
+normal Launch group regex not hit internal error
+
+normal NPE at CommentsPreparatortranslateFormattedTokens when using NONNLS1 in Javadoc
+
+normal Plan the 230 release
+
+normal 18inference Eclipse cannot compile code with diamond operator no error with javac 18
+
+critical repoeclipseorg is down
+
+normal support adapterTypes in lua
+
+normal UnitTest ErrorsFailures outside of test scope are not counted
+
+normal qvts Bad code for renavigated optional paths
+
+normal How can one move a solution from one Marketplace eg Red Hat to another eg Eclipse 
+
+major Error due to explicit creation of a ToolTip widget
+
+normal Add the C nature to all SWT source projects
+
+normal All Releases download page needs a keylegend
+
+normal Javadoc error in orgeclipsejgit created with I59539aca1d0d83622c41aa9bfbdd72fa868ee9fb
+
+normal trademark Trademark approval required for GEMOC Studio
+
+normal Create 220 and 230 versions in Bugzilla
+
+normal Selection is wrong after being prompted to save changes
+
+normal Unsaved changes message should indicated that you will lose changes
+
+normal 18 NPE in analyseCode caused by missing type detected in lambda
+
+normal inaccurate dependencies in the target file
+
+normal of types or array can be indexed with a record of or array of integer
+
+normal Missing committer rights on jdtdebug Gerrit Hudson
+
+normal Some Composer operations fails when php isnt available globally
+
+normal NullPointerException thrown in GenModelImplsameModelTestsProject erroneous and unmarked derived feature
+
+normal Migrate TimerHandler on vxWorks to posix timers
+
+normal Use Vxworks classes in Bachmann architecture
+
+normal CommunicationDiagram Label of Interaction shall not be center
+
+enhancement Generic Editor misses quick fix on error markers
+
+enhancement RichText Support render image in RichText
+
+normal Extend ValidationService to cover more sophisticated use cases
+
+normal No error marker in Dependency tab for missing dependencies in MANIFESTMF
+
+normal Const qualifier confuses isclass builtin type trait
+
+normal Malformed virtualDNS vars are not handled
+
+major After editing Names of the Parameter of a testData and confirming old Parameternames are taken over
+
+normal Previous Difference button does not expand and select the previous difference
+
+normal api Provide helper methods to use lambda expressions for AccessibleListener methods
+
+normal Changing from Welcome Perspective will discard all loaded chromatograms
+
+normal Toolsmiths problem in extra with reference to toolsmiths
+
+enhancement Save Resource should use Save  Dont save instead of Yes  No
+
+normal Tooling Detection of cycles shall be made also when creating a capsule generalization
+
+normal releng To be able to set compilerArguments
+
+normal Make Favorites a central element
+
+normal Support central USS OAuth login in MPC
+
+normal Open MPC directly on Favorites list
+
+normal Improve wait times in MPC
+
+normal Preload Marketplace catalogs at startup
+
+normal Preload default Marketplace listings
+
+normal Preload additional listings when opening MPC
+
+normal Webkit2 Ensure proper settings are used for webkit2
+
+normal Dont block UI while loading entries
+
+normal Usage of delete operator on a variable
+
+normal MI async mode shall not be activated for all cases when using GDB 712
+
+normal MI async mode shall not be activated for all cases when using GDB 712
+
+normal Cant rebind HomeEnd keys OS X
+
+normal Comparator errors in I201701272200
+
+normal ClassCastException in DBGpStackFrameupdate
+
+normal qvtr Compile Launch fails
+
+normal Cannot serialize 200776584 orgeclipsecdtinternalcoredomparsercppsemanticsFunctionSetType
+
+normal EventLoopMonitorThreadTests are unstable
+
+normal Support s html tag for strikethrough
+
+enhancement Enhance task model regarding different scheduling algorithms
+
+enhancement Support for empty sets by ECPHardcodedReferencesgetNeededDomainModelReferences
+
+normal Designertest tests on cpp projects are not called
+
+normal ImporterRhapsody UML Signal  is not supported to type properties used Association member ends
+
+enhancement AbstractControlSWTRenderer does not support overriding of validation methods they are final
+
+normal UI freeze of 26s
+
+normal False error markers on logged timer value
+
+normal newindex Add UI to configure the page cache size
+
+normal Provide better error message for incorrect syntaxlevel in eslint pragman
+
+normal Do not apply Problem highlighting to entire qualified name
+
+normal Declare correct required bundleversions
+
+normal Failed while installing EMF Parsley Web Server Invalid name specified
+
+normal XViewergetCustomizeAction returns DropDown Action
+
+major Tomcat hangs and prevents Eclipse from shutting down after running some time
+
+normal Oomph always triggers build after setup tasks
+
+enhancement RichText Support render link and manage link interaction in RichText
+
+critical releng hipp is unstable
+
+enhancement Add vertical line diff in Text Compare and Java Compare in CVS
+
+major CVS client fails constantly in Linux Ubuntu trying to connect to a Windows server
+
+blocker Oxygen aggregation build broken
+
+normal release rtvirgo 370
+
+normal Model Import Inherited connectors not shown in the subclass capsule structure diagram
+
+normal Highlighting confused by Unicode Character LINE SEPARATOR U2028
+
+normal Clear Console toolbar action icon x must be darker
+
+normal DSstore files should not be shown in the navigators
+
+critical Tooling Issue on undoredo on State creation in a Capsule State Machine
+
+normal Use SelectionListenerwidgetSelected helper methods in orgeclipsejface
+
+normal Use SelectionListenerwidgetSelected helper methods in orgeclipseuiworkbench
+
+normal Changing editor auto save option via local editor settings doesnt apply until page reloaded
+
+minor Target Generic Editor completion suggests attributes that are already set
+
+enhancement Target Generic Editor add error markers for XML issues and resolution issues
+
+enhancement Oomph should adopt USS OAuth authorization
+
+normal In split mode unsaved changes alert shouldnt show up if the dirty file is in one of the split windows
+
+normal Replace Equinox DS with Felix SCR DS implementation in RAP Equinox Target
+
+normal False syntactic error marker on semicolon in function body in case of incremental parsing
+
+normal Group style is not anymore herited by the contained elements
+
+normal JUnit 5content assistquick fix Set default favorites for static imports
+
+normal Incorrect code generation of parameterized templates
+
+normal Tooling Prohibit UMLRT stereotypes to be applied manually
+
+normal Port the EMF Parsley DSL to Xtext 2110
+
+normal Public API for the EclipseCompiler
+
+normal codege indentation of generated user code lost
+
+normal cannot continue rebase
+
+normal Add guidance on using DockerHub
+
+normal ImporterRhapsody IAssociationEnd are not managed when inverse propertynull
+
+normal ElectronHold left click and drag mouse out of window will let electron keep in hold mode even if you dont
+
+normal Export nonexisting folder leaks server path
+
+normal Dynamically added toolbar elements are not rendered correctly no resize
+
+enhancement Create location parser for github
+
+normal API Tools creates problems for API changes on wrong file MANIFESTMF
+
+normal Exceptions when closing project
+
+major LTS build fails
+
+trivial Quality Remove deprecated classes in Wizard Plugin
+
+normal UI tests broken on HIPP
+
+normal Add support for parameters in complex events
+
+normal Simplify CEP rule syntax make event parameters referrable by name
+
+normal 19 ModuleBindingkind uses wrong constant
+
+normal GUI FMLXLIA nature for OpaqueBehavior
+
+normal neon Menus with icons not rendered correctly on first display
+
+enhancement Unable to customize initial DialogSettings
+
+normal Deleting resource when a FB was not started makes forte run forever
+
+enhancement Support a JavaScript project at any level in the tree
+
+critical paintingrulers Rulers are forcing synchronous paints during scroll
+
+critical GTK Canvas is forcing a synchronous repaint in response to every user scroll event
+
+normal return the promise from post clone
+
+normal ClassCastException CPPTypedefSpecialization cannot be cast to IArrayType
+
+normal Mark IHyperlinkDetector as functional interface
+
+normal Run convert to lambda on orgeclipsejface
+
+normal Remove usage of deprecated SubProgressMonitor from OrganizeImportsOperation
+
+normal Ecj changes behavior to mimic old JDK bug about private field visibility of parameter type
+
+normal Make MessageDialogWithToggle accept custom button labels and ids
+
+normal HIPPMPC Webkit support
+
+normal JUnit 5 Add oejinternaljunit5runner to stack trace filter
+
+normal FORTE crashes when a KILL comand is sent
+
+normal qvts Support fixed point transformation
+
+enhancement Synchronize with the upcoming patch and diff contenttype in platformteam
+
+normal ImporterRhapsody Add the support for the description field of the Rhapsody object
+
+normal Codegen Unnamed entryexit points causes methods with name clashes to be generated
+
+normal Calling a destructor using an alias template
+
+normal Bug fixed previously still not included in update
+
+normal Add description to ELK GitHub repository
+
+normal Use new SWT listener lambda adapter methods in orgeclipsepdeui
+
+normal JSF 22 MyFaces when generating jsp file using XHTML markup and default view does not process houtputLabel with value
+
+normal Add a new TextUtil method to convert tab to spaces
+
+normal Add a new size type
+
+normal Run cleanup action on eclipseplatformuibundles to use enhanced for loop
+
+normal 18null improve error message for array access when pessimistic analysis for free type variables is enabled
+
+normal Text CompareThe files are ordered from left to right in alphabetical order by its full path instead of selection order And no feature of swap two editores
+
+normal Use enhanced for loop in eclipseplatformui plugins
+
+major New PHP Project from Composer Package freezes if no PHP executable is configured
+
+normal Feature Artifact Handler for Google Spreadsheets
+
+normal Feature Include links from issues in JIRA or BugZilla in visualisation and analysis
+
+normal inference Type mismatch trying to convert function returning anonymous class
+
+normal Retire obsolete orgeclipseuiinternalutilUtilgetArrayFromList
+
+normal Tooling Improve the name clash check and default naming proposal to consider subclasses
+
+trivial Clarify the JavaDoc on Controlredraw to indicate that it schedules a repaint
+
+normal VMInstallTestsLibraryLocationResolver should not block headless test runs
+
+normal win 10 Extra white or black top bar on all quick floating shells
+
+minor Tag filtering is not working properly
+
+normal SashLayout performs unnecessary forced layout  repaint during resize
+
+normal Fix Make sure that the schemas for the extension points are exported in the binary builds
+
+enhancement Upgrade NodeGit to 0190
+
+normal Tooling Disable the fixed kind radio button for a capsule part when replication is 
+
+normal GIT gitignore xtendgen
+
+normal CSS nested imports duplicate rules
+
+minor Widgets Rich text editor dialog loses focus
+
+normal Add Batik 18 to Orbit
+
+major Trying to access market place via proxy
+
+normal Requesting delete references permission for rtgeminiblueprint gitgerrit
+
+normal win32 TestgetChildren fails on windows
+
+normal Update Runtime Target to 462
+
+major Deadlock in ProvisioningAgentgetService
+
+normal Create new Java9 patch
+
+normal Repeating TypeErrors in console after opening an editor and closing it
+
+normal EMF Forms Menu Entry on Ecore does not show in Modeling Perspective
+
+normal Should effectivelyReadonly effectivelyVisible and effectivelyEnabled be features
+
+normal Please create a pahomqttruby repository in GitHub
+
+normal Model import update the model import tool to produce a PortNameLabel view without an explicit set of element
+
+normal ProjectsetDescription Project description always marked as changed when resource filter is applied
+
+normal XtendCompilerTester  NoClassDefFoundError xbasejunit  xbasetesting
+
+normal providedCompile not converted to a dependency
+
+normal Refine the cf push status wrong problems
+
+enhancement TMF Add Trace Compass tracing nature to an existing project
+
+minor fix unstable WikiText UI test FileTypesTest
+
+normal newindex giveUpExclusiveLock is a severe bottleneck for large caches
+
+normal tests CompletionTesttestCompletion is unstable
+
+enhancement Support for system colors
+
+normal Unused static import created when organizing imports
+
+major Eclipse hangs while typing in generic text editor for target file
+
+normal Papyrus Creation of a new GitGerrit repository
+
+normal codegen check for name clashes in inheritance hierarchy
+
+normal Repository index download fails to apply nonproxy host
+
+normal asciidoc fix unit tests
+
+normal asciidoc remove br in preformatted block
+
+critical TableCombo does not work if parent shell is modal
+
+enhancement Improve the job for downloading composerphar
+
+enhancement Package version should be optional in CreateProjectJob
+
+major eclipsedmgpackager is reporting an error about undocumented property
+
+normal Buildship does not use the sourceSets with fewest excludes
+
+normal 19dom wrong source position info for qualified names in moduleinfojava
+
+normal Validation Coexistance of DSL validation with parent language validation
+
+normal specification Inplace transformations
+
+normal EFFBD Remove EFFBD prototype from extra
+
+normal OperationCanceledException thrown when property creation dialog is cancelled
+
+normal Retire orgeclipsecoretools as it is mostly broken
+
+normal Freeze when rightclicking on project
+
+normal ArrayIndexOutOfBoundsException during the source code sync build
+
+normal Cannot import all EcoreTools plugins as source
+
+normal Investigate how to support accessing a single transaction policy from multiple handlers
+
+normal RuntimeException when expanding capsule with ports
+
+normal 3 PDE tests fail on most platforms
+
+normal Implement Refactor  extract subapp
+
+normal Create interface elements for untyped subapps
+
+major Search finds results but expanding the tree node shows no children with quoted string
+
+trivial Pluralized matches string used in all inlined search results
+
+normal Adapter cannot be inserted it it is not in a folder
+
+enhancement Add support for style label provider
+
+normal Orbit Neon3 Contribution
+
+normal would like better testcases for RAP demo application with multiple users
+
+normal TITAN is not compatible with OpenSSL 110d  26 Jan 2017
+
+enhancement Harmonise enumerations for data consistency and data stability
+
+normal Cant print any diagram
+
+normal StateMachine Transition container is set by default to source state container rather than than request container
+
+normal Markdown viewer should render a darker gray for text
+
+normal Add Xtend to JVM compiled bindings
+
+normal NullPointerException in RetrieveImageHierarchyJobrun
+
+normal loginpassword incorrect
+
+normal login pw
+
+normal Keyboard actions with Webdrivers
+
+normal Virgo User Guide references Tomcat 7
+
+normal Add comments to getter methods in Custom Controls that do not use checkWidget
+
+normal Extra Archive orgeclipsepapyrusumldiagramdndsmart
+
+normal Extra Archive Manufacturing
+
+normal Resolution of usesconflicts takes long
+
+normal Tooling Only entryexit points with public visibility shall be shown on the outside of a composite state
+
+normal Tooling Compare Link semantic model and diagram changes in capsule diagrams
+
+normal Configure Pull RequestGitHub Webhooks builds on JDTLS JIPP
+
+enhancement RcpTT Add tests for activity diagram
+
+enhancement Support for adding the php dependency in Composer editor
+
+major hipp3 seems to be down
+
+normal GUI Update of RunConfiguration options
+
+major Trace Compass HIPP cannot be reached
+
+normal Popup menu cannot be registered on multiple controls via MenuService
+
+normal Use RSA publicprivate keys to connect to redhat machines
+
+normal Archive orgeclipsepapyrustoolsprofil2dsml
+
+normal release modelingecp 1120
+
+normal Archive papyrusenforcerrules prototype
+
+normal release toolslinuxtools 530
+
+normal 9 Incorrect source opened for moduleinfo of a System module
+
+normal Tooling Regression in create trigger dialog title
+
+normal Codegen Double methods generated for internal transitions causing compilation errors
+
+normal Add ppc64le again to download pages
+
+normal Rebuild eclipse launchers for linux ppc64 and ppc64le using the machines provided by redhat
+
+normal Support SVG tags in HTML tools
+
+normal Tooling Make it possible to convert a composite state back to a simple state
+
+critical Stack overflow while indexing
+
+normal trademark Trademark approval required for Ditto
+
+normal Crash on Customize Perspective
+
+normal tests job debugtestsmasterallgdbversions has issues
+
+enhancement Remember last choice for the ignore ancestry option in compare dialogs
+
+normal Search will lose current scope sometimes
+
+minor Warning overlay in featurexml editor doesnt explain problem
+
+blocker regression of Endless authentication to SVN when invalid userpassword
+
+normal Templates  Enhance Renaming Action
+
+normal IndexOutOfBoundsException when building tool tip text in Diagonstic Decorator
+
+critical index Broken index error on startupup CtrlTF4 broken  it should autorecover
+
+normal UX Account login page UX issues
+
+normal Wrong Straighten actions status for border nodes with wrong GMF bounds
+
+normal Wrong Straighten actions status for border nodes with wrong GMF bounds
+
+normal Electron close other tabs after open another folder
+
+normal Unable to install comgooglejavascript 0020160315 from S20170120205402
+
+normal activate communication generation plugin
+
+normal Examples do not use standard installation capabilities
+
+normal ccp Copy from clipboard to package explorer removes file header
+
+enhancement Lets dump iewombatjbdiff and related from Git repository
+
+blocker Bugzilla search does not find latest changes
+
+normal Feature Allow filtering the traceability graphs by traceability link types
+
+major javaxservlet Missing servlet DTD and schema definitions in JettyEclipse
+
+normal orgeclipseemfecpinternalideutil should be SPI
+
+normal Mylyn Failed to execute runnable
+
+enhancement OCLDELEGATEURI hardwired in UML2Ecore
+
+normal Tooling Refresh issue when changing a plugin capsule part to fixed capsule part
+
+normal variables View contents of variables directly in code
+
+normal GTK3 TableColumnpack returning incorrect width if header is visible but has no tableItems
+
+normal Should membership in the incubation mailing list be optional
+
+normal Out of Heap Space Memory error by the Find Unused Dependencies tool
+
+major EFacet httpwwweclipseorgpapyrusemffacetefacet02incubationefacet not found
+
+normal AssertionError in HandlyXtextEditorCallbackconnectWorkingCopy0
+
+normal Allow disabling automatic target platform metamodel index updates
+
+normal TMF Time graph viewer initial layout is incorrect
+
+normal Inform new committers of the mailing lists to which they will automatically be subscribed
+
+normal Java client should use HttpStatus not HttpServletResponse
+
+enhancement Add linting rule to detect mismatch between dependencies in Tern and packagejson
+
+normal launching validate prior to launching also when creating new launch configuration
+
+normal pom editor memory leak
+
+normal Git page has several remaining text colors that do not have enough contrast
+
+enhancement Use Terminal plugin to display Composer output
+
+critical EMFPerformances No Disable Workspace Model Indexer facility
+
+normal Compiler ignores incompatible types
+
+enhancement Allow to hide installation location in simple wizard
+
+normal Diffmerge cant handle multiple repos
+
+normal TypeSetLiteral doesnt seem to work with type inference
+
+enhancement More entries for the Window  Editor menu
+
+normal Optimize search so that it wont always skip all   started folders
+
+normal NullPointerException when committing Docker image
+
+normal csslint Problems should be inserted at start of text not offset 0
+
+blocker Writing to secure store failed Popup Dialog
+
+normal Tern plugins do not reset when switching to a simple project
+
+normal newindex Reduce the time spent in Databaseflush
+
+normal Avoid trying to constantly read parse and map files with no contents
+
+normal part management 4 parts lists with different LF
+
+normal Clean equinox M builds
+
+normal Toolbar buttons in Composer Editor are confusing
+
+major Client hangs forever disconnecting from an unstable connection
+
+normal Test failures on Mac since I201702212000
+
+normal Two similar Callbackhandlers for ROS topics and ROS Actions exist
+
+normal win10 Setting shell to fullscreen stops in an intermediatestate
+
+normal Wrong parameter type on constantObservableValue
+
+normal Tooling Add a UMLRT tab to properties view for a state
+
+normal Eclipse Kapua would like to have a virtual server
+
+normal Codegen Java Generate template bindings
+
+normal UMLTypes Template binding is not deleted when target class has its template signature deleted
+
+minor typing wrong indentation when  operator used inside control structure
+
+minor Hiding left ruler hides problem annotations with offset 0
+
+normal orgslf4jext exports orgslf4j without split package header
+
+normal tool removing a Protocol with a Generalization only removes the Collaboration
+
+normal Remove notification popup on Mac test machine
+
+normal makefilegen Incorrect c and cc compiling rule
+
+normal Unable to resolve correct versions of dependencies for a plugin
+
+normal Cockpit Template
+
+normal WeavingHook 47M5 causes ClassNotFoundException
+
+normal Creating adapter connections not possible in Sbuapptype editor
+
+normal Executing a trajectory with minimal backtracking
+
+normal Holding CtrlV cause paste handler executed multiple times
+
+normal ant Provide Ant task
+
+normal InformationModeling Rename UML Class Diagram into something more specific to Information Modeling
+
+normal OperationCanceledException in NestingNotifyingWorkspaceCommandStackhandleError
+
+normal False semantic error marker on component variable assignment with enum type
+
+normal Cleanup the POM file hierarchy
+
+normal Saving in compare editor doesnt work if swapping left and right view is enabled
+
+major Missing Plugin in Current Eclipse Mars Mirrors
+
+normal formatter Errors around formatteroff regions with use space to indent wrapped lines
+
+normal newindex uses too much disk space
+
+normal ViewPart loses focus after opening Activity Explorer
+
+normal actioneditor missing highlighting and proposal for event ports in guard window
+
+normal Some markers are missing the proper column end info
+
+enhancement Instead of creating ternproject file when there is no information about the libs create packagejson
+
+major Activity Diagram ActivityGroups should not contain ActivityNodes
+
+normal NPE at MavenClasspathContainerInitializer
+
+normal Improve highlighting in patch editor
+
+normal Executing a command causes multiple outputs on the server
+
+normal The apply configuration button disposed more than once
+
+normal Send a notification to upon approval of a submission
+
+major All diagrams Doubleclick on some elements papyrus try to create a new diagram
+
+normal Model Import Importing legacy model with statemachine inheritance produces empty diagrams in subclass
+
+normal Update Oracle server adapter discovery URL for Oxygen
+
+normal M2E blocking the UI thread for minutes at a time when rightclicking on a project
+
+normal Automatic open retry of Connection doesnt stop after Connection removed
+
+normal PMC approval is not required for Type A third party content CQs
+
+normal Interoperability Init structure of the new repo orgeclipsepapyrusinteroperabilitygit
+
+normal Merge actions are enabled but dont do anything for diffs in terminal state
+
+normal Activate buildindividualbundles profile automatically
+
+normal Tooling Improve and align trigger table with other list of inherited elements
+
+normal Update Felix gogo shell
+
+normal Refactoring Move refactoring to incubation repository
+
+normal NebularGrids
+
+normal GTK Package Explorer  rightleft arrows dont collapseexpand
+
+major TypeError preventing me from resetting to a commit in history
+
+normal Improve question text during exit confirmation
+
+major Comparing a file with the SVN repository throws an error and opens an empty editor
+
+normal Switch artifactId in POM files on master to 220SNAPSHOT
+
+normal Cant see default text in dark themes and git reset active branch broken
+
+enhancement JRE task model should support a Java 9 JRE
+
+minor Fix Provide a more meaningful name representation for reqif elements in the selection view
+
+normal Feature Improved management capabilities for existing traceability links
+
+major Cache coordination fails for fields annotated with a converter
+
+normal When prettyprinting type names do not unwrap typedefs whose underlying type is unnamed
+
+normal Add the project in the current workingset if the wizard got started with a selected working set
+
+normal Editor loses focus when xml file is opened
+
+major ClassNotFoundException on executing JUnit Debug As
+
+normal syntax styling inconsistencies in html files
+
+major Lot of DLTK model exceptions when installing Composer project dependencies
+
+normal No repositories found error message when viewing a commit
+
+normal IDE Dark and Light theme should be unmodifiable
+
+normal NPE in BuiltinOperatorsinit due to CPPTemplateNonTypeArgumentgetNonTypeValue passing null to ICPPEvaluationgetValue
+
+major Harder to read class names and json files in eclipse neon in dark theme
+
+normal Delete interface elements of untyped subapplications
+
+trivial Bottom Slider Bar showing while reading javadoc
+
+blocker repoeclipseorg is down
+
+normal IDE Theme needs to default to Light or Dark according to lightPageorionPage class on body
+
+normal can remove orbitBuild id soon
+
+normal Update Device representation to new FB design
+
+normal RMAP versionConverter ignores transforms with SVN repository
+
+normal RMAP versionConverter ignores transforms with SVN repository
+
+normal RCPPT doesnt records RMB on main toolbar
+
+normal Link to Speaker FAQs is dead for EclipseCon France 2017
+
+normal RCPPT doesnt records RMB on main toolbar
+
+normal NPE in DiffFormatterjava
+
+normal Methods execBrowseNewgetConfiguredBrowseNewText on AbstractSmartField have no effect
+
+enhancement Provide validation for name of Docker container
+
+normal IDE Tooling for TableControl width configuration
+
+normal Feature and provider name left to default fo rorgeclipsedatatoolsenablementibmfeature
+
+normal Feature Artifact Handler for Scala
+
+normal Tooling Disable the pen edit button above the trigger table for inherited triggers
+
+normal CoreException Unable to move
+
+normal Update POM files to point to lyo maven repositories
+
+normal tests QVTc test outputs cannot be loaded
+
+normal Inheritance Cannot create new composite state diagram in redefining state machine
+
+normal DOT Editor  Add Quickfix support for the currently supported DOT attributes
+
+minor Move lyo project mirrors on Github under OSLC organisation
+
+critical repoeclipseorg is down
+
+blocker Eclipse builds are failing due to non availability of plexuscipher
+
+normal Equinox DS provides incorrect capabilities
+
+normal SysML 14 Validation rules 8323 Block 8 failing
+
+normal Tooling Compare Ignore indirect conflicts among automatic notation element changes in capsule structure diagrams
+
+normal Unable to login in Gerrit
+
+normal RcpTT Usecase Regression in extension point creation
+
+normal Build upgrade to tycho 100
+
+normal Use jface table viewer instead of nattable table for trigger table in the UMLRT properties view
+
+minor Adding field to enum should trigger minor bundle version problem
+
+major Copy command broken in History view comment pane
+
+normal Include comcronutils in orbit
+
+minor Real Unlikely argument type problem in Search
+
+normal Focused QuickFix button text is hard to read
+
+normal Remove Nashorn hook from JSDT run configuration
+
+normal klwk
+
+normal releng create Oomph setup for components
+
+normal Provide back to 100 zoom by CTRL  0 like in Browsers
+
+normal Generic editor bundles not setup for API Tools
+
+enhancement Simplify usage of MessageDialogWithToggle with custom button labels and ids
+
+normal Show problems uses wrong icons
+
+normal diagram variable should be made available in diagram begin operation
+
+normal Administer permission for jonahkichwacoders on Eclipse January
+
+enhancement Please enable ghpages for Winery
+
+normal Cannot fix all blue error hover is hiddenclipped
+
+normal NPE in ProcessStreamConnectionProviderhashCode
+
+blocker  is an invalid character in ressource name Japprends  calculer
+
+normal Telnet Termnial does not save host history
+
+normal NPE in MavenClasspathContainerInitializer
+
+major eclipse installer completely inaccessible to screenreader users
+
+normal Apply Patch menu item not working for some files
+
+normal Releng Ensure consistent plugin provider and naming
+
+blocker Remove references to orgeclipsejfaceutilListenerList
+
+normal Import and Export of breakpoints is broken
+
+normal Generic Text Editor should offer same toolbar actions as Text Editor
+
+normal EDP Change the definition of the mentor pool
+
+normal Remove Registry account button from the server creation wizard
+
+major UFFFD is intermittently inserted in console output
+
+normal OutOfMemoryError while indexing clang testsuite
+
+blocker PHP Project from Composer Package wizard freezes the IDE
+
+normal AbstractValidationContext constraint data map is corrupted with constraint proxy keys
+
+normal Consider binding provider implementation types using wildcard key
+
+normal Installer fails due the broken unrelated p2 profile
+
+normal Make Riena run on Java 9
+
+normal SysML 14 Move the java version to 18
+
+normal Remove Nashorn extension from JSDT
+
+normal Add guidance regarding tracking requirements for service releases of third party content
+
+normal Add javadoc links to the download site
+
+normal BPMN create diagram command
+
+normal Activity Diagram modify access level of selectedType in CreateInvocationActionDialog
+
+minor Expand ApplicationElement by internal description field
+
+critical All java files got deleted
+
+enhancement Make it easier to search for bugs by Classification Product Component
+
+normal tool adding a new Log port creates error message
+
+normal Regression Quick Fix for unresolved types not working in 47
+
+enhancement Make it easier to find subforums that are currently under Eclipse Projects
+
+normal Arguments not properly escaped
+
+normal Cant login to gerrit
+
+normal 18 Inline method inside a lambda method incorrectly places local variables before the lambda body
+
+normal Inherited triggers do not show up from transition properties view
+
+normal Refactor coreCodeSnippetUtil class
+
+normal NPE in SwitchOnBaseTypeGeneratorjava87
+
+normal External tool ant builder starts although no targets are configured
+
+normal PAHO client crashing on mac while opening
+
+normal Provide OAuth client parameter encapsulation
+
+minor Repeated Test Invocation Failed message for perf tests
+
+enhancement Validate plugins dialog should provide option to add dependencies
+
+normal log4j getMessageBody doesnt support tuples
+
+normal 18inferencerawtypes Compiler difference to javac 8 when method parameter is a method invocation resulting in a raw type
+
+normal UMLRT UML overrides for state machine inheritance
+
+critical Entity not recognized on JDK9
+
+enhancement Quick fix to import package containing missing type
+
+normal Navigation to a subproject does not reset the tools
+
+normal Eclipse cdt doesnt index certain functions tuple get overload
+
+normal Invalid test cases in the CPS test suite
+
+normal Replace server side request with JS for activity page
+
+normal ThemeUbuntu 1604Gnome Darkest dark badly saved or loaded
+
+normal NullPointerException below IndexUIelementToName thrown in Stringinit
+
+normal Gson Unable to make field private final javalangString javaioFilepath accessible
+
+normal release toolsoomph 170
+
+normal SDK requires non existent source feature
+
+normal Code Snippet View redo does not refresh contents of open code snippet tab
+
+normal create Neon3 version of CBI aggregator
+
+normal Discuss password complexity rules at Eclipse
+
+normal Fix the WTP Integration build page to point to Allinone Packages
+
+normal Segmentation fault with Composite FB
+
+normal IllegalAccessError in ConfigureCompilerOptionsOTDispatchingUtildispatch
+
+normal SubsetSupersetEObjectEList removes inverse from subset upon basicRemove
+
+normal Uninstall failure for Java 9 Beta
+
+normal Tooling Redoing the reinherit of a redefined transition with locally added trigger throws exception and causes transition to become local
+
+blocker On hippcentos Failed to determine Maven 3 installation version
+
+normal An NPE exceptions like CompilationUnitbuildStructure started to appear
+
+enhancement New type wizard API
+
+enhancement call hierarchy Add icon to toggle Name filter patterns on and off
+
+enhancement breakpoints Context menu entries for breakpoint are not consequent
+
+normal Code Snippet View forgets active tab too readily
+
+normal OAuth Browser page does not fit
+
+normal JDT null analysis documentation for external annotations conflicts with actual functionality
+
+normal Find FB in project
+
+normal Right Click on Image Run leads to ArrayIndexOutOfBounds
+
+normal PDE Generic Editor extension not setup for API tooling
+
+enhancement Provide method to get the current script engine
+
+enhancement Add load resources dialog like in Ecore Editor
+
+critical Downloads page misses 47M1 and M2
+
+minor Tooling For consistency a redefined trigger should also have a Reinhert Element menu choice
+
+normal GUI Adding dedicated perspectives for modeling  executing of symbex workflow
+
+normal Content Assist Hangs frequently
+
+enhancement Palettes Add an empty implementation of an interface for extended palette entries
+
+normal Composer PHP executable is incorrectly added to PATH
+
+normal Tooling Layout refresh issue for new subclass statemachine diagram
+
+enhancement SysML14BDD Add some elements to the palette
+
+enhancement SysML14BDD Harmonize the palette
+
+normal SysML14IBD Add some elements to the palette
+
+normal pivot Partial qualification is not supported
+
+normal trademark Trademark approval required for IoTTestware
+
+normal Prevent different users from linking the same githubgoogle account
+
+normal Move code generator to tools
+
+normal ImagegetImageDataAtCurrentZoom generates ArrayIndexOutOfBounds when the Image is constructor with ImageDataProvider
+
+blocker Eclipse error An internal error occurred during Pulling Branch master
+
+normal Reevaluate reliance on Apache Wink
+
+major Unable to access jobs on HIPP
+
+normal Cant install Composer Support
+
+critical newindex exception in indexer causes deadlock
+
+normal Workspace selection dialog should use verb instead of OK
+
+normal ClassCastException RepositoriesViewSorter cannot be cast to orgeclipsejfaceviewersViewerSorter
+
+normal Select Perspective Dialog should use Open instead of OK
+
+normal nullexternal JDT null analysis Illegal format in annotation exception is ambiguous and unhelpful
+
+enhancement p2 repository description
+
+normal Strange message about cloudinit after update
+
+normal Use latest HttpComponents bundles from Orbit
+
+normal Oxygen M6 installation broken due to framework errors
+
+trivial XYGraph code should be formatted using default Eclipse formatter
+
+major JPQL Named parameter type confusion when comparing it against literal
+
+normal ConcurrentModificationException in SynchronizeRelevantTasksJob
+
+critical gtk3 SWTError No more callbacks in DragSource causes tons of NPEs in various test suites since I201703152000
+
+normal ds Annotated reference bind method with ComponentServiceObjects argument generates wrong descriptor namespace
+
+normal CSShover Improve CSS hover and add tests
+
+normal jarsigner unable to sign jar javanetUnknownHostException timestampgeotrustcom
+
+normal Signing service is down
+
+normal JDT null analysis Annotate feature throws a NullPointerException when invoked on a varargs parameter
+
+blocker Unable to sign Jars
+
+normal Guarantee the absence of containment cycles
+
+normal Simplify Modes Handling
+
+enhancement Add support for local variable declarations with arrays in the ST parser
+
+normal ds Changes to Component Property Type defaults not reflected in component descriptor
+
+normal TestCollector returns all test classes twice
+
+normal UnsupportedOperationException addMember should be called instead to add X to X
+
+normal No Marketplace entry in Help menu
+
+normal Archive Provide an engine that can execute script archives
+
+normal Target Resolution Failures with EASE
+
+normal UMLRT Connector end does not resolve role inherited by partwithport
+
+major Ignore PHP4 constructor if PHP5 exists
+
+normal Group Javadoc packages
+
+normal IntegrityChecker does not work with Postgresql 9x in case of lower case database objects
+
+normal Provide an updated community overview
+
+normal json The JSON parser should return location information when an error is encountered
+
+normal Dark Theme Disable show range indicator  in the dark theme
+
+normal meta Issues indexing clangs test suite
+
+enhancement Dark Theme range indicator color should be configurable via preferences
+
+normal Toolsmiths feature dependency on Papyrus SDK feature
+
+enhancement 19 Introduce new context for code templates for moduleinfojava
+
+enhancement More TravisCI nodes for Eclipse
+
+major API Fix new MessageDialogWithToggle APIs
+
+major Failure duing stackmap generation of Around call advice on constructor modifying return value
+
+enhancement Common Navigator API should support ViewerComparator
+
+normal Cocoa Tree inconsistent selection problem when collapsing parent node
+
+enhancement Add Maven Resolver 103 to Orbit
+
+normal war file deploy error  invalid SHA1 signature file digest for comibmicutextNumberFormatServiceShimclass
+
+normal Apply the rule of Allow a preference to not show hidden files in file explorer to inline search default exclude files
+
+normal Investigate whether suspension of JobManager during workbench startup is beneficial or not
+
+normal Incorrect diff on deletes leads to incorrect merge
+
+normal Mac Put only one of multiple top shells to front minimize it previous top shell is brought to front
+
+normal Misprint Traget instead Target in Properties of connections
+
+normal Functional interface inheritance with additional method fails
+
+minor ebreclipseipinfo goal creates wrong location element in iplogxml if parent dir  artifactId
+
+normal Update previous release through out scripts
+
+normal Profile As menu appears in Java editors and  context menu
+
+normal EclipseFileManager leaks URLClassLoader instances
+
+normal Cannot push tag
+
+major Cannot parse error message
+
+normal ds Changes to component descriptor namespace dont get persisted
+
+normal theme The content assist selected colour is green in the light theme
+
+normal CSS CSS syntax styles are missing properties as keywords
+
+enhancement Provide content assist icons for HTML and CSS proposals
+
+normal Job status is not updated after canceling
+
+normal makefilegen More restriction on name attribute of the referenced project
+
+normal InteroperabilityRpy Clean log and messages in oepinteroperabilityrpy
+
+normal toolchain disappear in new project when changing to dark theme
+
+normal Add Visible checkbox for individual traces in trace config
+
+enhancement Do not download problems database anymore
+
+blocker Types not found
+
+major HIPP Help Builds on Scout HIPP fail with Process failed to connect exit code 143
+
+normal GTK3 Label bounds is off in Window Preferences  Keys
+
+normal Cocoa Bridge support files should be updated to latest macOS supported version 1011
+
+normal oomph enablesdisables build automatically
+
+normal OS Resources view not working in remote allstop when running async
+
+normal Building workspace has encountered a problem
+
+enhancement Full download stats for downloadeclipseorg
+
+enhancement Link to PMI from Bugzilla pages
+
+normal formatter Endless loop in TextEditsBuilder
+
+normal Demo
+
+normal Mnemonics for the save labels from Bug 511198
+
+normal Toolsmithselementtype create an uml model from the ecore
+
+normal Add ability to add custom wizard page prior to project creation one
+
+normal Migrate account information from portal to Eclipse User Profile site
+
+normal Provide test suite for new JSON support
+
+minor apidocs Rename API Docs to Augmented Docs
+
+normal aggregatoraddComposites returns error when no www changes
+
+normal Use SPDX to capture license information in IPZilla
+
+normal Sidebar block styles should be consistent with sidebar blocks from accountseclipseorg
+
+normal pmi projectroletypepeople module assumes use of profile module
+
+normal Inconsistent capitalization on EclipseCon France page
+
+normal newindex Remove unused classes
+
+blocker Hung threads on acquireReadLock
+
+major Win32 Dark Theme Blurred variable in hover
+
+normal E4 Include E4 Bundle in Update Site
+
+normal Dialogs Title Bar Is not coming in full screen mode in mac
+
+normal Unknown property fxlinespacing
+
+normal Help  Install new software uses an image without transparency
+
+normal Paste of Expressions does not work in ExpressionsView
+
+normal releng Optimization in target platform configuration
+
+critical SDK package doesnt ask for workspace
+
+normal User reporting that they cant log into Bugzilla
+
+normal Plugin template view contribution using 4x API doesnt work
+
+normal Electron Optimize Update experience
+
+normal CSS Support table header styling in our CSS engine
+
+major plan Move Orion to GitHubcom
+
+major plan Improve Node Server
+
+normal Use Cancel instead of OK in Workspace unavailable dialog
+
+normal Support Meta Type Annotations
+
+enhancement support Jenkins parameterized trigger builds
+
+normal CoreType instructionsPerCycle should be a float value
+
+critical Evaluate Guava dependency usage
+
+normal Dark Theme Provide css styling for the table headers in the dark theme
+
+normal CSS Allow styling of tree headers via CSS
+
+normal Table ignores set background color under special conditions
+
+normal coordinates Identify Java 9 JREs as jrejre190
+
+normal plan Improve Orion Electron
+
+normal ToolingPreview Additional Views do not update on change
+
+normal FetchGerritChangeWizard should use Fetch instead of Finish
+
+normal NullPointerException in AbstractHorizontalClassMapping when running OfflineExampleClone
+
+enhancement Script Shell support triple click in input field to highlight whole line
+
+normal Eclipse Foundation staff page should link to Eclipse User profile website
+
+normal Validation dialog should use verb instead of OK
+
+normal Enable Appveyor integration for pahomqttc
+
+major Ui freeze on close tablewidget with a loop nullpointer exception
+
+normal Wayland Snippet361 crashes under wayland
+
+normal There must be a way to prompt for passwords in the debugger
+
+normal There must be a way to prompt for passwords in the debugger
+
+normal Composer editor suggests incorrect Minor version rule
+
+normal Add Dependencies button should be disabled if no version rule is entered
+
+enhancement Widgets Add local file image button
+
+major Core Reinheriting a redefined opaque behavior causes multiple bodies to be persisted resulting in multiple exceptions
+
+normal All diagrams Label icon does not correspond to element type
+
+major StackOverflow in PDOMCPPVariablegetInitialValue
+
+normal Task list shows only TODO items when restricting to a working set
+
+major Github ID should not be read only
+
+all:292  correct:58

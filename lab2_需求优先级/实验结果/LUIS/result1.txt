@@ -1,0 +1,1008 @@
+正确数：554
+正确率：55.4%
+lowest:110
+Format indentation in lambda expressions
+Versioning parent pom
+high power consumption
+ProceedingJoinPoint changes order of input parameters
+Line numbers not showing in debug view
+Make "save automatically before build" option on by default.
+Verify host name option cannot be saved in connection properties
+Toolchain Editor current builder contains builder ID instead of name
+HttpClientConnection leaks temporary files allocated by TemporaryBuffer.LocalFile
+Deprecate Composite.changed
+[release] tools.oomph 1.5.0
+[DiaGen] Generate diagram for the version oxygen
+Allow removal of individual queries in Query Results view
+Move to Tycho 0.26
+Add E4 Spies to the Oomph configuration
+Copy Paste Behavior for Grid Table
+Enable Drag&Drop + Cut/Copy/Paste for TableRenderer
+NPE in Rename refactoring
+Jubula installs Documentation and Examples anyways
+EmptyStackException on incomplete variables
+support Jenkins 2.7.3
+123
+Reduce padding around tabs
+Include the Xtext target platform editor in PDE
+DesignerException in GroupLayoutCodeSupport.parse
+Provide .gradle editor support for the new platform text editor framework
+Fix missing message
+ModelGroup hides IAbstractOperationContributor operations
+Display Expression field of Reference cannot be edited
+JSX Support
+Double clicking on connection should allow editing
+preference option missing: org.eclipse.php.formatter.core/formatterProfile
+Add test.dat to .gitignore
+Extend RunnableItems to support modes
+Introduce new displayName attribute
+provide uninstall eclipse
+Provide editor support for settings.gradle (using the new platform text editor framework)
+Create PDT .target files
+Tab named 'Advance' in properties view
+TP is using Oxygen version of Papyrus Developer component
+Provide some guidance on granularity of CQs
+Local search cannot extend correctly through ConstantValue
+CPS test failures
+Grammar for PHP tag doesn't support all cases
+quality improvement for parser rules
+Rework Runnable Sequencing Constraints
+Rework Affinity Constraints
+Rework Timing Constraints
+Auto save option never remembers choice
+App turned into blank page
+Crash in node server (nodegit)
+Drag & drop in view editor results in duplicated controls
+Fix label alignment in view editor
+Dark theme compatiblity
+Improve network proxy handling
+Invalid toString in CDOClassInfoImpl$RevisionWithID
+CleanDialog should offer filter option
+Offer option to delete files without confirmation
+new repository for RDF4J Documentation
+HighDPI: Wizard banner icons blurry
+Compiler Settings Changed dialog has typo
+Allow to set creation tools icons (in palette) via a service instead of icon path
+http URLs should be redirected to https
+Add support for generic text editor
+Properties view refresh to top when focus gained
+[Commands] HandlerUtil should provide #getActiveContext()
+Need smtp account for conference program notifications
+Build CFT against Oxygen and contribute to Oxygen SimRel
+Outline view 'Link With Editor' could be enabled by default
+Foreground color is ignored by several controls
+Base index shall support wildcard statistic indexing
+Test D'assignation
+Eclipse installed with oomph crash
+Border mode support for fill handle region
+Use enhanced for loops in MarkerContentGenerator
+[problems view] Add buttons to Bookmark View, to open Filter
+Border mode support for fill handle border
+Provide an AppImage for Eclipse
+Support for NON-NLS block
+CLA / ECA in limbo
+NullPointerException in Preview.internalRender
+Base indexer shall support callbacks
+Improve Problems view
+Improving the appearance triggers autocompletion
+Probable NullPointerException in DiagramBehavior.disposeAfterGefDispose
+introduce const for function arguments
+CDT always forget settings for individual files
+Prepare documentation for Composer support.
+Add support to respect line wrapping behavior on export
+Overhaul snapshot facility
+Refresh problem on no properties available
+default XML Editor tab
+Authentication for blocked accounts should return 403
+Support EDataType attributes
+Create New and Noteworthy for Neon.1
+CSS Unsupported Content in Editor (2016)
+Extremely slow Component Name proposals
+[Cocoa] Bad rendering of preference tree
+Move to generic editor
+Support export of images
+Local History settings exceptions
+[BPMN] Support for loops
+Support external functions for decmatch and @decoded
+Arm64 crawler question
+Oomph setup caused error with decorator preference
+Oomph setup caused error with preference
+Filter by label menu item has improper name
+Enhance local search implementation
+IOpenable.isOpen() returns false for an open JavaProject
+When opening a VSM, representations (or at least viewpoints) should be immediatly visible
+None:12
+ArrayOutOfBoundException in ManhattanConnectionRouter.calculateEnroute
+ITypeBinding#getBinaryName() returns incorrect value for TypeVariable's defined by a generic method
+WSW46 TCT #21 blank page
+WSW46 TCT #21 blank page
+NPE in IdeContentProposalProvider
+WSW46 TCT #18 & 19 - Welcome page issues
+NullPointerException in SwingGroupLayoutCodeSupport.setGroupAlignment
+JDTVisitorException in RunGenerator.runGeneration
+WSW46 TCT #18 & 19 - Welcome page issues
+NullPointerException in TargetPlatformPreferencePage
+NullPointerException in DockerConnection.pullImage
+NullPointerException in AbstractReferenceHelper.getLabel
+medium:684
+Invocation of GDB doesn't expand variables used in specifying the application
+org.eclipse.jst.standard.schemas XML Catalog plugin specified entries made with the wrong key/key type
+[acorn][eslint] No syntax error on unterminated comment
+Deleting a quote can cause the whole file to go red...
+Photran Indexer fails on large parameter lists in fixed form
+Cleanup (delete) old callisto sites
+"empty package" is an invention not backed by JLS
+[Wayland] Keyboard Left and Right Arrow keys are very slow or unresponsive
+Define dependencies in the .target file
+Neon: CDT does not install through the marketplace.
+Compiler problem with if() pointcut + parameter binding with auto-boxing
+Eclipse Neon CDT syntax highlighting wrong in calls to macros which reference __FILE__ or __LINE__
+Context sensitive help not working with Arduino zero (feather boards)
+[1.8][generate delegate] option to deselect inherited methods
+when project explore lost focus, cannot click a file to open
+[1.8][null] fix glitches regarding ExternalAnnotationStatus
+Regression: Importing connections fails if BPMNEdge has no source or target element
+Blank line in packages cause error with unknown prototcol
+Add security framework to gate certain script engine actions
+EMF Downloads website has very outdated "bleeding edge"
+java.lang.ArrayIndexOutOfBoundsException: 1
+Unhandled event loop exception
+Use project relative path in System XMl
+Add Eclipse ICE, EAVP and January to the Oomph provisioning list?
+Any failed attempt to SSH into recommenders.eclipse.org results in blocked IP address
+Enable travis CI service for eclipse/kura
+[Control mode] Deadlock possibility at startup
+https://hudson.eclipse.org/platform/ hangs
+Add suport for ASN.1 named numbers and named bits
+JavaModelException below CompletionContextFunctions$InternalCompletionContextFunction.compute (thrown in JavaElement.newJavaModelException)
+Setup patch build for BETA_JAVA9 branch on 4.6 release
+Test failures on Java 8
+Change JGit minimum execution environment to JavaSE-1.8
+MAT 1.6 OQL yields blank columns during query
+C/C++ Remote Application configuration: "Verify host name" cannot be saved
+[CSS] [Performances] Extremely slow, when using large stylesheets in large diagrams.
+Debug traces can be in the wrong order
+[proposal]locationtech.technology.rasterprocessingengine
+Request permission to use Github issues for the Eclipse January project
+[trademark] Trademark approval required for Raster Processing Engine
+the function blocks within the wagokbus folder have to be deleted
+[proposal]technology.sim@openpass
+[trademark] Trademark approval required for sim@openPASS
+EditingDomainServices fails to retrieve the adapter factory for some elements
+Help files for Wago not updated
+Build configs use Qt installs even after they're deleted.
+Support Interaction and Sequence diagram for textual to UML transformation
+[1.9][compiler] Bad error message/constant for non-final field as Try-resource
+Create new che-dockerfiles for che project.
+[release] tools.cdt 9.1.0
+[Pivot] Incompatible API change in OCL 6.1.1
+Use AdpaterConnection for adapter connections and not DataConnection
+Scripted Data Set gives wrong results
+[formatter] AssertionError with 'Next line on wrap' for array initializers
+Provide ability to configure command line arguments to Gradle
+[newindex] Fix test failures due to ClassCastExceptions in TypeResolveTests
+[formatter] Indent declarations within enum declaration doesn't affect enum constants
+APIBaselineFromTargetTask doesn't work until restart
+FTP-Passwords with german special chars don't work after reconnect
+Table per class subclass embeddable relation targets wrong table
+On Pull origin/HEAD and origin/master are removed
+"ECA" icon has tooltip for "CLA" and links to CLA wiki page
+Generic methods, interfaces and inheritance => Error
+Node_modules folder, even when in .gitignore, causes major performance degradation
+stack-crawl-a64.c doesn't handle the ldp instruction rightly, the bit 23 could be not set.
+record and record of type compatibility became deprecated in the standard.
+Strange label behaviour with russian characters
+Undo Redo Support not only if effected Editor is active
+TVT46:TCT23:ES: Truncations found in Quick Access feature
+[Acceleo] The commons.mtl files of the Acceleo bundles should use UTF-8 encoding
+[Windows 10] Multiple instances of tool tip producing error from explorer.exe
+Problems during content assist when invoking method with constructor call
+Remove old import wizard "Existing Projects into Workspace" from import menu
+NPE When clicking on C/C++ Unit test view Test Run History dropdown
+debit card Expiry date is no set
+ClassCastException on semantic update
+Avoid conflicts in the IRegistryService
+Remove MarkerViewUtil#getLegacyViewId
+Failure to cleanup workspace
+Custom source set dependencies not added to Eclipse build path if the project does not apply the eclipse plugin (but the parent project does)
+[Progress] CCE and error dialog on each Progress view update
+[formatter] 'Parenthesis positions' ignores single member annotations
+[Quick Access] Use DI to create Providers
+Breakpoints don't get highlighted if the debug view wasn't active before
+ViatraQueryEventSource does not use matcher provided by SourceDefinition
+An empty PartStack can be maximized with MinMaxAddon
+More compiler warnings by default in o.e.help
+Embeddedid with nested Embeddables PK not set
+Use WTP icon for Chromium JavaScript Remote Debugger in "About Eclipse" dialog
+Push options not supported; received []
+Batch compiler ignoring directories passed in through the -nowarn parameter
+Bug: possible API NPE in JFace Text Content Assist
+SWT should increase bundle version in Neon.1 to 3.105.1.qualifier
+[null] Wrong "Dead code" warning
+Add context menu to open Hierarchy view in Containers and Images views
+Change or remove the message in the Hierarchy view when no element was selected
+wesite is not open
+Rich Text editing for multi line Strings
+TVT46:TCT24:JA: Some part of contents are missing on New-Plugin Project panel
+[9] Command line compiler puts the module-info.class in wrong location
+TVT46:TCT27:HE: The date format strings are shown RTL with wrong order and garbling in Edit Template panel
+Edges become a straight line when resizing lanes
+Docker Linux volume configuration on Eclipse for Windows
+Unix socket connection initialization disrupted by proxy configuration
+Fix whitespace issues in org.eclipse.core.filebuffers
+mark only filename without suffix when creating new file by type
+Angular File Upload update to 2.0.1
+Conditional styles do not work on a reference widget anymore
+Exception when opening .vm file (searching for editors)
+Declare Neon.1 RC2
+Elements too big in diagrams
+Floating label not visible for some classifiers
+[Requirements][Metrics] Externalize operations names
+The schema of the extension points for the description converters are not in the build.properties
+drag and drop within "Outline"-View when editing css/js/html/java
+Conditions and actions in the initial fsm node are useless
+Use fitting colors for Javadoc hover and Javadoc view
+WTPProjectsUtil.removeConflictingFacets(IFacetedProject, IProjectFacetVersion, Set<Action>) is not taking care of actions given as parameter
+Access to wiki.eclipse.org from SAP Germany seems to be blocked on your end
+[console] Pattern matches not shown if console has scrollbars and uses line wrap
+Open managed engine in Query Results view in read-only mode
+Wrong username in message when user favorite is empty
+[client] Confusing configuration with only one active project
+Improve Gtk theme override mechanism
+Swing - ComboBox - If there is an Object in the model of the comboBox JList all select action with text will fail
+[null] Refactoring ignores @NonNullByDefault
+python Library file of third party software not found while using jython interpreter in juno eclipse
+[1.9] Help does not work if JDT Java 9 beta is installed (ClassLoader#getResourceAsStream(..) returns null)
+Pressing TAB inside a string moves semicolon
+Add IMavenProjectRegistry.createExecutionContext(IMavenProjectFacade, IProgressMonitor) to the public API
+Exception raised when closing project, while a tree representation is opened
+[Client] Setting override does not work for primitive types
+Please allow me "admin" rights for "SimRel HIPP"
+[Model Explorer] Papyrus Should provide an other way to customize uml label
+Support encvalue()/decvalue() for ASN.1 types
+[Import/Export] Tar files with long file names are truncated
+[release] tools.linuxtools 5.1.0
+Need to fix and improve "reference" repository
+All e-mails from Gerrit say they are from "Arthur van Dorp (Code Review).
+[ui] Install dialog's Details area: Updating of bold ranges is noisy
+[release] technology.sapphire 9.1.0
+[release] technology.sapphire 8.3.0
+EGit activator runs long operation (that can freeze Eclipse)
+[release] tools.tracecompass 2.1.0
+Build IDs 1 minute too early
+[newindex] Fix test failures in CompletionTests2.testBug151500b and testBug151500c
+Launch 'Run' fails to load project on to board
+avrdude version not found. cdt-arduino is searching for 6.3.0-arduino2 but 6.0.1-arduino5 was installed
+Version of doc decreased from Neon to Neon.1 RC1
+TVT46:TCT40:AR: Wrong place for the percent (%) value in the progress bar
+Renaming package or moving class does not update import statements when project is depended on indirectly
+javax.servlet 3.1 JAR included, when Tomcat 7 only supports servlet 3.0
+Rendering glitches in tabs in Windows theme
+Model editor does not warn about missing/empty ID
+[getter setter] Add getters and setters at cursor position
+Left outer join returns wrong result in Single-table Multi-tenancy solution
+Clarify usage of PDE Build on https://www.eclipse.org/pde/
+[1.8] Eclipse failed to compile Java 8 code against Scala library types.
+Unhandled event loop exception
+Schema gen: Ignoring Bean Validation restrictions
+Investigate performance improvements to ProgressManager
+What to do about "old" security problems?
+#include header file to the generated file containing encvalue/decvalue
+Project meta data should be regenerated when regenerate user action is invoked
+Can my "eclipse.org" mail id be updated to forward to new address?
+Remove dependency to designer open CDT editor
+Split editor: Local search(CTRL+F) does not work properly when changing editor focus.
+"Deployable plug-ins and fragments" export, does not build the .class for aspects.
+Always wrap cause if throwing new exception
+Support initializing modulepar-s with modulepars
+Right click with Edge with labels and connected ports compound moves
+The 'type' attribute is now valid in HTML5 by its specification, but still marked as obsolete.
+PHP Include Path is added to all DLTK project
+/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar is not on its project's build path
+Conflicting handlers for org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu
+Adding a nextCatalog entry to default catalog XML does nothing
+[newindex] Add support to the JDT unit tests to display a thread dump if the tests deadlock
+[auto-complete] Completion after a function call doesn't work if the function is global and defined after the function call
+[newindex] Discrepancies between ClassFileReader.getGenericSignature() and IndexBinaryType.getGenericSignature()
+Native auto generated files should mention that they are auto generated ("DO NOT EDIT - your changes will be lost")
+Resolving wrong method signature in type hierarchy (covariance in interfaces)
+[newindex] Fix deadlocks in the newindex branch
+Eclipse.org passwords should not expire
+[newindex] Fix test failures in JavaProjectTests.testExternalLibFolder3
+[qvta] Migrate QVTimperative to QVTassembler
+REST: add Flag Column to Attachment Table
+NPE in ObjectChangeSet on cache coordination
+Dropdown Item in TollBar: hover effect stays after mouse moves out
+[qvts] Future containment optimization
+Fix MOXy bean validation performance
+Remove ResourceFBNetwork and replace it with FBNetwork
+Wizard cannot be finished in Neon
+Filter "Gradle build folder" not applied when folder does not exist yet
+Irrelevant ‘Potential resource leak’ in HttpServlet
+[maven-war-plugin] fix support for m-w-p 3.0.0
+Delete branch refs/heads/dkunz/build in org.eclipse.app4mc.git
+passing directory to launcher should open SmartImport wizard, or select existing project
+SWTException below TextObservableValue.doSetValue (thrown in Widget.checkWidget)
+Cannot install any plugin..Profile id _SELF_ is not registered.
+[Components] upgrade tycho version to 0.26.0
+[SysML 1.4] QUDV integration
+GenDoc Errors and warnings report enhancement
+OutOfMemoryError below SimpleModelProvider$ZipCacheLoader.load (thrown in Arrays.copyOf)
+Report runs in the built in Viewer, but crashes in Web Viewer with runtime error
+[CSS] CSS import silently fails
+JBoss deploy on WildFly 10: Cannot create sandboxclassloader for LESS
+Orbit's org.apache.httpcomponents.httpclient 4.3.6 does not contain fixes for HTTPCLIENT-1547 and HTTPCLIENT-1563
+[javadoc] No Javadoc shown with code completion
+C/C++ Remote Application debug configuration: Verify host name option cannot be saved in connection properties
+Revise core overridable methods
+Revise overridable methods in Element hierarchy
+[9] Unnamed modules should have access only to exported packages
+[ui] Validation doesn't run when it should
+[content assist] code completion wrong order
+Some equinox features *might* need service segment +1
+[Components][quality] licence checker problem
+Compiler is slow with cyclic classes
+Adding or removing a favourite results on significant delay
+Planning Council Doc: Where documented when features need to be ready for Update releases
+The closing brace ')' of markdown link is interpreted as part of the link
+Rename domainClassExpression to iterableExpression for the dynamic mapping for
+Eclipse Downloads circles doesn't display properly on Windows Edge
+[Call Graph] Call Graph Analysis should not be executed automatically
+passing archive files to launcher should open SmartImport wizard, or select existing project
+Update Bundlor dependencies to support Java 8 bytecode
+Session error on Marketplace - difficult to add a favourite
+Move Bundlor build to Gradle
+[Console View] Toolbar button to create new view
+Fails to profile with perf if program asks for input from cin (standard input)
+FileNotFoundException below ArduinoManager.init (thrown in FileOutputStream.open0)
+[eslint] consume "no-trailing-spaces" rule
+IQuestionDialogFactory not synchronized
+Null pointer exception parsing remote addr2line output
+Ecllipse Opening Automatically from ANT script
+Eclipselink core has System.getProperty() calls that are not potentially executed under doPriv()
+[formatter] NPE on block comment before 'force-wrap' element
+Problems with interdependencies in code generated by Xcore
+Right click on class or field brings up menu with many blank rows at top
+Gprof reader fails on Power 8 little endian system
+Default RTPort registrationOverride value not generated same between textual and uml
+Operation return type not generated correctly from textual
+Generated UML from textual does not generate protocol header file contents in the same order
+Include discussion of PMC's role in proposal process
+Extension point description is using a not fitting dark background
+[templates] Add @Override and generics to methods in " New File Wizard" template
+welcome screen icon and text overlapped
+[api tools] Are API Tools required to run before launching a runtime Eclipse
+Would like to see an option to have a blank right pane instead of file navigation
+Cannot place lanes in sub-process participant reference
+[newindex] Fix test failures in JavaElementDeltaTests
+Add Show Annotation(s) to Tips and Tricks - especially that one can do it on revisions
+[newindex] Fix test failures in JavaProjectTests
+Error While converting as java project - Null Pointer Exception
+[SysML 1.4] problem of compilation
+Add support for widget actions on label and hyperlink
+Incorrect method signature when using nested type of type variable bound in parameter
+last edit location with 3 Levels back and forward button 3 Levels forward
+java.lang.NullPointerException StyledText.setMouseWordSelectionAnchor
+Expose a variable named value containing the current value for all widgets
+Wrong usage of Submonitor in CreateFileChange
+Avoid manual isCanceled check in RuntimeInstallJob
+Smart name branch when pasting
+Oomph not working with Eclipse 4.7
+FormFonts being a singleton prevents one Display from being GCed
+Offer a cancellation-checking variant of Submonitor#worked to avoid unnecessary object creation
+Add osekTaskGroup attribute to tasks
+Show in History does not work
+Call done() on progress monitor of org.eclipse.core.internal.jobs.JobManager#endJob
+[HighDPI] Platform Text and Search should replace GIFs by PNGs
+[SysML 1.4] tests are failling sometime due to a Failed to launch RCPTT runner. Runner exit code is: 63
+Add new stimuli type "Synthetic"
+Add new distribution: Beta distribution
+Add new attribute "SamplingType" to Deviation
+TITAN should be less restrictive about "namespace as" variant prefix
+Do not call monitor.done() in ApiAnalysisBuilder#buildAll
+Warning about missing Application.e4xmi, but it is existing
+Rework Data Consistency need handling
+Add name validation for 3rd-party tools
+ASTParser.createASTs() throws NullPointerException in ReferenceExpression.copy(ReferenceExpression.java:141) and CompilationUnitResolver.resolve(CompilationUnitResolver.java:978)
+PushResultDialog should not use standard icon as this make the dialog ugly in the dark theme
+[release] modeling.ecp 1.10.0
+[release] ecd.che 4.7.0
+The getPapyrusDiagrams(EObject object) doesn't retrieve the diagrams when using a model with spaces in the name or in the path.
+[eslint] NLS'd new rules error messages
+Investigate options for reporting issues against simultaneous release products
+Provide possibility to alter copy process during operation recording
+Update m2eclipse-mavenarchiver to 0.17.2
+Fix ECore bundle when commiting simple data type
+Update versions of JSON features/plugins
+[problems view] rename Configure Contents... to Filter... to use the same term as Package Explorer
+[cg] Support Complete OCL code generation and cached Operations
+[cg] Support code generation of Complete OCL defined Operations
+[cg] Support code generation of Complete OCL defined Properties
+[eslint] update "no-extra-parens" rule to match new options
+EPL is not listed as a project license
+[proposal]technology.scanning
+[trademark] Trademark approval required for Scanning
+Allow to download required Gradle distribution and import project in the background
+Using Oomph installer to get 'Eclipse for Java Developers' gives me a expired security certificate warning
+Operation requires an absolute path. Relative path specified was: 'bin/test'
+Ignores every method defined via prototype in outline and content assist
+[reboot] technology.openk-platform Replace committers
+Please provide HIPP instance for EclEmma project
+Opening and synchronizing review always causes patch set contents to be retrieved
+[TMF] Missing zoomed events in time graph entry
+When running iOS simulator, console shows an error running "instruments"
+[newindex] Fix test failures in ExternalAnnotations18Test
+[eslint] add new option for rule "no-invalid-regexp"
+Sysout snippet not working on lambda function
+[ui] Provide Complete OCL Code Generator UI
+[ui] Provide Complete OCL Merge/Split UI
+Timeout during content assist due to "Cannot Perform Operation" dialog
+[client] ActiveShellStatusFilter does not work for dropdown toolitems
+Marketplace should allow bundle or IU id (not only feature)
+Fix an issue with the converter for the labelFontSize and fontSize
+Can't set thread specific breakpoints
+branch named "null" is automatically taken as source for new branches
+[SysML 1.1] [Test] several tests are failing for sysml 1.1
+Different Eclipse versions should set more specific WM_CLASS
+-pluginCustomization @user.home/plugin_customization.ini doesn't work on product.ini
+Wrong error about "default method" for adding static method to interface
+Spelling mistake in Project Import Error message. Text "avaialble" to be changed to "available".
+[releng] update tycho version to 0.26.0
+[Releng] Update dependencies for Neon.1 RC2
+[Class diagram] Impossible to show more than one level of nested classes in a package
+The toBeRenderer flag of Top-Level windows needs to be set
+Missing test results (I20160830-0800 and N20160830-2000)
+Repeated attempts to download *oomph*.jar probably because it can't be processed
+Generated code contains compile error (if using query event patterns)
+[Dark Theme] Unreadable Macro expansion with dark theme
+Unable to connect to hudson.eclipse.org using curl
+TypeElement.getEnclosedElements does not reflect declaration order when sourced from a compiled class
+[SegStore] [performance] Callgraph analysis slows down with multi-threaded traces.
+[Flame Graph] debug info for LTTng 2.8 not used to show function names
+Migrate client build to use JSdoc 3
+Hovering on an error marker with multiple annotations has usability issues.
+Remove horizontalIndent for inner container in FiltersConfigurationDialog
+Ability to set up Multiple Build Configurations on Arduino projects
+[pmi] Add links to all project/committer-specific tools in the Committer Tools block
+[css] NLS the CSSLint messages
+Define IPZilla workflow for Type A artifacts
+Consider an API for submitting IP content for review
+[segstore] Iterator cache not refreshed
+[creation] science Create the Science Top Level Project
+[CompositeDiagram] Class name edit-part does not use Icon Service for image
+The local variable _ is never read
+UMLRTBaseCommProtocol redefinition missing from protocols
+Exception on rendering toolbar buttons.
+Edit Source on newly added states doesn't work
+formatter completely fails if line contains more than one division operator (slash)
+[CopyPaste] Copy/paste element between two models referencing same profiles loses profile/stereotype.
+[problems view] Add buttons to Problem View, to open Filter
+[Quick Access] Make Quick Access toolbar field open regular QuickAccessDialog
+Generating UML from text fails when done twice in a row
+[RSA] Tag values referencing model elements set to null on import.
+[9][search] Index module-info.java
+I think "unsubscribe" is not working
+"target" directory not marked as derived within a module of a multi-moduled maven project
+Cleanup whitespace from org.eclipse.equinox.common
+Declare Neon.1 RC3
+[Decorators] CVS label decorator preference is not working
+Eclipse Platform CVS tests fail on test machines because of connection problem
+Red Hat Linux: The icons doesn't appear in UI
+EMF Forms and ECP use old favicon on the home page
+Improve the outfit of dialogs
+[Releng] Update dependencies for Neon.1 RC2: Tag the release
+[compiler][9] New flags/keywords/attributes related to module declaration need to be supported
+[compiler][9] Implement Target Platform equivalent in jdt.core for modules
+Properties do not show information about selected image/container in respective tab
+[Intro] Themes other than Solstice (Circles, Purple Mesh, Slate) look broken
+[HiDPI] No HiDPI icons used for external programs (Open With > Other)
+[regression] Filename is no longer visible in CA
+[Class Diagram] Property views shall be updated after a semantic move
+Non-descriptive "here" link in New Class/Interface/... wizard
+Warnings in org.eclipse.pde.ui
+Gradle Tasks view: Make "Import a Gradle project" link to wizard
+Do not expose per widget css for pre 3.20 GTK and make it have higher priority
+Primitive Display Options description wrong (supports Unicode, not just ASCII)
+[SysML 1.4][requirement][table] no way to create a requirement from right click
+cannot use C/C++ Attach to Application debug configuration with GDB-7.10
+Initial API and implementation for the model object
+[SysML 1.4] Add QuantityKind in Model Explorer New Child Menu
+Makefilegen does not commens XML_DIR when disablePredefinedExternalFolder is set to true
+Nebula Grid at Mac OS X: Right click (context menu) with Ctrl+Mouse removes multiple selection
+[Quick Access] Better String matching
+enhance html editor to jump to external sources while clicking on classes/javascript-files/css-files
+Preview window of html-file
+[GTK] SWT ToolTip displayed on wrong monitor (dual monitor system)
+Introduce a list widget with the behavior of the soon-to-be old multiple reference widget
+[Tasks] Find better text descriptions for filter options in FilterDialog of Problems, Bookmark and Tasks view
+Replace text on DataSetView working wrong when the filter has been used.
+NPE requesting a compare against base working copy (at project level)
+"Exclude Validation" context menu
+[SysML 1.4][req] customize by default the requirement table display
+After added the first parameter to TC on DataSetView showed just the row number
+ASTParser.createASTs() throws ClassCastException: BaseTypeBinding cannot be cast to ArrayBinding
+Extract workspace-related functionality from SourceFile to a new subclass
+[release] modeling.viatra 1.4.0
+[release] tools.pdt 4.1.0
+Suppress redundant stereotype keywords for UML-RT concepts
+Selecting files in project explorer use too much CPU
+Remove the old reference widget
+Error editing textual if syntax not complete
+Inconsistent metaclass tags in labels of model elements
+[eslint] turn off some new rules
+Error with window builder 4.6 (neon)
+Coordinates to box broken for table cells with vertical span
+Show default php version inside "New PHP Project" wizard
+[DI] Provide dependency injection for 3.x API views
+[DI] Ease using DI from Eclipse 3.x APIs
+[DI] Injector should support a factory for creating a class instance
+[HiDPI][GTK] Drag and Drop not working properly on high resolution displays with scaling factor
+Quickfix for missing library in the .tern-project file doesn't close
+Java update on Mac test machine
+Huge JavaScript library hang the IDE, then need to kill
+Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/widget/SET]
+[GTK3.20+] Combo with SWT.READ_ONLY is garbled upon re-size
+Row grouping not compatible with Summary Row
+[newindex] Cleanup for FileFingerprint
+[newindex] Add verbose trace logging option to the indexer that shows all insertions and removals
+[newindex] Add a toggle that allows automatic indexing to be disabled
+Children and added items do not show pre-computed column data
+improve owner/assigned to section of Task List tooltip
+java.lang.NullPointerException is thrown when Photran indexer encounters a subroutine declaration with many continuation lines
+JavaModelManager cache gets stale and returns invalid results
+[compiler][9] Compiler has to report error when service implementation in with clause is not declared in the same module
+[ui] Open edit dialog when activating editable needinfo processors
+Rename "Eclipse Git Team Provider" in SimRel to "Eclipse Git Support"
+Comparing files from the commit dialog always yields a "no differences" result for unversioned files
+[Components][doc] enhance doc for creation denovo of a DSML components
+Remove unuspported characters from console for install/update operations
+Move Composer preferences under PHP category
+Add global settings to language
+[SysML 1.4][requirement][treetable] the popumenu display a Create UML Element and multiple sysml element
+[Table]: double popumenu on linux for SysML 1.4
+makefilegen segmentation fault error
+[qvtr] Enforcement/Realized variable search
+Riena leaving the release train
+[Table] bug with synchronized table (when it is opened)
+Invalidate CLA button shown even though CLA is expired
+Diagram layout doesn't work on mac
+SVN 1.9 requires "local" modifier for status() call in order to work the same way as orevious API versions
+Wrong behavior Debug checkbox in Tool Bar Visibility tab of Debug Perspective
+Class to draw cell borders
+[Capsule Structure] Canonical port layout does not work when ELK installed
+Corruption of transition conditions with array subscript
+Commit 02cb9598f643cf0 introduces a major regression with vxWorks 7
+Always wrap cause if throwing new exception
+CLA all of a sudden expired (over a month in the past)
+Exception when connecting to HTTPS server
+Save entities in different threads cause QueryException: Modify queries require an object to modify. Query: InsertObjectQuery(null)
+[Releng] Remove the .releng.* plugins and features from the site
+RCPTT test failures cause product build to fail
+Virgo kernel (services) timeout intermittently
+Stepping through php code in XDebug is inconsistent
+Put item limit into one line in filter for MarkerSupportView (problems, etc)
+[restructure] move org.eclipse.remote code to the TM project
+Build SimRel aggregation repo with Tycho instead of b3
+swtbot: There is no condition to wait for an XY chart to be ready
+[XWT] /usr/bin/sign java.io.IOException: java.io.IOException: error=13, Permission denied
+org.eclipse.emf.compare.impl.DiffImpl.setMatch() throwing UnsupportedOperationException
+[QuickAccess] Improve DependencyInjection
+I can't clone my Project (using Eclipse/GitHub)
+[Call Stack] Call stack view doesn't allow to load symbol file or binary for symbol resolution for LTTng 2.8
+abstract class name change will not error on save
+Allow widgets to define which handle is their css one
+[http] Content input stream unavailable for form based requests in Neon
+Friends of Eclipse campaign banner can
+[newindex] Fix ResolveTests2.testBug227822a test failures
+Unable to find method reference having an enum parameter which is defined within a class in Mars
+ExcelExporter does not respect the charset
+NatExporter always opens the exported result
+Add a simple CSV exporter
+[hcr] Selectively enable/disable Hot Code Replace per workspace
+Prepare a publicly accessible sample of using the commit integration API
+Aspectj inproperly instuments classes that contains methods with fake variables
+GCC Message detected as error incorrectly
+[TargetDefinitionGenerator] Exact version in Targlet should generate version in target file
+improve runtime performance by using r-value semantics
+[CG] - Infinite loop when inlining an OperationCallExp
+Content assist doesn't work for bower/npm
+Javadoc tooltip not showing (whether hovering or F2)
+[GLX/GTK] GLCanvas.setCurrent() where GLData.alphaSize is not zero will immediately lead to a crash.
+Error logged from API Tools Core
+[scheduler] Scheduler failure in Companies example
+[cg] Lookup Visitors generation fails when calling external OCL Operations
+Add new operation to binding Utils to implement a tenary operation
+Add new binding to util to concat a list of observable to a string
+Type confusion when a library model is deployed in a target platform
+hierarchical project presentation not working
+a Wizard or accessible project template to create node.js express apps
+Event Handlers are treated differently
+[CLA] Unable to renew CLA
+StringIndexOutOfBoundsException below GenericEditor.handleResourceChange (thrown in String.charAt)
+Activator's start method never called
+FactoryNotFoundException below CDORepositoryData.createSessionConfiguration (thrown in ManagedContainer.getFactory)
+[Win32] StringIndexOutOfBoundsException below Table.wmNotifyChild (thrown in String.getChars)
+[QuickAccess] Allow Text search
+[import project wizard] first letter of the project not shown
+Remove per-instance indexing from statistical base index
+It does not work "comment"
+Improvement "Toogle comment"
+Improvement "Toogle comment"
+It is difficult to choose the right window with the same name as files
+Improved autocomplete feature in Eclipse Java
+Make wizard shortcut usage consistent in the new VIATRA UI
+It is not enough commands "Copy" and "Select All" in the windows "the Javadoc" and "Class file editor"
+Please return WindowsBuilder in the Eclipse Java SE
+IndexOutOfBoundsException for Columns not having a value type
+Throw DTE when timer is started with infinity or not_a_number
+[Formatter] java code formatter doesn't honour new parentheses settings
+SPPs can not be inherited
+Modeling Physical Memory Sections
+Eclipse Neon - Content Assist in HTML does not work for linked CSS files
+"Ignored Status Patterns" ignored
+org.eclipse.php.composer.core should not have dependencies to UI plugins
+DatabasePlatform: JDBC connection validate is working the opposite?
+CDOCommitInfo detached objects list does not include contained objects
+DataClass operator= wrong
+Test text "小六子for tesing" in chinese simple language pacakge
+Update WindowBuilder to 1.9.1 for Eclipse 4.7
+[Widget] Select Element Dialog should be improved
+Make the org.eclipse.acceleo.query plugin non-singleton
+Tools (non-Palette) defined in a disabled/deactivated layer are active
+[DS] NPE on configuration delete causes perfomance degradation as lock is never released
+Register composer.lock as json file
+Deploy org.eclipse.php.composer.api to repo.eclipse.org
+[spell checking] Add more words to the spelling dictionary
+Marketplace contribution still pending for review
+NullPointerException at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.methods
+gradleclasspathcontainer entry in .classpath cannot be configured
+Unsuccessful installation of Eclipse IDE all in one package on a Mac (OS X 10.11.6)
+Manage imports through code formatter
+Error during clean build: The method x() of type y must override a superclass method
+NPE when enabling JPA project facet
+Integrate "e4 tools" from eclipse.platform.ui.tools into SDK build
+NPE dropping element from palette in empty diagram
+Cached images are not disposed before replacement and cache updates
+Wizard 'Composer Project from existing package' doesn't work
+[9] Read modules from JMOD
+NPE when creating new Page with AbstractPage as super class
+Merge php and composer project wizard
+XSLT files syntax coloring issue on xml tags attribute values
+Wrong message when adding duplicate TCP connection
+[Designer][releng] the default daily build is not sign for designer
+[Designer][web] add a direct link to the p2 or eclipse download area
+[Components][releng] components p2 do not fetch automatically papyrus
+Equinox launcher upgrade breaks installation of Eclipse on shared drive.
+Cannot access parameters after altstep deactivates itself
+[Codegen Java] Declaring type of a compilation unit is not updated
+Subprocess handled as expanded with attribute isExpanded="false"
+CDT endless build loop (autobuild)
+[GTK] Applications using eclipse swt crash when disposing widgets
+The groups visible are not refreshed with the new reference widget
+MKDIR definition in agent/Makefile.inc may conflict with VxWorks definition
+Skip connection selection in Docker Compose when there's only one connection
+Deadlock when launching a program with "break at entry"
+32 annd 64 bit download will not unzip
+[memory] Added memory monitor not shown and memory rendering too
+[Reverse Java] Creation and search paths only work for imported types
+Image with removed tag is displayed as <none>:<none>
+Eclipse hangs when updating maven dependecies
+[proposal] eclipse.jdt.ls
+[trademark] Trademark approval required for JDTLS
+Will soon need a Neon.1 info center
+[1.9] reconsider PackageFragmentRoot.isModule() vis-a-vis working copies of module-info.java
+Use varargs parameter for Messages#getString(String, Object[])
+Eclipse not installing on Mac OSX
+content assist does not remember the last choice
+MPC wizard should show feature descriptions and other data
+[BETA_JAVA9] Some merge from master has gone wrong and needs to be investigated
+[Designer][java][generator] apply by default the project stereotype
+[Designer][java][generator] improve the reverse fonction
+[Designer][java][generator] apply a clever reverse mode
+Data Value for department is not correctly retrieved from referenced model.
+Workflow Process Attachments: File/Document Upload Dialog not working in some scenarios.
+DataCluster do not support legacy data slots from older models.
+Child scoped organizations are not marshalled correctly for the model REST response in Web modeler.
+In some scenarios deployments with external authorization/authentication throw an exception if no model is deployed.
+Custom Descriptor IDs of a Process are overwritten with auto-generated IDs when a new Descriptor is added to the Process.
+Incorrect evaluation of "Allow" and "Deny" grants specified in Authorization Manager.
+Including Root Process Instance Processing Time in Report leads to SQL Exception on Oracle
+Deputy management does not remove deputy from role after expiration time
+If Delegation grant is disabled, user cannot save and suspend an activity
+Checklist Panel: Process Summary Root Node should show Notes & Documents
+Browser Modeler: Scan Trigger document attribute cannot be set correctly when Process Attachments are shared across Process hierarchy in a cross-model scenario.
+[cg] Support incremental execution
+Portal: Report Favorite is still displayed in Control Center after it has been deleted.
+[Designer][java][generator] add an option to not take into account the first element of Qualified Name
+jgit must ignore trailing spaces in folder ignore rules
+org.eclipse.jubula.feature.sdk.feature.group is not included in the neon repository
+[block selection] problems with vertical block and Tab key (inserted always in the beginning of the text)
+Rename Component in a TestCase cause an error org.eclipse.jubula.tools.internal.exception.AssertException: m_selectedExecNodeOwner
+AbstractBehavior should save the root part where feedback and handles are added so that it can be re-used when removing them.
+Test framework does not catch errors in eval
+TabRenderer should be able to show validation problems on the tab item
+Wrong "minor version should be the same" for bundle whose BREE has been updated. Also make unnecessary version change errors as warning by default
+Nested HTML tables cause an exception when exporting a report to XLS/XLSX
+[repoView] Refresh working area when using Refresh action
+NPE thrown when opening a CSS file with the 'XPath' view open
+Split IFXOnTypePolicy into IFXOnKeyPressReleasePolicy and IFXOnTypePolicy.
+Unify naming of interaction callback methods.
+[linked mode] difficulties in shortening a proposed name
+[debug] NPE when terminating multiple sessions, apparently related to gdb source lookup
+Deadlock in PluginModelManager
+[Indexer] Deadlock on IndexManager blocks label decoration and Papyrus editor
+[Codegen Java] Root element stereotyped <<Project>> should not appear
+sporadic "Failed to execute runnable" when doing undo/redo
+[visualizer] synchronization of selected thread with DV only works for revealed threads
+[Codegen Java] External imports are prefixed
+[Layout][Enhancement] Image should be completely displayed in the compartment
+Cache and reuse HTTPClient authentication
+Apache credentials provider creates incomplete NTCredentials
+'Search' field in Docker Explorer is not filtering
+[visualizer] harmonize displayed TID with DV and new GDB console
+Update "CLA" references to "ECA" in the handbook
+Eclipse Project page links to outdated 4.5 plan
+Fix UI test failures due to uncontrollable entries
+Required type of IP due diligence for participation in the simultaneous release
+[release] technology.jgit 4.5.0
+[release] technology.egit 4.5.0
+Request website for 2017 conference
+Moving Orion built-in menus to electron menu bar
+Managed dependencies override optional dependencies resolved
+[proposal]technology.usssdk
+[mentors] Mentor required for USS SDK
+[trademark] Trademark approval required for USS SDK
+Support ArduinoIDE projects / arduino "language" without modifications
+[SysML 1.4][IBD] creating a part from palette only works for new blocks
+[SysML 1.4][IBD] connector shall not display multiplicities
+[null][1.8] DefaultLocation.TYPE_PARAMETER does not work for method type parameters
+[SysML 1.4] port symbol does not show arrow when containing flow property...
+[newindex] Test failures in NullAnnotationModelTests
+Add "How to build" to README.md
+Declare Neon.1 RC4
+Update Apache Tomcat to version 8.5.5 or later
+[Components][releng] Add the Neon/Oxygen folder level in the update site
+Kaspersky detects pty.dll as UDS:DangerousObject.Multi.Generic
+"di:extension" elements cause error
+[Designer][java][generator] the package are not well reversed
+[Designer][java][generator] add a unit test environment
+[Designer][releng] creation of 1.0.3 version in bugzilla
+Test and document usage of aggregators
+Document new features related to local search
+Test and document usage of Java types in queries
+Binding for Open PHP Type doesn't work in Project Explorer
+'Composer Project from e.p.' wizard is extremly slow
+Javadoc tooltips do not appear at content assist window in Eclipse Neon
+Diagrams not exported properly until opened at least once
+Constant needs unchecked conversion to conform to @Nonnull Type
+[Designer][java][generator] the import are not well formated
+[Java9] Ensure FXCanvasEx is Java9-compatible
+Remove eclipse.disable.fix.for.bug364735
+Unmarshalling JSON with @XmlValue + @XmlAttribute(s) leaves value blank if value property is before attributes
+Buttons are not disabled after program end / debugging end and displayed in wrong place
+Neon.1 RC2 packages have bundles coming from WTP Oxygen
+[DS] Annotation Problem - Invalid activate method parameter type when using component property type
+Selecting all projects in "Package explorer" cause full scan of git repositories
+Where possible, use constructor in favor of Throwable.initCause(...)
+Remove unnecessary gifs from org.eclipse.ui.console
+Pre-build steps not terminated before build is started with enabled parallel build option (make -j)
+[Designer][generator] add a maven project generation feature
+In javaFX in TreeTable the check text at mouse actual value is the parent cell value of the expected cell value
+[Setup] Tester setup is missing the C++ feature
+Rename package o.e.handly.document to o.e.handly.text
+"Review previously check-out" dialogue not matching commit id
+String conversion for VersionRange with open upper bound fails
+[Papyrus DSML Validation] URI should be read from UML attribute "URI" instead from EPackage stereotype
+Set Parameter from API not work if it is used for the other parameters
+[Designer][java][generator] do not take into account implements of type interface
+[SysML 1.4][Performance] Change Package to profile in profile file
+Optimize plan for base index usage
+The save action of Activity Explorer should use the Eclipse entry point StatusManager for all statuses to be reported in the user interface
+Compartment layout problem when remove an element
+New C/C++ wizard not in main menu and context menus
+[SysML 1.4][BDD] - appearance - label customization does not apply change in "type"
+delete wrong branch heads/for/master on scout/maven-master
+Confusing extra "new project" entries
+Duplicate ESETFLAG values when >32 features/class.
+[release] technology.egerrit 1.1.0
+[release] technology.chemclipse 0.7.0
+Memory leak in dtls_connect
+externalise strings - "Expand all" and "Collapse all"
+Commit viewer (editor) forgets / doesn't take focus
+high:36
+Connections disappear after reopening the model
+Error running eslint on this file
+Add services for the SiriusInputDescriptor
+German HistoryView in org.eclipse.team.ui incorrect
+Add JSDT run configuration
+Null on unmarshalling of java.util.UUID
+EventManager.isListenerAttached() gives wrong answer after first call to addListenerObject(null)
+JS editor cannot parser ionic js frmework in js editor(neon version), error is org.eclipse.wst.jsdt.internal.core.dom.binding.FunctionBinding cannot be cast to org.eclipse.wst.jsdt.core.dom.IVariableBinding
+Could not obtain PHP executable info.
+Problem using classes
+Tooling API dependency should be defined with dependency range
+BIRT 2.1.0 failed to preview .rptdesign file
+Add JavaEWAH 1.1.6
+Is isUnique working ?
+Xtext from ecore file problem with nested epackages
+Move JSchUIFileService to remote.ui
+Mouse pointer not updated on some areas of the IDE
+Inline rename of functions or variables aborts when pressing ctrl
+wrong name in calledElement reference after import via file system option
+With API Baseline set, API tooling complains about @since missing on old APIs
+Getting UI freeze message logged every time I open a plugin
+Exception while editing .vql file in VQL Editor
+Delay on progress bar displaying in the E4 splash screen
+[Tooling] Add missing unit tests for protocol message naming
+[Tooling] Graphical refresh issues when toggling the port kind
+Target file generation should escape invalid XML characters
+Add ability to open a new editor without file
+Empty history view should provide link to history related actions
+MessageBox.open hangs if display is disposed and recreated
+Value is stored in the wrong cell when editing a cell in the Data Sets View and clicking on another cell after editing
+StackOverflowError marshalling complex inheritance hirarchy
+EcoreModelerWizard destroys Quick Access layout
+[Tooling] Improve the rendering of the stacking pattern for replicated ports and capsule parts
+Subversive tries to connect to repository for Compare With -> Base from Working Copy
+[Tooling] Improve labels on ports and connectors in the capsule structure diagrams
+Add a forceOverwrite flag for ResourceCopy
+low:68
+Incorrect whitelist functionality
+Incorrect error message
+Exception thrown in model inferrer in incorrect query files
+selection does not allow subquery, ClassCastException
+Edge label attachment feedback is incorrect when zoom is different than 100%
+code style detection
+Ability to export/import from the run configuration dialog
+Add option to import/export preferences from Preference Dialog
+Wrong Tree Node selection if scroll bar appears
+Compare editor does not link with Project Explorer
+[formatter] Blank lines at beginning of method body doesn't work in constructors
+Font is not correctly applied via new GC(Drawable)
+TVT46:TCT22:CHS:English strings found in Preference->Server panel
+Style customization: improve selection of the style to customize
+Loading queries from VQL editor fails silently if Query Registry view is not open
+CSS FontDefinition: font-weight not applied
+Add option to import/export installed plug-ins to About dialog
+Buildship classpath container should tolerate broken projects
+Orion download page doesn't list release in order
+[control] 'All' can't be unselected in enable events dialog if there is nothing else to select
+Code cleanup: fix warnings in core Text plugins
+TVT46:TCT28:HE: The Browse for Folders dialog is not mirrored in Import Projects panel
+Incorrect window positioning in fullscreen
+Editing in one AbstractFXEditor changes dirty state in all other AbstractFXEditors
+[Q4 2016] - Improve Authorize page
+Marketplace access to favorites fails: unauthorized
+Endless loop in Install/Update dialog
+Not able to install eclipse-javascript-helios-win32-x86_64\eclipse in windows 10
+Not able to install eclipse-javascript-helios-win32-x86_64\eclipse in windows 10
+[ModelEditor] SashWindows preference page terminology, placement, and more
+Improve CustomizeData to be JSON serializable for us in REST calls
+Using a method reference to a generic method in a Base class gives me NoSuchMethodError
+Wizard dialog cannot be closed with Escape key
+Cannot call a merge with a given selection programmatically
+[Compare] Test failure in three-way compare test for protocol message deletion
+tmf: Make order of files processing more natural during import
+DATA_RETENTION_PERIOD value very big
+no such file or directory, open prefs.json.lock
+AssertionFailedException: null argument - when [A] inserted in field editor
+Use png files for Plug-in spy
+Callstack view: selecting the first even will cause callstack view to iterate over entire stack
+Gradle Tasks view: Use title capitalization for tooltips
+[needinfo] Info dialog should show requested but unavailable needinfo processors
+EEF Radio button value change doesn't update semantic value
+[DI] ContextInjectionFactory should provide quick wrapper to create & tear down an object
+Saving can get quite slow
+Selection borders are not correctly displayed
+[Generic Editor] Ability to register a completion proposal computer on any partition content
+Wrong selection after opening an EmptyView (TableWidget)
+[problems view] Add buttons to Tasks View, to open fiilter dialog
+[Quick Access] Press F2 to focus for a Persistent Dialog
+Missing covariance on BatchTransformationStatement's fire rule methods
+generate Constructors for DataClasses to initialize all attributes
+Codan fails to invoke external code analysis tool in Neon
+MasterDetailAction should be useable for multi-selection
+Login page fails to show for french
+Code generator errors in case of generic Java types
+Our projects on DockerHub
+Test failures because of incorrect operation ordering
+Duplicate registry info in combo after changing settings
+Push image to local registry fails
+Cannot open Eclipse Marketplace
+EGit Authenticator prevents login dialog
+Need to improve as-you-type formatting for JSON editor
+Deleting multiple files is very slow on large projects
+Alignment Action accross different parents
+Full stacktrace is displayed in Problems view
+Rename SimpleBuffer to Buffer
+highest:90
+eclipse.pde.ui-Gerrit job on platform HIPP fails with random errors
+[newindex] An ElementChangedEvent fired on the consumption of IndexingEvent breaks tests.
+Unreachable p2 repositories in parent pom
+CDT indexer does not notice changes to header files referenced from other projects
+HIPP for january
+Grant access to jonahkichwacoders github account for january sources
+Add some cucumber dependency
+repo.eclipse.org seems to be down
+Duplicate source files in multi project
+Clear Log remains enabled after clear log view
+Run tests with Java 8 JVM
+optimize code generated for select statements
+Github ip-verification requires -s for committer
+CssStyleHelper warnings while closing E4 application
+Serial port DLL broken on 32-bit Windows
+Looks like git.eclipse.org is not responding
+Unable to install the Papyrus plug-in
+Eclipse Market place is down
+Eclipse Marketplace down
+Nebula HIPP can not create temp dir
+VIATRA HIPP fails when creating temporary directories
+Fix whitespace issues in org.eclipse.core.filebuffers.tests
+LLVM toolchain broken - Unable to disable the linking of -lstdc++
+Virtual Machine Issue
+GitHub repository for EclEmma
+Download not available
+Upgrade build
+Cleanups to o.e.ui.tests
+Integrate p2 explorer from Oomph to PDE
+equals generation with additional option
+Contribute https://github.com/sbrosinski/RegexTester/ to e4
+Use ASM bundle from Eclipse Orbit
+Skipping watched dependency update for build :Failure
+Platform hipp is not working Gerrit jobs are failing
+Unable to connect to org.eclipse.handly.git
+Some perspectives migrated from e3 to e4 have no icon
+Add FAQ regarding multiple Git repositories
+FramsetFragment.jsp not found?
+System monitor restarts after progress monitor is canceled
+Wrong generated brace after Enter
+Unable to install 4.7 integration builds using Oomph
+Fix try-with-resources warnings in o.e.ui.tests.harness
+Use try-with in CreateFileChange
+[HIPP][tools.pdt] Allow access to packagist.org
+Switch Sync Layout tests to Async
+App constantly crashes
+Egit diff --git does not have option to toggle whitespace changes
+Mongoose promise is deprecated
+Error sending mail...
+After project update, trigger download of source in background
+[Test] Some tests dependency should not exist
+Validation problem after table column generation
+Titan specific preference exporting
+EGit HIPP can't reach JGit HIPP anymore
+javax.lang.model.util.Elements.overrides(...) is broken
+dynamic loadable types with LUA
+Cannot delete git repo
+No route to host between HIPP instances
+Contextual menu items wrongly ordered with e4
+Git and robot plugins are failing with eclipse 4.6.0
+This bug is already fixed
+Git section in settings page needs longer "setting-header" field.
+Red Hat linux: The icons doesn't appear in User Interface after running the program
+RichTextEditor in RAP runs only in development mode
+Project Explorer: Don't display EGit label if parent project is in same Git repository
+Target definition overrides plugin in workspace
+FileNotFoundException when storing preferences in User setup
+Merge issue
+usercode3 for C++ is not generated
+C++ Generation
+request omr.website github repo creation
+HIPP for omr
+Improve smart import API
+news.eclipse.org is shutting down, the reference needs to be removed
+E4 app keeps unbundling resources into org.eclipse.osgi configuration folder after each run
+Unable to submit a new ECA
+Git/Gerrit integration issue: merge is not reported as bug comment
+Extension point from pdtextensions in plugin.xml
+why deprecated? -> WARNING:deprecated, array types should be declared in data classes only
+Deletion of branch 1.0 on Gendoc git
+Senseless build cycles in big complex project after git branch switch
+Build Failed: ArrayIndexOutOfBoundsException in Method Reference Scope Resolve
+Getting 500 Server Error on shared hipp
+Make user able to manually create new content types
+Genie that updates Bugzilla on Gerrit changes is slow
+Support non-ID or -QName references
+Releng hipp jobs are getting stuck
+Migrate all internal GIF images to PNG
+Delete branch m.h in org.eclipse.app4mc.git repository
+Unable to push a commit to simrel

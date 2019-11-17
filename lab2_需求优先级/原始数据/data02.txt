@@ -1,0 +1,999 @@
+P3 normal org.aspectj.weaver.bcel.LazyClassGen.getJavaClassBytesIncludingReweavable
+P3 normal Support unlimited buffer size as per API documentation
+P3 normal The text box in the "Abandon message dialog" does not allow to edit message e.g. line breaks
+P3 normal RepositoryExplorer does not flush the repository caches when refreshing
+P3 normal [SmartImport] unstable test, NPE's on getLocation()
+P3 normal Bounced email for Marc Aubry
+P3 normal temp disabled bpmn2-modeler in Oxygen (master) aggregation
+P3 trivial do not throw an Exception for unsupported launch configuration but provide reasonable default
+P3 minor Changed Execution Environment problem category needs to be merged into version category.
+P3 normal [test]BatchCompilerTest#testBug419351() doesn't test endorsed folder
+P3 normal "Push to Gerrit..." command is wrongly disabled when config doesn't use "push = HEAD:refs/for/master"
+P3 enhancement user can navigate to workspace version of code from a Review or Comment
+P3 normal Please archive all mosquitto components
+P3 normal Organize categories as customizable trees
+P3 normal Follow-up after bug 111208
+P3 enhancement provide rich tooltip for inline comments
+P3 enhancement Tree viewer state restoration upon Eclipse startup not working for model elements being added after the loading of the underlying has been finished
+P3 major Tree viewer state restoration upon Eclipse startup and viewer refresh still running in cases where it is not needed
+P3 enhancement Provide an isSet(EObject) method in EObjectUtil
+P3 normal Cannot execute pull with MergeStrategy.THEIRS
+P1 critical Temporary model loading form editor page sometimes happens to remain in place forever even when underlying model has been loaded
+P3 normal cannot push to Gerrit due to missing CLA, but ECA is signed
+P3 normal high disk usage for eclipse on Hudson/Build
+P3 normal [Graphics] Replace gif files in org.eclipse.search with png files
+P3 normal [Graphics] Replace gif files in org.eclipse.jface.text with png files
+P3 normal [Graphics] Replace gif files in org.eclipse.ui.examples.javaeditor with png files
+P3 major Fragments not working with "and" operator in Rule
+P3 normal [Core] AnsiCLibrary not available as a registered library
+P3 major Retire org.eclipse.pde.ui/src_samples
+P3 normal Remove org.eclipse.core.internal.filebuffers.Progress and convert to SubMonitor
+P3 normal Add Organize imports to save actions in org.eclipse.core.filebuffers
+P3 normal Use try with resources in org.eclipse.core.filebuffers to remove warnings
+P3 normal Replace usage of SubMonitor#worked with SubMonitor#step in Platform UI
+P3 normal Add Ctrl+D to delete a line in the commit message "editor"
+P3 critical Jubula UI frozen when deploying an extension with problems in the ComponentConfiguration.xml
+P3 normal Remove outdated _buildnotes_text_*.html from org.eclipse.ui.editors
+P3 normal Type inference with lambdas & CompletableFuture fails with JDT but succeeds with javac
+P3 normal Dynamic Web Module with Java 1.6
+P3 normal Ignore file extension in Open Type
+P3 normal include paths completely messed up when renaming folder
+P3 normal Detect OSGI bundle load/unload events for modules
+P3 normal Relax version ranges on jython dependencies in target files
+P3 minor Delete button doesn't work if "defaultIncrementalMode is true"
+P3 normal [Mapping] Allow rules to store target elements in data set
+P3 normal Receptions get erroneous icons
+P3 normal [OSGI] provide a new module to install, start, stop bundles
+P3 trivial "Review IDE settings" button opens several windows when clicked repeatedly
+P3 normal Acceleo does not resolve metamodels from the target platform
+P3 normal ConcurrentModificationException in J2EEElementChangedListener.getResourceMappings
+P3 normal [Validation] Generated client-context selectors are too imprecise
+P4 normal [System Elements] Validation bundle client-context selectors are too imprecise
+P3 normal [History tab] Patch Sets drop down menu is missing the commit id
+P3 normal [Codegen Java] Duplicate imports of external and externlibrary imports
+P3 normal ArrayIndexOutOfBoundsException in ResourceIsLoadingAdapter.getAdapter
+P3 normal NPE when renaming PHP project with out-of-sync project files
+P3 blocker WTP Server Tools component is build from master instead of R38_maintenance branch for 3.8.1 RC4
+P3 normal Control flow view does not "optimize" when in a mixed experiment
+P3 normal [History tab] Unable to visualize files changed between patch sets
+P3 normal NPE in TabbedPropertySheetPage while closing other views
+P3 normal [Designer][java][generator] in the code to model, take into account preloaded model
+P3 enhancement Introduce CONFIRMED state
+P3 normal Provide a backup way of resolving symbols with LTTng 2.8+ traces
+P3 normal "C/C++ Attach to Application" remote via gdbserver - executable file not loaded
+P3 normal When opening JavaScript file in editor: "FunctionBinding cannot be cast to IVariableBinding"
+P3 enhancement Enhance some of the "exception" messages
+P3 enhancement [GenDoc] Support for new document types - reuse of the UI action
+P3 major Arm64 crawler : Fallback when epilogue can not be found
+P3 critical TextSizeDetermination causes high CPU usage and flickering
+P3 normal [System Profile] Validation bundle metadata problems
+P3 minor [9][search] Refactor code for BinaryContainer
+P3 normal [9][search] find constructs in module-info
+P3 normal E4 needs to have public API to set element id (and asking for it to be restyled).
+P3 normal [Compare editor] "Go to next group of comment annotation" not working
+P3 normal [Messages] [Details] Switching patch set does not refresh the information in the messages and details tabs
+P3 normal Java formatter doesn't format Javadoc comment in the preference page example
+P3 normal "401 Unauthorized" error when cloning TFS git repository
+P3 enhancement Simplify overriding of contributed logical structure definitions
+P3 normal No way to remove news button
+P3 normal Embedded Maven failed to authorize with Oracle Maven repo (https://maven.oracle.com)
+P3 normal NPE in EObjectValidator
+P3 normal Adapt o.e.releng.tests to Java 7
+P3 normal Docker Image View: Build Image and Pull Image toolbar icons not enabled/disabled properly
+P3 trivial Bugzilla REST: OpenWithBrowserAction did not work
+P3 normal RepositoryPerson.toString() should only return name<id> if not same
+P3 trivial New Java Project wizard: High-/Low-DPI icon inconsistencies
+P3 trivial Follow naming conventions in Java Element Filters dialog
+P3 trivial Java Element Filters: Java Members entry lacks filter description
+P3 minor Customizing Search dialog reopens dialog, looses previously entered values
+P3 minor Snipmatch doesn't work in "Untitled test file"
+P3 enhancement [Designer] Designer should appear in the "Install Papyrus additional components"
+P3 enhancement push commit option should provide easy way to push to Gerrit
+P3 normal Cached images have different sizes when the corresponding controls are resized
+P3 normal Error shown when application deployment is cancelled: Missing application deployment information
+P3 normal Open declaration (F3, Ctrl+click) doesn't work
+P3 normal Problem occurred while pushing to to Gerrit for Platform UI
+P3 critical proxy issues on releng hudson instance
+P3 normal Error in JDT Core during reconcile
+P3 normal ECA and Friends of Eclipse on my account
+P3 major JRE path in eclipse.ini is wrong on Fedora.
+P3 minor multiple minimized welcome pages.
+P3 blocker git.eclipse.org seems down
+P3 normal UI Freeze for long time if (first time) try to open context menu (right mouse click) in Project Explorer
+P3 normal migrate JDT.setup to a jdt git repo
+P3 critical Placeholder contribution from fragment fails on second run
+P3 normal NullPointerException in SystemElementItemProviderAdapterFactory$1.getParent
+P3 blocker Enter Projects Page from Eclipse will cause the program gets stuck
+P3 normal umlauts in user names rendered incorrectly
+P3 normal Oomph setup for JSDT IDE fails
+P3 normal CodeEdit: Forward word (ctrl+right arrow) should stop at start of line
+P3 normal Gerrit is super slow
+P3 normal Symbol could not be resolved although F3 works
+P3 blocker Git.eclipse.org is unstable
+P3 blocker Sirius HIPP (and apparently all other HIPPs on hipp2) is down
+P3 normal SWTException below ImageSearchPage$IconColumnLabelProvider.measure (thrown in Image.getBounds)
+P3 major Open diff from git-staging cause exception and the diff view is "empty"
+P3 normal Errors when selecting some JS modules in project properties
+P3 enhancement Reduce window margins to provide more productive space
+P3 normal LogCommand fails to compute correct history if called too fast after commit
+P3 normal css formatter bug
+P3 major [SysML 1.4][IBD] Part/Reference property creation from palette does not work when selecting existing type
+P3 normal Set padding to zero for views and editors
+P3 normal Eclipse license button does not accept usage of "https://" as link to license file
+P3 normal [breadcrumb] Hide Breadcrumb missing
+P3 enhancement Remove composer nature
+P3 normal NPE after deleting app
+P3 normal missing versions in bugzilla for CFT
+P3 normal [compiler][null] "type indirectly referenced" error in bug 441116
+P3 normal Change eclipse-p2-repo.url for build-individual-bundles to I-build
+P3 critical Issue in dep resolution with Neon.1 RC3
+P3 normal [behavior.ui]  inherited entry/exit/transitions points have wrong color
+P3 normal Cleanup warnings in o.e.releng.tools
+P3 enhancement If composer project haven't composer.json, mark it as invalid
+P3 enhancement "Add Composer Support" should open composer.json editor
+P3 normal Using requestLayout in SashLayout
+P3 normal [Components][doc] improve the documentation for project creation
+P3 normal Default 'Skippable' is not generated for imported processes
+P3 normal Investigate supporting a notification mechanism in the Geometry API.
+P3 normal [Papyrus][Marte] Creation of a new Git repository org.eclipse.papyrus-marte.git
+P2 normal Java server error on Developer Resources tab
+P3 normal Switch to MouseAdapter and lambda usage in SashLayout
+P3 normal Add missing deprecated annotations to o.e.test
+P3 normal [CSS] Allow styling from sashWidth in SashLayout
+P3 major The ProcessLauncherTest fails since Sep.6
+P3 normal Make Docker Explorer filters easier to activate
+P3 enhancement Disable by default 'Empty parent packages' filter
+P3 normal Improve button labels for Software Update restart dialog
+P3 normal Do not hide image with <none>:<none> as a result of a build
+P3 enhancement Automatically notify the user when a remote repository has new changes
+P3 normal Add rule that Eclipse components should avoid blocking the User interface thread and should be cancelable
+P3 normal Code completion does not show enum types nested in a base interface.
+P3 normal Missing @since 1.5 tag in o.e.tcf.core / UserDefPeer
+P3 normal Trigger points -- API deficiencies
+P3 enhancement Always ask user about image name (dont reuse by default)
+P3 major git.eclipse.org unreachable
+P3 normal LS performance regression in 1.4.0 M2
+P3 normal [Graphics] Update plug-ins in eclipse.platform.ua with png files and HDPI files
+P3 normal Problems view configuration dialog has wrong background colors with default theme
+P3 normal Approving moderated messages is extremely slow
+P3 minor XML formatter can't do simple attribute wrapping at line width
+P3 normal [drupal] Remove tabs on user profile
+P3 normal Copy paste / delete a TC from one TestSuite (TS) to another TS does block the one TS
+P3 enhancement Add option to extend/override code stubs
+P1 normal [Ecore Editor] Disable Default Value Literal field for EReferences
+P1 normal [Ecore Editor] Validation Display Bug Caused By Simultaneous Editing
+P3 minor Neon do not list class/functions/variable of linked class using @property
+P3 enhancement Create new Type wizards
+P1 normal [Ecore Editor] Parallel File Editing: Removed Attributes Not Synchronized
+P3 normal Wrong Error Text Message for Reverted Values
+P3 normal Show server response of original problem for duplicates
+P3 normal All properties must be disposed into DTreeEditor.dispose()
+P3 normal Add STW to Nebula Release
+P3 normal [release] technology.dltk 5.6.0
+P3 normal ACP automatically created when an AE is created dosn't have ty=1
+P3 normal [release] modeling.sirius 4.1.0
+P3 trivial org.eclipse.ui should re-export o.e.core.runtime
+P3 trivial [NLS] Externalize composer plugins strings
+P3 normal [solstice] - Allow admin to hide tabs on specific pages
+P3 normal JPQL named query using 'select new' syntax does not return cached results from query results cache
+P3 normal New file added to ProjectExplorer isn't correctly sorted.
+P3 major NPE after project creation if PHP Explorer isn't available
+P3 normal Rename "Part Sash Container" to "Part Sash" in e4 model editor
+P3 major git.eclipse.org/c repository links are broken
+P3 major Incremental Find Switches Focus To Editor While Query Is Being Typed
+P3 normal [2017] - Storage view for the user profile (USS) should be public
+P3 normal [terminate] iot.tiaki
+P2 major [Q3 2016] - Create a reverse-proxy for short urls to Eclipse user profiles
+P3 normal NullPointerException in JSONCatalogURIResolverExtension.resolve
+P3 normal User profile overview - 11 - DEVELOPMENT TOOLS
+P3 normal Lots of hash collisions during indexing (legacy indexer)
+P3 normal Remove redundant type argument information in org.eclipse.e4.ui.workbench.swt
+P3 major Neon regression: Git Staging view has UI widgets broken
+P3 normal Update EventBroker registration with annotations in BindingProcessingAddon
+P3 enhancement [call hierarchy] Offer next and previous buttons in Call Hierarchy view
+P3 normal [Tests] Enable org.eclipse.e4.ui.bindings.tests during Tycho build
+P3 normal Prefer class access instead of class.getName for context access in org.eclipse.e4.ui.bindings.tests
+P3 normal Prefer class access instead of class.getName for context access in org.eclipse.e4.core.commands.tests
+P3 normal [solstice] - Create 2 sidebars under the content area
+P3 enhancement Move composer project preferences under PHP
+P3 normal Delete unused CommandService#AddonsetCommandFireEvents method
+P3 normal Add database schema validation
+P3 enhancement Replace Navigator by Project Explorer in window->show view menu inside PHP Perspective
+P3 normal "Show In" isn't available for PHP Projects inside Project Explorer
+P3 normal Patch: diff with renames and edits ignore edits
+P3 normal UI not showing all errors in relation to refactoring ltk
+P3 major Request for installing metacity on the Sirius HIPP
+P3 enhancement Display should be able to startup a JVM to execute arbitrary code
+P3 normal eTrice build doesn't work after HIPP update to SLES 12
+P3 major I cannot finish my android new application.
+P3 normal C++ runtime and projects do not compile with latest MinGW
+P3 normal Update version numbers in eclipse.platform.ui.tools
+P3 normal [Template] Remove perspective from e4 template
+P3 normal Deprecate RefreshProvider#installMonitor in favor of one taking an IProgressMonitor
+P3 normal [Template] Remove Unix variants from product Eclipse e4 RCP
+P3 major DefaultComparator throws ClassCastException while sorting on a grouped NatTable
+P3 enhancement Ensure that ECF URIHandler throws more informative exceptions than ECF
+P3 normal JSON Editor issues with Arrays
+P3 normal "Active Trigger" checkbox should be disabled
+P3 enhancement JSON Editor improvement: enclose text within quotes
+P3 normal [CommunicationDiagram] We can't display stereotypes applied on message in the diagram
+P3 normal [Discovery] Install Papyrus additional components not working
+P3 normal Disabled by trigger icon not updated in Breakpoints view
+P3 normal [Commands] Add test for the creation of a parameterized command to DefineCommandsTest
+P3 major In JavaFX drag and drop does not work with child node
+P3 normal Overlapping Lanes resize bug on delete
+P3 normal Data Sets View - when the target cell is invisible then it should be scrolling there automatically
+P3 normal Wrong expression used in AQL documentation for oclIsTypeOf example
+P3 normal Pauses before completion of simulation
+P3 normal Enable GitHub pages for eclipse-collections-kata repo
+P3 normal Retire file system implementations for Unix
+P2 normal Internet explorer unable to render project pages
+P3 normal "Show in console" context menu in error log remains enabled when initial Error Log doesn't have any error.
+P3 normal Standalone OSGI framework is not working
+P3 normal Reconciler throws ClassCastException: BaseTypeBinding cannot be cast to ArrayBinding
+P3 blocker installer for neon fails to complete error log included
+P3 normal Investigate replacing the GridCanvas with a JavaFX CSS alternative.
+P3 normal Remove unnecessary unbind methods after Bug 492726
+P3 normal Even after increasing major version number, api tool error comes for change of version range for re-exported package
+P3 critical Sorting mixed-category tree table lead to Eclipse crash
+P3 normal Trigger Points -- remove "Active Trigger" state
+P3 normal Runtime classpath ignores transitive dependencies for Gradle versions <2.5
+P3 normal [Symbol] display symbols
+P3 normal Not possible to specify row height for a specific region
+P3 normal Bundles spring-web and spring-webmvc reference wrong jsp and jstl versions
+P3 normal Filter-able Tables selection page in the New Scripting Service Wizard
+P3 normal FireFox: Copy and paste does not work in the editor after downloading a file.
+P3 normal FireFox: Copy and paste does not work in the editor after downloading a file.
+P3 major FireFox: Copy and paste does not work in the editor after downloading a file.
+P3 normal [navigation] Quick Outline should use matching with "contains" logic instead of "startwith"
+P3 normal [Designer][releng] red on hudson, Cannot satisfy dependency
+P3 normal Wrong launch configuration for new eTrice C++ Project
+P3 normal Project Explorer: If nested project has errors/warnings, also show icon decoration in parent resources
+P3 normal Custom Model Editor (Facet)  does not save
+P3 major Trigger Points don't work
+P3 normal FSM Inheritance Editor error
+P3 normal This version of the rendering library is more recent than your version of ADT plug-in. Please update ADT plug-in
+P3 normal This version of the rendering library is more recent than your version of ADT plug-in. Please update ADT plug-in
+P3 normal Inheritance Editor bugs
+P3 normal Feature versions should be updated to 1.11.0 for Oxygen
+P3 normal Feature versions should be updated to 1.11.0 for Oxygen
+P3 normal ids for transition chains not generated completely (C++ Generator)
+P3 blocker [Activity Explorer] Use deprecated constructor to get a root semantic model from sessioin
+P3 normal create oomph installation for eTrice developers (Host)
+P3 normal Feature versions should be updated to 1.11.0 for Oxygen
+P3 normal Feature versions should be updated to 1.11.0 for Oxygen
+P3 normal Feature versions should be updated to 1.11.0 for Oxygen
+P3 normal Bring back metacity command (or a working window manager) for CDT HIPP
+P3 normal CA looses ability to interprete $this in file with global and nonglobal namespace.
+P3 normal [q3] - [blob] - Allow requests without app_token and key for index
+P3 enhancement Add the ServiceTunnelRequest as additional parameter in HttpServiceTunnel.addCustomHeaders(..)
+P3 major [otdre] base class may be detected too late due to on-demand scanning
+P3 normal [HiDPI] FileImageDescriptor / ImageDescriptor#createFromFile(..) should support @2x convention
+P3 normal Program website is not usable without a touch screen
+P3 normal Add another person to the list of "build master" in simrel.agg file.
+P3 normal remove copy of hudson configs from org.eclipse.simrel.tools
+P3 normal Update IP Log generator to take IP Due Diligence type into consideration
+P3 normal Retire the old IP Log generator in favour of the PMI based version.
+P3 normal The extended email plugin in Hudson does not send URLs as click-able links, consistently
+P3 normal [release] mylyn 3.21.0
+P3 normal ColumnHideShowLayer never show all columns again after persistence
+P3 normal Layout spy - refinements of labels and showing layout manager of childs
+P3 enhancement change model to allow more than one buildmaster
+P3 normal refactor: Change class hierarchy for REST Bugzilla connector
+P3 normal Layout spy - Add ability to show data for tool items
+P3 normal Problem with org.eclipse.ui.services extension point
+P3 normal Hang in TarInputStream.skipToEntry when importing large tar.gz
+P3 major Cannot disable validation
+P4 normal There is delay in typing in text for find/replace and take long time to replace all words in IE
+P3 normal Document step() in https://eclipse.org/articles/Article-Progress-Monitors/article.html
+P3 normal Incorrect null-analysis error reported when using @NonNull annotated type as argument for @Nullabla parameter
+P3 blocker Build failure for I20160914-0030 and I20160913-2000
+P3 normal Two editors side by side create ugly white area
+P3 normal [Papyrus][releng] Papyrus Neon.1 RC4
+P3 normal [papyrus][releng] mvn command failed
+P3 normal [CSS] Rename e4_default_win7.css to e4_default_win.css
+P3 normal add org.eclipse.ease.modules.charting.views to exported packages of charting module
+P3 blocker [StagingView] staging view is unusable after commit
+P3 normal [Target Platform] eclipse variables get not resolved
+P3 normal [BMM] Missing "OrganizationUnit" icon in model explorer and "Properties" view
+P3 normal Evaluate LS support for derived features
+P3 normal SVG support for Menu/Toolbar
+P3 normal Add new Node who supports clipping with an Image via CSS
+P3 normal ConcurrentModificationException in builder and editor (root cause: AcceleoPackageRegistry)
+P3 normal [Components][doc] upgrade the release doc
+P3 normal Add support for the isEnabledExpression to the reference widget
+P3 blocker [Papyrus][developer] when installing developer tools we get an error
+P3 normal [Win32] Checkbox in CheckboxTreeViewer look blurry
+P3 normal It's not possible to write Import source path
+P3 normal Deadlock in EventLoopProgressMonitor on shutdown
+P3 normal Composer integration welcome screen entry link to github page.
+P3 trivial [Preferences] Font for "Text file encoding" is smaller than other text on dialog
+P3 normal Error on starting Ponte
+P3 normal Deprecation on annotation not showing in Problems view
+P3 normal [target]  Add Target name to the Target resolve job
+P3 normal Remove manual cancellation check in TargetDefinition and use Submonitor.split or step
+P3 normal Make KeyCodes used for interaction configurable via bindings.
+P3 normal [Releng] [Components] release the 0.0.17 version
+P3 normal [Trim] [Themes] Remove non-working fix for Bug 432779
+P3 normal [GTK][Printer] Snippet318 doesn't work on Linux
+P3 normal Allow precise positioning while snap-to-grid is enabled when a modifier is pressed.
+P3 normal Dependency Management for Dirigible Projects
+P3 normal Remove Composer plugins from incubation folder after merge
+P3 normal Replace SubProgressMonitor in CssSpyPart of the e4 tools
+P3 major Git Staging view: "Commit and Push..." must not push without possibility to cancel
+P3 major [GTK] Tree.getTopItem() returns disposed TreeItem
+P3 normal Reparser forgets the second definition while the first definition is renamed
+P3 normal Support transparency for Tables in Windows
+P3 normal Add data type information to USS
+P3 enhancement Generate an equivalent category.xml file, and a dummy pom.xml from *.b3aggrcon
+P3 normal [RuleRepository] Add MergeType to RuleEntry
+P3 normal Plug-in Shortcut doesn't work for synchronized project
+P3 enhancement Enable Gerrit on b3 repositories
+P3 major [Papyrus][releng] extra test are failing on neon
+P3 normal [BMM] Examples plugin should be packaged in the BMM feature
+P3 normal Create a script to serve USS data
+P3 normal attempting to drag an empty folder causes TypeErrors
+P3 normal Bugs related to SPP's
+P3 normal Please swap to #fedgeoday hashtag for twitter widget
+P3 normal RejectedExecutionException from ProgressManager
+P3 normal Bugs concerning the Behavior editor
+P3 normal Please create a new github repo for a smarthome sub-project
+P3 normal Permission refuse error when use setText on a RichTextEditor
+P3 major Reload Configuration from Disk (or POSTing config.xml) fails the running builds
+P3 normal confluence editor cannot display code blocks in lists
+P3 normal [1.8][content assist]try-catch block inside lambda causes code completion to fail
+P3 normal Oomph in Neon Stream point to wrong repository
+P4 normal References / Impl jumps to wrong location
+P3 normal 'Next View' skips onto second next
+P3 normal Keyboard Shortcut list is missing "Indent lines"
+P3 blocker Web Tools Project for Oxygen: WSDL feature references wrong version of javax.wsdl
+P1 enhancement Improve TMD-API selection and focus handling
+P3 normal Occurrences not working on ThisExpression
+P3 normal ASTRewrite.rewriteAST(...) doesn't format enum constants
+P3 normal [1.8][null] pessimistic analysis for free type variables should check array assignments
+P3 normal [CSS] [dark theme] Adjust CSS handler to allow hiding table headers
+P3 normal Colors in appendStyleSheet should not be hard-coded.
+P3 normal Add option to set JavaDocView's text color
+P3 major ArrayIndexOutOfBoundsException in RefinedTableViewer.handleSetDataEvent, no entries displayed in histogram
+P3 enhancement Jump to last edited place CTrl+Q should keep a history
+P3 normal refactor rename does not work
+P3 blocker GeoMap Example hangs Eclipse
+P3 normal [1.8] UnsupportedOperationException in PolyTypeBinding.constantPoolName
+P3 normal Console Scroll lock enabled when scrolling mouse up
+P3 normal Titanium warning in code smell detector - improvement
+P3 normal [Papyrus] cleaning stuff
+P3 normal [Components][releng] detect if errors are thrown when executing through hudson
+P3 normal Marketplace crash uppon start
+P3 normal Improve variable names in StackRenderer
+P3 normal [null][1.8] Cast from (@Nullable Type) to (@NonNull Type) ignored
+P3 normal Parameter directions shall be enforced
+P3 normal Use blocks for single statements in org.eclipse.e4.ui.css.swt
+P3 normal Implement toString operations for LS operations
+P3 enhancement Migrate to generic merge viewer
+P3 normal [1.8] Intersection of two functional interfaces with same signature allowed
+P3 major Composer => Update Build Path block UI
+P3 enhancement [navigation] Provide generic "highlight selection" command for all text editors
+P3 normal [Charting] CurrentModificationException in function removeSeries(..)
+P3 normal [CSS] Investigate a reduction of the throws declaration in the CSS engine
+P3 enhancement Java 8 JDK needed on eTrice HIPP
+P3 enhancement Unable to get conflicting files when StashApplyCommand fails
+P3 enhancement [CSS] Retire empty CSSPropertyTabMarginOffsetHandler and CSSPropertyWebbyStyleHandler
+P3 normal Include Tag does not replace variables
+P3 normal Declare Oxygen M2
+P3 normal Remove unused constructor in RegistryCSSElementProvider
+P3 normal Fix NPE RegistryCSSElementProvider
+P3 normal Make read/write status of models clearer
+P3 enhancement Consider deprecation of CCombo
+P3 enhancement Consider deprecation of CLabel
+P3 major Edit (delete) Parameter which does contains a mutated vowel in the Editor View does not delete the vowel in the proporties view
+P3 normal progress bar report looks strange
+P3 normal [SysML 1.4][BDD] rcp test are failing
+P3 normal NPE ScriptService.getAvailableModules()
+P3 normal It does not work one of the key code folding
+P3 major Tester installation failure
+P3 normal [Dashboard] [Reply] Unable to post inline comments from earlier patch sets
+P3 normal [Graphics] Replace custom drawing on close button with png icons
+P3 normal Double clicks on action button to launch the action
+P3 minor Dependency Hierarchy: Unnecessary "x.y.z (omitted for conflict with x.y.z)" markers
+P3 normal Change data types for runtime and generated code to fixed size types (c++)
+P3 normal [CustomHiDPI] Font size wrong if using scale factor 125
+P3 normal Should StackRender use the SWT.FLAT stylebit instead of SWT.BORDER for the CTabFolder creation
+P3 normal [Components][archetype] correct several typos in the product generation
+P3 normal [rulers] Use different icon if several markers are present
+P3 normal [release] modeling.epsilon 1.4.0
+P3 normal Pb with key of ModelAccessorsRegistry map
+P3 normal EVL DoubleClick Events shold not block the Eclipse UI
+P3 enhancement The name of program on start screen hasn't the fist letter in uppercase.
+P3 normal Errors during renaming of fields.
+P3 normal [TMF UI] Have a way for time graph view to generate colors
+P3 major Several M2 candidate features decrease versions compared to Neon.1 candidate
+P3 normal [MARTE] ensure product is building
+P3 normal [9] Consider displaying the module-info.java file in the source folder root
+P3 normal GraphicalEditPart makes too strong assumption about semantic element's implementation class names
+P3 normal StyledText enters characters that are none
+P3 normal [Component] Additional MARTE component and versions in Bugzilla
+P3 enhancement [Documentation] A new documentation View for UML Element shall be available.
+P3 normal [Designer] duplication of a job
+P3 normal Incorrect Merge from EGIT
+P3 normal EntityManager.getReference leads to ClassCastException
+P3 major Open menu entry is available on a deleted diagram
+P3 normal [CSS Spy]  CSS Spy should also put the CSS ID into the detailed part to make it easy to copy it
+P3 normal [9] figure out glitches in spec of module-info
+P3 normal Exception while updating external folders
+P3 normal [content assist] Template proposals have incorrect relevance
+P3 normal Quick Access should not scale normal icons
+P3 normal Pb in DiagramElementMappingHelper.getSemanticIterator with session containing several semantic resources
+P3 normal Open or ping failure for connection causes exception to be logged
+P1 normal UI bugs in Problems view's "Configure Contents" / "Filters" dialog
+P3 normal False positives in automatic error reporting
+P3 normal [pmi] Project activity charts exclude commits from some branches
+P4 enhancement try using fast search for filename and content search
+P3 normal EPartService#showPart(String, PartState) breaks invariants for shared elements in multi perspective program
+P3 normal Write access for org.eclipse.simrel.build.git for CFT contribution
+P3 enhancement Add support to apply NatTable cell dimensions on export
+P3 major [GTK3] Crash when opening a GMF/GEF-based diagram using GTK 3.22
+P3 critical Many undesirable menu entries in random places
+P3 critical Plug-in tools menu contributed to undesirable places
+P3 critical EclEmma makes contributions to context menu where it should not
+P3 enhancement Ability to decorate source code
+P3 normal Shipping packages with external, non-Eclipse.org plugins
+P3 normal Search in "Add" dialog often ignores artifacts in an indexed repository, depending on order of repos in pom
+P3 normal Unresolved symbol with lambda
+P4 normal detect // comments in css, and offer quickfix
+P3 normal <dialog> no longer in html5.1
+P3 normal Warn on missing image name
+P3 enhancement Automatic source download should try to download JavaDoc if source isn't available
+P3 normal [Components][releng] ensure that all gerrit jobs have the test on the authorized committer
+P3 critical Publish the Neon.1 installers
+P3 normal makefilegen more verbose error message when asn1 filename is not correct
+P3 normal [Model] Regenerate Eclipse appplication model
+P3 normal Use lambdas in o.e.ui.browser
+P3 major The validation of the component Type of Componnet Names from the reused Project does not work
+P3 major Help need on SSL on mqtt for cc3200
+P3 major Help need on SSL on mqtt for cc3200
+P3 normal [HighDPI] JUnit Icons appear unsharp on retina display
+P3 enhancement Provide a way to control contributions for products and end users
+P3 normal [null][1.8] Internal compiler error: java.lang.ArrayIndexOutOfBoundsException
+P3 normal Remove "The rebase has been successfully been initialized" popup after starting interactive rebase
+P3 normal NPE when adding new Run Configuration for Run Docker Image
+P3 normal Rejecting an addition can leads to the modification of its containing match
+P3 normal [RichTextPainter] IllegalArgumentException when encountering nested spans
+P3 normal The cascading filter does not hide merged cascading diffs
+P3 major [ClassDiagram] NPE when deleting an association
+P3 normal Search in selection capability is not working
+P3 normal Eclipse Java IDE menubar not loaded properly on Fedora 24
+P3 normal [Model] Extend application model to allow trimbars for views and perspectives
+P3 normal Merge all actions can leads to merging of conflicting diffs
+P3 normal [SysML 1.4][IBD]- "Binding connector" palette tool creates an allocation instead of connector
+P3 enhancement Quick Access: "Search in Help" needs category title
+P3 normal [HighDPI] org.eclipse.ltk.ui.refactoring still uses GIFs
+P3 normal Refresh external browser contributions on Linux
+P3 normal Update org.eclipse.e4.ui.model.workbench to Java 8 and clean up the generated code
+P3 normal "Swap left and right": use consistent terms
+P3 normal Null annotations not shown for varargs
+P3 normal Null annotations not shown for varargs
+P3 normal Export as Image Container color overrides children in JPG and SVG
+P3 normal [ui] Open Diagram Editor hotkey does not work at all locations
+P3 normal Error message shouldn't be displayed in standard dialog
+P3 normal Bugs in Error Log view > Show In Console
+P3 normal [room] validation of communication type is not comprehensible
+P3 normal Some "asdfasdf" string in composer wizard
+P3 normal [ui.behavior] Positions from base class elements are not correct
+P3 trivial Project Explorer > Filters and Customization... dialog: bad title
+P3 normal No scroll in the package area when creating a project
+P3 normal [HighDPI] org.eclipse.jdt.jeview and org.eclipse.jdt.astview still use GIFs
+P3 normal [Designer]modularisation is not operational
+P3 critical [SysML 1.4][BDD] Port size modification not retained.
+P3 normal NullPointerException while saving target editor
+P3 normal Update JDT core compiler and apt compiler to use Oxygen M2 to produce M3
+P3 normal [Model] Support new trimbars for Part and Perspective in e4 model editor
+P3 normal [null][1.8] Missing warning about redundant nullness annotation
+P3 normal Enable more warnings in o.e.ui.browsers
+P3 normal If the AUT ID does contain a mutated vowel the AUT cant be identified
+P3 normal Null annotation not show for external annotations
+P3 normal Constraint Block : cannot create constraint parameter from model explorer
+P3 normal [proposal] iot.keti
+P3 normal Remove workaround for Solaris pre-10 in WebBrowserUtil
+P3 normal [mentors] Mentor required for Keti
+P3 normal [trademark] Trademark approval required for Keti
+P3 major [Security] "Security realm integrity violation: An object may not circularly contain itself" thrown when modifying several elements and Realm in first position
+P3 enhancement [CSS] CSS should leverage SWT.Skin and SKIN_CLASS/SKIN_ID
+P3 normal Disassembly view colors can not be configured and do not change correctly with theme
+P3 normal Obsolete About text
+P3 normal get is undefined for nconf
+P3 normal [license] Dual License Request for Keti ALv2
+P3 normal JavadocHover should use the same colors as JavadocView
+P3 normal CompatibilityXMIResourceImpl.waitForResourceToLoadIfNecessary is loading EMF resource without using TransactionalEditingDomain.runExclusive
+P3 major NPE in EvalFunctionCall.computeForFunctionCall
+P3 normal ArrayIndexOutOfBoundsException in CPPField.getFieldPosition
+P5 enhancement Add Library > JUnit should support pulling junit.jar from org.junit_*.jar
+P3 enhancement Implement Access To Newly Created Class in Project and use as Super
+P3 normal [win7] crash when instantiating new PTY(PTY.Mode.TERMINAL) w/ cdt.core in TP
+P3 normal Local variable Debug expressions don't work
+P3 normal Some IndexChangedEvents are fired from EGit which should be fired by JGit
+P3 normal NPE in TargetPlatformHelper.getWorkspaceTargetResolved
+P3 normal ClassCastException in EvalMemberAccess.getValue
+P3 normal Update ASM to version 6.0_ALPHA
+P3 normal Allow committers to override Verified -1 by Hudson CI
+P3 normal Branch/Tag/Commit support for Git
+P3 normal new PTY(PTY.Mode.TERMINAL) *always* adds color codes even when there's no reason
+P3 normal Search field looks bad
+P3 trivial [refactoring] "Introduce Redirection" dialog should use error icon on invalid method name
+P3 trivial [Welcome] Alignment of "Workbench" link in header broken
+P3 enhancement "Import Projects" command should use standard icon
+P3 enhancement "Import Changed Projects" command should use standard icon
+P3 minor [client] Provide description of notifications
+P3 normal Action Property sheet not correctly showing Algorithm type
+P3 normal Efxclipse doesn't allow opening Scene Editor jar file
+P3 normal Bad UI when adding dependencies
+P3 normal Composer.json -> all tab captions look bad when decrease width.
+P3 critical Eclipse not responding
+P3 normal [idea] Whitespace language problem in Jetbrains IDEA
+P3 normal How do I update my planet picture
+P3 normal Add Support for PIFace Board
+P3 normal Move IO Modules into a Separate IO directory
+P3 normal Add Support for rcX Real-Time Operating System used on the netX Chip
+P3 normal Need more console logging from npm operations
+P3 enhancement Add support to apply borders on export
+P3 normal [qvti] Improve opposite caches
+P3 normal [qvti] Improve statement interpretation
+P3 normal [qvti] Improve allInstances/objectsOfKind interpretation
+P3 normal Quick Outline no longer shows role files
+P3 normal [1.8][impl] inconsistent call to ITypeAnnotationWalker.toSupertype(..)
+P3 normal Bundle pool artifact repair doesn't work properly
+P3 normal Invalid syntax error for use statement
+P3 normal [reconcile] base call in role file is marked as illegal
+P3 normal Problem in abstract @AfterThrowing advice
+P3 enhancement Anchors for Non-rectangular Images - Containers
+P3 normal odd editor behavior after adding conversation element
+P3 normal [Model Explorer] Submodel overlay decorator not visible in Model Explorer for elements with stereotype icons
+P3 normal Package.json file is showing error unexpected token
+P3 enhancement Generator: Extend the adaptor model to specify certain code templates
+P3 normal Improve wizard to add required dependencies when adding new views
+P3 normal Restart button
+P3 normal [TMF] Problems importing an archive containing colons (:) in the names on Windows
+P3 enhancement Add a property for the current GTK theme being used
+P3 normal Unable to installed eclipse-inst-win64.exe
+P3 normal Reporting to ALM (Jira)- some field values could only be set to the value it already has
+P3 normal Master Page information disappered in excel
+P3 normal [Example] Share the library training
+P3 enhancement Refactor code generator to allow it to be extended via another Acceleo generator project
+P3 normal Buckminster incorrectly rejects valid ISO8601 time stamp formats
+P3 normal Not able to login to Gerrit upstream from EGerrit
+P3 normal Missing the actual result in an Check failed error message
+P3 critical Eclipse Neon does not start with either JDK 1.8.0_102 or JDK 9ea132 on MacOS X 10.11.6
+P3 normal [API tools] No error if defined reference platform is empty
+P3 normal flight amount is same for all service class
+P3 normal Merge release/4.0.1 to master
+P3 normal Merge release/4.0.1 to development
+P3 normal winpty integration leaks event handles
+P3 normal Add support for style for the reference widget
+P3 normal Deadlock in WorkbenchErrorHandler.handle
+P3 normal Prepare build scripts for 4.1.0
+P3 normal Upgrade Stardust to 4.1.0 - Adjust IPP-Stardust version mapping
+P3 normal Upgrade Stardust to 4.1.0 - Adjust Facette versions
+P3 normal [Performance] Disable AppliedStereotypeCommentEditPolicy in SysML 1.4
+P3 normal Upgrade example models to 4.1.0
+P3 normal [Tests] Removes unnecessary extends TestSuite in BindingTestSuite as JUnit4 is used
+P3 normal Provide release notes for 4.1.0
+P3 normal Create RT upgrade job from latest version to 4.1.0
+P3 normal Merge release/4.1.0 to development
+P3 normal Merge release/4.1.0 to master
+P3 critical Please Open a Website/Webspace for the Eclipse Project Unide (urgent)
+P3 normal Add the ReflectiveItemProviderAdapterFactory as a fallback for the new reference widget
+P3 normal Change eclipse-p2-repo.url for build-individual-bundles to N-build
+P3 critical Please open a github repo for the Unide Project
+P3 normal Partial PMI accessibility
+P3 enhancement dev productivity: open a file for edit immediately after creating it
+P3 normal Use lambdas in o.e.ui.forms
+P3 normal [Composite] Showing nested port on Full Port fails
+P3 major Ant is not found on releng hipp
+P3 normal Add tests for new lambda helper methods for SelectionListeners
+P3 normal [Tests] Update org.eclipse.test.performance to Java 8
+P3 normal [Tests] Reduce warnings in org.eclipse.test.performance
+P3 normal Step into major method call
+P3 normal Pressing enter in a mono-line text field should trigger the edit operation
+P3 normal Remove outdated info from SWT page
+P3 enhancement Remove the need for "initialization"
+P3 enhancement Remember preference recorder enablement setting globally
+P3 normal Inefficient implementation of org.eclipse.sphinx.emf.util.EObjectUtil.deproxify(EObject)
+P3 normal Class File Editor: Source Not Found -- does not name JAR
+P3 normal Implement alignment feedback and snapping functionality.
+P3 normal Fix "How to contribute a bug fix to SWT" page
+P3 enhancement Modernize the Eclipse Help system L&F
+P3 enhancement OverrideMethodDialog should have a search filter field
+P3 normal org.eclipse.ui should depend on compatibility layer
+P3 enhancement GenDoc project properties and preferences.
+P3 normal [EFM] git repositories creation
+P3 normal [Releng] Rename codegen releng artifact id: umlrt.code-generator
+P3 normal [EFM] right permission
+P3 normal updating the default language implementation to get System and Base protocols
+P3 normal [EFM] creation of a dedicated hudson
+P3 normal [Activity Explorer] Null pointer Exception when called by workbench auto save
+P3 normal [Designer] make the branch modular working
+P3 normal [SysML 1.4] NPE RemoveAppliedStereotypeCommentEditPolicyProvider when creating a sequence diagram
+P3 normal Gradle project import fails (Buildship 2.0, Gradle 3.1, Eclipse 4.6.1, Java 8)
+P3 normal [compiler][null] Null-analysis works improperly on library using old findbugs/jsr305 null annotations (guava)
+P3 normal [Designer] remove references to Qompass
+P3 enhancement Add support for docker tooling
+P3 normal Improve performance regarding UI for OperationProxies
+P3 normal [release] modeling.gendoc 0.6.0
+P3 normal Dictate does not work on macOS (IME commit is broken)
+P3 major Improve performance of checksum calculation
+P2 normal Performance of UML definition look-up in static profiles
+P3 normal Default Javadoc text and background color should use colors consistent with Java editor background/foreground.
+P3 enhancement [Designer] Designer does not support M2M transformations on imported models
+P3 normal SWT Tooltip is displaying blank with black background in system tray icon in SLES 12
+P3 normal Add setting to ignore API breakage from adding an default method
+P3 normal Cleanup deprecation warnings in org.eclipse.core.contenttype
+P3 normal Add unparameterized constructor for SortingData
+P3 normal File Browser Appears Stuck Behind Import Window
+P3 normal [DnD] CommonDiagramDragDropEditPolicy creates non-transactional composite commands
+P3 critical [Toolsmith] [Assistants] Modeling assistants generation for profiles does not work
+P3 normal Non-deterministic variable resolution errors
+P3 enhancement Change the default direction of the compare editor by default
+P3 normal Jacoco plugin unable to read output from 0.7.7 (latest) version of Jacoco.
+P3 enhancement Add capability requirements to bundles that use DS and EventAdmin
+P3 normal Use FoE money to do a gap analysis with other tools
+P3 enhancement Cleanup OSGi component implementations in runtime
+P3 normal NPE in MakeTargetActionProvider
+P3 normal Context spy lost all of its Icon in the latest version (20160916)
+P3 major CCE when trying to open a sequence diagram
+P3 enhancement [common] Provide default implementation for ISafeRunnable.handleException(Throwable)
+P3 normal Orion "switch" command needs to be accessible
+P3 enhancement Move org.eclipse.equinox.common to Java 1.8
+P3 normal Black info popup in "Fetch from Gerrit" dialog does not fit into the general apperance
+P3 normal [GTK2] Clean up pre-GTK2.24 code
+P3 normal Change description of several e4 repos to "Not used anymore".
+P3 minor Provide the ability to render icons with a custom stylesheet.
+P3 minor [Graphics] Provide the ability to render icons with a custom stylesheet.
+P3 normal Overridden setup tasks don't merge predecessors and successors properly
+P3 enhancement Base resource should avoid loading packages directly via their nsURI
+P3 normal Adapt o.e.jdt.text.tests.performance.DifferenceMeter to generified Sample
+P3 normal IllegalArgumentException in WorkspaceUnitResolver.<init>
+P3 critical Invalid octal escape sequence (\8) causes IllegalArgumentException
+P3 normal [Components][doc] add doc relative to project creation in the side of Eclipse.org
+P3 normal Gradle Wrapper Version: 3.1
+P3 normal Download hangs
+P3 normal Rework QuickFixPage
+P3 normal Deprecate ModalContext#checkCanceled
+P3 normal Click on search result causes EGit to stat the repository directory
+P3 normal [CSS] [dark theme] Cleanup wizard looks bad in the dark theme
+P3 normal Use SubMonitor.step in org.eclipse.pde.core instead of #worked
+P3 normal ArrayIndexOutOfBoundsException in TranslatorResourceImpl.eNotify
+P3 normal [Graphics] Use png files for compare editor instead of gif files
+P3 normal Add required plugins forget to add compatibility layer
+P3 normal Add required plugins forget to add the application plugin selected in first tab
+P3 normal [Modeling][releng] creation of the template project
+P3 normal Adjust org.eclipse.pde.api.tools.tests if internal API from Bug 481077 removed
+P3 enhancement Tycho should support prefix URLs in settings.xml mirrors
+P3 normal LanguageSettingsExtensionManager.loadProviderExtensions() might cause other plugins to initialize too early
+P3 normal Allow to hide the status bar via the GUI
+P3 normal Remove skipTests false entries from pom in platform.ui
+P3 enhancement PHP info provided by 'phpVersionInfo' extension should be available for adopters
+P3 normal Remove gnome bindings
+P3 normal Some IEC 651131-3 Functions are not Accepting raw data values
+P3 major Error in template "List Entities" of type User Interface for Entity Service
+P3 normal ID-TB04J
+P3 normal [Quick Access] Show Toolbar from Appearance menu missing in Quick Access
+P3 enhancement Use "Show Revision Information" instead of "Show Annotations"
+P3 trivial Long push URIs cause padding problems in Configure Snippet Repository dialog
+P3 normal IllegalStateException in DefaultToolingClient.<clinit>
+P3 normal IllegalStateException in WtpClasspathUpdater.getDeploymentPath
+P3 normal Parameter replacement in the document metadata attributes.
+P3 major New editor for openmdm.org
+P3 normal Incremental builds should be launched on accessible projects only from JavaSourceSettingsUpdater
+P3 normal Comment/Uncomment command name is inconsistent with JDT
+P2 major [Properties] Content-assist does not work on Mac
+P3 normal Ctrl+3 stops working after switching perspective
+P3 major NPE when using the "Base" legacy tab in Ecore Tools
+P3 major NPE on direct-edit in a table if the "Semantic" table is visible
+P3 normal Date widget not working properly
+P3 normal Workspace in use on Eclipse restart
+P3 normal remove parameter not possible (InjectionException)
+P3 normal labelled do statement not recognized
+P3 minor Add more logging to controllers
+P3 normal Ignoring HibernateMapping test due to proxy issue
+P3 critical Unsettable attributes with default value 0 do not get migrated correctly
+P3 major Groups semanticCandidatesExpression changes not taken into account dynamically
+P3 normal Sanitize pango bindings
+P3 trivial Fix minor issue in Platform N&N M1 & M2
+P3 normal Fix minor issue in Platform N&N M1 & M2
+P3 normal [newindex] Add tracing for insertion and removal from the JDT model cache
+P3 normal Properties view is not updated when selection is changed in maximized view
+P3 normal E4 based example application is empty
+P3 normal [newindex] Fix test failures in JavaProjectTests.testChangeZIPArchive
+P4 normal Tooltip obscures markdown split pane switch
+P3 critical GLIBC 2.14 not found
+P3 enhancement VSM editor should show translated messages in addition to raw keys
+P3 enhancement [GTK] Add script to check which dynamic functions are deprecated
+P3 normal System Explorer does not show working sets
+P3 major No mail for ed@willink.me.uk
+P3 normal [Dark Theme] Selection problems in Project Explorer
+P3 normal Old R-build bundles leaking into orbit-recipes repository due to lax category.xml inclusion queries
+P3 normal [clean up] Clean up "Convert control statement bodies to block" deletes comments.
+P3 normal Selecting a favourite is slow
+P3 normal Add a mechanism that prevents environment variable contributions with null values.
+P3 normal Mulitple conflicts among refined differences may lead to broken conflicts
+P3 normal [release] technology.nebula 1.1.0
+P3 enhancement [navigation]  Hyperlink "finally" with related "try" statement
+P3 normal isVersion method from SingularAttributeImpl throws NPE when using custom OptimisticLocking (on fields level)
+P3 enhancement In "copy details" please add "ID and Summary"
+P2 normal Collect and document "failure logs"
+P3 minor [Graphics] Refactor SVG element names to have semantic meaning
+P3 blocker [NEON] WB uses only 3-part version numbers in features
+P3 major 30 or so projects "decrease" feature versions from Neon.1 to Oxygen M2
+P3 normal [newindex] Test failure in NameLookupTests2.testTransitionFromInvalidToValidJar
+P3 normal Update CBI aggregator manual for new CBI home
+P3 normal [Tests] [CSS] Fix and enable testOverridePropertyWithNameAndValueSplitAndNameAlreadyAddedByUser failing on hudson
+P3 major [New Child] org.eclipse.papyrus.infra.newchild.editor isn't in a feature
+P3 normal Remove cde bindings
+P3 major Icons are not disabled
+P3 normal SWT Browser tests crash on GTK2 since switching to CentOS host
+P3 enhancement Quick outline for JSON Editor
+P3 normal Reparser doesn't recognize renaming a field of a record
+P3 normal Put {branch_status} before repository in label decorations as this is the most volatile and useful information
+P3 normal Authorized Sides missing at Conditional Style
+P3 normal grammar typo on tooltip - marketplace favorites
+P3 normal Lowercase by default for identifier proposals
+P3 critical [scalability][Diff] Compare needs ages on big repository
+P3 normal [Papyrus] [Releng] Oxygen M3
+P3 normal Sign in error on marketplace when adding a favourite
+P3 enhancement Renaming multiple files cannot be done keyboard-only (selection lost after Rename Resource)
+P2 normal Bad performance of distinguishable name validation for large models
+P3 normal [EMF Compare] Papyrus EMF Compare integration must be deleted from the Papyrus Git Repository
+P3 normal [Papyrus] adding rights
+P3 major GenerationService as injected API
+P3 normal [hidpi] Show high resolution images in content assist proposals
+P3 major Method $.getInitialContext() does not return InitialContext object.
+P3 normal NoClassDefFoundError in TemplateActivator.getSharedStateModule
+P3 normal [DS] multi location binding does not work
+P3 normal Use base index instead of incQuery patterns
+P3 enhancement Addition of a new condition for SWTBot test
+P3 major Should not delete attributes in .classpath when updating
+P3 critical Publish the Oxygen M2 installers
+P3 normal The 'selection' variable on hyperlink widget carry an incorrect value (self)
+P3 enhancement Impossible to run Oomph if no access to internet
+P3 normal [Releng] [maven] Synchronise poms with versions from Manifests
+P3 normal "Failed to delete launch configuration" running tests on build machine
+P3 critical [Cocoa] Tree does not show first node
+P3 normal Persistent markers don't work
+P3 enhancement Renaming a Parent Project breaks the links with child projects
+P3 normal NPE in SiriusCommonContentProvider.getProjectsToRefresh(Session)
+P3 minor column width not sufficient with larger fonts
+P3 normal Ttcn3Parser: support encvalue_unichar and decvalue_unichar
+P3 normal [ui] Clean up icons folder
+P3 normal Update Project changes projects JRE system Library
+P3 normal Possible typo in ARM disassembly
+P3 normal DialogSettings may leak resources
+P3 normal Make EEF able to handle Object input
+P3 enhancement Remove dependency org.eclipse.osgi from o.e.e4.ui.services
+P3 normal [Codegen Java] Classifier owned by root element, stereotyped Project, has wrong package name
+P3 normal [Codegen Java Releng] Java profile plugin MANIFEST exports in-existing packages
+P3 normal [Rule] Add a not equals compare type and null support
+P3 normal Perspective extension doesn't support relationship="fast" in view
+P3 normal Resolve CDT Build instability (too many UNSTABLE cdt-verify / cdt-master jobs)
+P3 critical [releng] Plugin tests disabled for M2
+P3 normal Eclipse NeoSCADA would like to publish to maven central
+P3 normal java.lang.ClassNotFoundException after switch from 4.5.2 to 4.6
+P3 normal Create user interface for Staff members and soon to be Committers
+P3 normal ASTParser resolving null type in LambdaExpressions
+P3 normal Create a view that list users by interest
+P2 blocker Leverage/configure cross-origin resource sharing on api.eclipse.org
+P3 major [simrel] promoteToReleases dry run creates directory on downloads
+P3 normal Symbol "QWidget" could not be resolved
+P3 normal Enable implicit grant on api.eclipse.org
+P3 normal Investigate if we should enable JWT api.eclipse.org
+P3 normal NPE thrown if bundle fragment introduces new packages
+P3 normal NPE in MasterDetailsEditorPage$6$1.handle()
+P3 normal When doing "Find References" on an overridden method, include calls to the base method as "potential matches"
+P3 normal eclipse keeps crashing after a few minutes of starting - no logs or explanation I can find
+P3 enhancement Allow to type in the preview of search and replace preview
+P3 enhancement Allow index-less backward navigation over containment references
+P3 normal Provide better API for querying indexable features
+P3 major [assist] ecma proposals not showing sometimes when no .tern-project file available
+P3 normal Download Javadoc action doesn't work
+P3 normal [release] technology.triquetrum 0.1.0
+P3 enhancement Remove dependency org.eclipse.osgi from o.e.e4.ui.workbench
+P3 normal Undo creation of capsule with structure diagram open causes exception to be thrown
+P3 normal [navigation] Inline search Ctrl-J does not accept pasted text
+P3 normal Reconciler causing deadlock during startup
+P3 normal Regression in JDT related to generics
+P3 normal [ds] replace Equinox DS implementation with Felix SCR (DS) implementation
+P3 enhancement Add word wrapping support in text painters
+P3 normal Exception following checkout action
+P3 normal Add Felix SCR 2.0.6 to orbit
+P3 major Completion proposal is broken
+P3 normal Please create shared/technology/triquetrum
+P3 normal Not able to download birt reports in Eclipse Neon
+P3 normal Add support for M0 pro
+P3 normal [HIPP request] - IoT hawkBit
+P3 enhancement [Project Explorer] Link with editor now work for resources inside build paths
+P3 major Editor is breaking composer.json schema
+P3 normal [Dark Theme] Selected tab white in dark theme under Ubuntu 16.04
+P3 normal [Composite] Wrong hyperlink contribution
+P3 normal cant download
+P3 major IDE UI is freezing when Java class contains compilations error and are open two tabs
+P3 normal Update Perspective name in Windows taskbar on Save As..
+P3 normal Execute External Command directory has escape issues with back slashes
+P3 normal [GenDoc] Variable diagram image quality
+P3 normal Allow running Code Recommenders on Java 9
+P3 normal [Project Explorer] Duplicate menu entries on php project context menu
+P3 normal Do not log/throw FileNotOnServerException but treat as cancelled
+P3 normal Cut Element Handling
+P3 normal [Designer] merge modular branch on master
+P3 minor Menu item get underlined
+P3 normal Code assist is empty for second item in short array initializer
+P3 normal switch statement no NPE guard for String
+P3 normal [Designer] missing transformation feature in p2
+P3 normal Composer.json editor page change file after opening
+P3 normal [win32] SWT Browser is behaving differently based on how eclipse is started
+P3 critical FileDialog setFilterExtensions() cannot properly handle extensions containing >1 dots in the extension name
+P3 normal User profile - Statistics - Forum
+P3 enhancement Add option to open Composer editor in composer.json page
+P3 normal User profile - Statistics - Wiki
+P3 normal User Profile - Statistics - Bugzilla
+P3 normal User Profile - Statistics - Commits
+P3 normal User Profile - Statistics - Gerrit
+P3 normal [GTK+] Make GTK+ 2.24 the minimum supported version
+P3 normal User Profile - Statistics - Speaker
+P3 major [Project Explorer] "Empty parent packages" filter affect PHP model
+P3 normal User Profile - Statistics - Marketplace
+P3 enhancement Provide remote mapping context to model providers to better support logical models
+P3 normal User Profile - Statistics - Articles
+P3 normal [Dark Theme] Search highlight color is really bad
+P2 major NullPointerException in DefaultSupportHandler.getDescription
+P3 normal Local search dependency for query projects
+P3 normal What is the proper way to create a CreationMenuModel file (newchild extension) ?
+P3 normal NPE in XSDSchemaAdvancedSection of empty .xsd file
+P3 normal Investigate asynchronous installation/uninstallation of IRefreshMonitor on workspace resources
+P3 normal Remove unused strings from org.eclipse.team.cvs.ui
+P3 minor "Failed to launch" Alert dialog should be closable
+P3 enhancement Make TextFileBuffer more flexible
+P3 enhancement Improve "Failed to stream" error message (avoid Object.toString in message; use human-readable names)
+P3 normal [Model Explorer] Expand/Collapse buttons should be work at selected element
+P3 enhancement [Model Explorer] Expand/Collapse buttons should be work at selected element
+P3 normal PerspectiveRegistry createDescriptor does not handle empty string IconURI well
+P3 normal Update Eclipse Logo on RAP Website
+P3 normal [release] modeling.eef 1.7.0
+P3 normal "New CSS File" template uses wrong @charset directive
+P3 major [Builds] Tooling build does not run compare tests
+P3 major tycho-extras:compare-version-with-baselines does not work for features
+P3 normal Need to bypass diagram name dialog depending on selected element
+P3 normal [release] modeling.emfcompare 3.3.0
+P3 enhancement Explicit how to "open resource" based on path in the dialog
+P3 minor Default generated user-doc removes first word of EClass name if equals to package name
+P3 enhancement Provide completion for flexbox
+P3 major Error Configuring “use google cloud sql instance” (App Engine SDK)
+P3 normal using <name> enum { } inside class hides enumerations from codan
+P3 normal MPC's global 'authenticator' pops up unwanted 'basic auth' dialog
+P3 normal [simrel] Fix  simrel.releng.sanityCheckComposites to check "all" or one "trainname"
+P3 normal [proposal] iot.agail
+P3 normal [mentors] Mentor required for Agail
+P3 normal [license] Dual License Request for Agile EPL+ALv2
+P3 enhancement Plugin related options not appearing in "New" wizards or "Editor Selector" windows
+P3 normal [trademark] Trademark approval required for Agile
+P3 normal Remove product name like "Eclipse SDK" from Windows title
+P3 normal [release] technology.ice 2.2.0
+P3 normal Add null checks to J2EEModuleFacetInstallDataModelProvider.hasvalidRuntime() method
+P3 normal Add null checks to J2EEModuleFacetInstallDataModelProvider.hasvalidRuntime() method
+P3 normal Scrolling feels slow and "laggy"
+P3 normal Add null checks to J2EEModuleFacetInstallDataModelProvider.hasvalidRuntime() method
+P3 enhancement NetSuite SuiteScript Proposal not Showing up
+P3 enhancement Mylyn builds supports working sets for build plans
+P3 enhancement add support for "matrix" builds
+P3 enhancement Mylyn refreshes a user's most relevant tasks more frequently than the full Task List refresh
+P3 enhancement Mylyn supports dynamic refreshing of open Task Editors
+P3 normal [CommonNavigator] CommonNavigatorActionGroup should implement IMementoAware
+P3 normal [CommonNavigator] Filters are not activated correctly in NavigatorFilterService
+P3 normal Process models containing a participant can not be called by a CallActivity
+P3 normal Allow to change the File association from the MPC popup for "Editors are available"
+P3 enhancement [Environment] listModules should sort its results alphabetically
+P3 normal [Marte][release] first release as a papyrus components
+P3 normal Add "marketplace" as a search term in the preferences dialog
+P3 normal Eclipse IoT hawkBit would like to publish to Maven Central
+P3 normal [Marte][releng] target papyrus neon nightly is not operational
+P3 normal Given multiple unbounded elements in complexType all of them are assumed to be of type as last
+P3 enhancement Move JDT Debug to Java 1.8 BREE
+P3 critical Errors during tool execution leave the UI in out-of-sync state
+P3 normal Too much spaces bottom and up for contextual palette when there is a bottom pad
+P3 enhancement Improve window title content
+P3 normal org.eclipse.e4.core.services.Adapter class should be renamed to EAdapterService
+P3 normal Query observables leak RuleEngine instances
+P3 normal Editor not in registry leads to NPE
+P3 normal test bug - not a real bug
+P3 normal Set up built environment to produce nightly builds and update sites
+P3 normal [GTK] [Ubuntu] Radio button menu item does not change selection state
+P3 normal Request for Hudson builds of Capra project
+P3 normal [Dev Tools] List ElementTypes matching selected model element in UI
+P3 normal [CSS] Order of stereotype applications influences CSS matching
+P3 normal [Tooling, Compare] Group diffs that are caused by protocol message parameter changes
+P3 normal Remove ensurePreferenceStoreBackwardsCompatibility as 2x plug-ins are not supported anymore
+P3 normal [Designer] pthread types are not found during state-machine transformation
+P3 normal [ui][hidpi] Provide HiDPI icons for review dialog
+P3 normal [Designer] State machine generation: SystemStateEnum_t enumeration is missing
+P3 enhancement Enhance user file localization for FileUserManager
+P3 normal With SSL activated, the handshake fails with JDK7
+P3 enhancement Allow UserManager authentication customization
+P3 normal UI slows down considerably if console contains large volume of data
+P3 normal [Components][releng] marte does not publish
+P3 normal Infinite loop when uppercase in URL (HPE Helion Stackato)
+P3 normal [Papyrus][git/hudson] tag configuration
+P3 normal [behavior.ui] Name conflict from subclass to base
+P3 trivial OOMPH: support Oxygen M2
+P3 normal DiagramDialectServices.getDiagramElementsToRefresh refreshes removed elements
+P3 normal [newindex] Fix test failures in CompletionTests2.testBug6930_23
+P3 normal [newindex] Add new tracing options to detect changes in the invalid archive cache and resolved classpath cache
+P3 normal [diagram] Cannot save diagram which causes validation errors elsewhere
+P3 normal [newindex] Fix warnings in the newindex branch
+P3 normal Oxygen M2 technology packaging site had incorrect p2.index
+P3 normal Exception not handled when a query group cannot be loaded from extension point
+P3 normal [simrel] Improve sanityCheckComposites job to catch too few IUs returned
+P3 enhancement create configurable TableViewerSupport
+P3 normal Computed<List|Set|Value> cannot be bound to another observable in a different realm
+P3 normal @OneToMany with @OrderColumn contains a null element after specific scenario
+P3 normal Enable https for events.eclipse.org
+P3 normal DeviceResourceException from Team Synchronize View
+P3 normal Bug in CTabRendering
+P3 normal Date columns with seconds do not sort correctly
+P3 normal [Cocoa] [10.10] Bridge support files should be updated to latest macOS supported version
+P3 normal NPE in GFDirectEditManager.bringDown
+P3 normal Tests for org.eclipse.jface.tests.databinding are disabled
+P3 normal Weaving agent using java.util.logging keeps LTW from working in containers
+P3 normal Add Debug PrintPoints, printing breakpoints to help complex debug operations
+P3 normal Deadlock on startup
+P3 trivial OOMPH: remove Juno, Kepler and Luna from setup
+P3 normal Plugins repair is not working properly
+P3 normal Make Rete memory more compact by specialized Tuple classes
+P3 normal Faster Rete construction by reusing contents of stateless nodes
+P3 normal [GTK3] gtk_icon_set_render_icon_pixbuf() is deprecated
+P3 normal [GTK3] gtk_style_context_invalidate() is deprecated
+P3 normal [GTK3] Remove unused function gtk_style_context_get_border_color()
+P3 normal [GTK3] gtk_icon_info_free() is deprecated
+P3 normal [GTK3] gtk_style_context_get_font() is deprecated
+P3 normal [GTK3] gtk_widget_override_font() is deprecated
+P3 normal MissingResourceException: key usage_clean
+P3 normal Initialization of org.eclipse.osgi.storage.FrameworkExtensionInstaller fails with JDK9
+P3 normal Name resolution problem with alias template
+P3 normal Code Analysis Problem: Suspicious semicolon
+P3 normal [CTabFolder] Toolbar items overflow when explicit tab height is used
+P3 normal [null][1.8] secondary old-style null annotations don't always work for methods , e.g. when the type is a type variable
+P3 normal [null] missing null annotations should not be reported for method implementations in java.lang.Object
+P3 blocker Error Log should not depend on JDT
+P3 normal Import maven project failed with java.lang.ArrayStoreExceptio within Eclipse JEE Oxygen M2 bundle package
+P3 normal Failure to deploy project to App Engine
+P3 normal [newindex] Minor cleanup of newindex branch
+P3 normal Content Assist provides incorrect order of proposals in Java code when Java Proposals (Code Recommenders) turned on
+P3 normal InterTypeFieldBinding.java:122 - NullPointerException
+P3 critical curl invpcation to shared hipp failed
+P3 critical All jdt.core gerrit jobs seem to be hanging when recording test results
+P3 normal Conncetion Resets on Download Maven Artifacts
+P3 normal Cycle selected item in the Ctrl+E list by when keep pressing Ctrl(+Shift)+E
+P3 normal Help files re-structuring required
+P3 normal IllegalArgumentException in MathUtils.normalize
+P3 normal Errors in log after moving workspace
+P3 enhancement Mirror I-Builds
+P3 normal [Designer] Class not found exceptions in designer context menu
+P3 enhancement Should be possible to deprecate string restrictions
+P3 normal [Designer][releng] marte update site update
+P3 normal [Designer] Issues in generated models
+P3 normal show monitors do not work
+P4 blocker [Releng] Product must include codegen feature
+P3 major Local terminal running cmd.exe doesn't interpret jansi-1.13 color switch codes properly
+P3 normal [runtime.cpp] Review cpp runtime
+P3 normal [Project Explorer] Duplicated item after copy paste
+P3 normal [formatter] No UI option for insert_new_line_before_identifier_in_function_declaration
+P3 major argument type mismatch due to incorrect evaluation context of parameters in nested calls with java service wrappers
+P3 normal update eclipserun-repo to M2, to build M3
+P3 normal Error message while exporting Committers Package from Eclipse Neon PDE Export
+P3 enhancement Replace the test.xml by a JUnit test suite
+P3 normal Pass-in IProgressMonitor to ILayoutAlgorithm#applyLayout()
+P3 normal Next Difference button does not navigate to the next changed file in Git synchronisation
+P3 major 4.5 does not properly support Eclipse 3.x anymore
+P3 trivial Improve log message in ResourceHandler for missing top-level window
+P3 normal Errors updating engines from config.xml
+P3 normal Validation support not working in generated code
+P3 enhancement Defining diagrams with hidden-by-default Palette is not possible
+P3 enhancement Gyrex is moving to GitHub
+P3 normal [Designer] missing bootloader class
+P3 normal Bundle Pool Management can't manage repositorie
