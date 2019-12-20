@@ -1,0 +1,482 @@
+author:isidorn
+date:2019-12-18T09:58:02Z
+title:Revert "Windows ssh remote: Cannot use `\` in explorer new file dialog to create directories"
+
+This reverts commit 85f587ab646c2d7bcbe902aee0cb48ccfcfdb4fe.
+filename:src/vs/workbench/contrib/files/browser/fileActions.ts
+code:
+@@ -7,7 +7,7 @@ import 'vs/css!./media/fileactions';
+ import * as nls from 'vs/nls';
+ import { isWindows, isWeb } from 'vs/base/common/platform';
+ import * as extpath from 'vs/base/common/extpath';
+-import { extname, basename, posix, win32 } from 'vs/base/common/path';
++import { extname, basename } from 'vs/base/common/path';
+ import * as resources from 'vs/base/common/resources';
+ import { URI } from 'vs/base/common/uri';
+ import { toErrorMessage } from 'vs/base/common/errorMessage';
+@@ -45,7 +45,6 @@ import { asDomUri, triggerDownload } from 'vs/base/browser/dom';
+ import { mnemonicButtonLabel } from 'vs/base/common/labels';
+ import { IFilesConfigurationService } from 'vs/workbench/services/filesConfiguration/common/filesConfigurationService';
+ import { IWorkingCopyService, IWorkingCopy } from 'vs/workbench/services/workingCopy/common/workingCopyService';
+-import { ILabelService } from 'vs/platform/label/common/label';
+ 
+ export const NEW_FILE_COMMAND_ID = 'explorer.newFile';
+ export const NEW_FILE_LABEL = nls.localize('newFile', "New File");
+@@ -855,7 +854,6 @@ async function openExplorerAndCreate(accessor: ServicesAccessor, isFolder: boole
+ 	const editorService = accessor.get(IEditorService);
+ 	const viewletService = accessor.get(IViewletService);
+ 	const notificationService = accessor.get(INotificationService);
+-	const labelService = accessor.get(ILabelService);
+ 
+ 	await viewletService.openViewlet(VIEWLET_ID, true);
+ 
+@@ -878,10 +876,7 @@ async function openExplorerAndCreate(accessor: ServicesAccessor, isFolder: boole
+ 	folder.addChild(newStat);
+ 
+ 	const onSuccess = (value: string): Promise<void> => {
+-		const separator = labelService.getSeparator(folder.resource.scheme);
+-		const resource = folder.resource.with({ path: separator === '/' ? posix.join(folder.resource.path, value) : win32.join(folder.resource.path, value) });
+-		const createPromise = isFolder ? fileService.createFolder(resource) : textFileService.create(resource);
+-
++		const createPromise = isFolder ? fileService.createFolder(resources.joinPath(folder.resource, value)) : textFileService.create(resources.joinPath(folder.resource, value));
+ 		return createPromise.then(created => {
+ 			refreshIfSeparator(value, explorerService);
+ 			return isFolder ? explorerService.select(created.resource, true)
+
+author:isidorn
+date:2019-12-17T16:45:21Z
+title:Windows ssh remote: Cannot use `\` in explorer new file dialog to create directories
+
+fixes microsoft/vscode-remote-release#1584
+filename:src/vs/workbench/contrib/files/browser/fileActions.ts
+code:
+@@ -7,7 +7,7 @@ import 'vs/css!./media/fileactions';
+ import * as nls from 'vs/nls';
+ import { isWindows, isWeb } from 'vs/base/common/platform';
+ import * as extpath from 'vs/base/common/extpath';
+-import { extname, basename } from 'vs/base/common/path';
++import { extname, basename, posix, win32 } from 'vs/base/common/path';
+ import * as resources from 'vs/base/common/resources';
+ import { URI } from 'vs/base/common/uri';
+ import { toErrorMessage } from 'vs/base/common/errorMessage';
+@@ -45,6 +45,7 @@ import { asDomUri, triggerDownload } from 'vs/base/browser/dom';
+ import { mnemonicButtonLabel } from 'vs/base/common/labels';
+ import { IFilesConfigurationService } from 'vs/workbench/services/filesConfiguration/common/filesConfigurationService';
+ import { IWorkingCopyService, IWorkingCopy } from 'vs/workbench/services/workingCopy/common/workingCopyService';
++import { ILabelService } from 'vs/platform/label/common/label';
+ 
+ export const NEW_FILE_COMMAND_ID = 'explorer.newFile';
+ export const NEW_FILE_LABEL = nls.localize('newFile', "New File");
+@@ -854,6 +855,7 @@ async function openExplorerAndCreate(accessor: ServicesAccessor, isFolder: boole
+ 	const editorService = accessor.get(IEditorService);
+ 	const viewletService = accessor.get(IViewletService);
+ 	const notificationService = accessor.get(INotificationService);
++	const labelService = accessor.get(ILabelService);
+ 
+ 	await viewletService.openViewlet(VIEWLET_ID, true);
+ 
+@@ -876,7 +878,10 @@ async function openExplorerAndCreate(accessor: ServicesAccessor, isFolder: boole
+ 	folder.addChild(newStat);
+ 
+ 	const onSuccess = (value: string): Promise<void> => {
+-		const createPromise = isFolder ? fileService.createFolder(resources.joinPath(folder.resource, value)) : textFileService.create(resources.joinPath(folder.resource, value));
++		const separator = labelService.getSeparator(folder.resource.scheme);
++		const resource = folder.resource.with({ path: separator === '/' ? posix.join(folder.resource.path, value) : win32.join(folder.resource.path, value) });
++		const createPromise = isFolder ? fileService.createFolder(resource) : textFileService.create(resource);
++
+ 		return createPromise.then(created => {
+ 			refreshIfSeparator(value, explorerService);
+ 			return isFolder ? explorerService.select(created.resource, true)
+
+
+author:aeschli
+date:2019-09-30T13:59:20Z
+title:support `code --remote ssh+remote+xy /pathOnXY`. For https://github.com/microsoft/vscode-remote-release/issues/585
+filename:src/vs/code/electron-main/windows.ts
+code:
+@@ -4,7 +4,7 @@
+  *--------------------------------------------------------------------------------------------*/
+ 
+ import * as fs from 'fs';
+-import { basename, normalize, join } from 'vs/base/common/path';
++import { basename, normalize, join, } from 'vs/base/common/path';
+ import { localize } from 'vs/nls';
+ import * as arrays from 'vs/base/common/arrays';
+ import { assign, mixin } from 'vs/base/common/objects';
+@@ -41,6 +41,8 @@ import { once } from 'vs/base/common/functional';
+ import { Disposable } from 'vs/base/common/lifecycle';
+ import { IDialogMainService } from 'vs/platform/dialogs/electron-main/dialogs';
+ import { withNullAsUndefined } from 'vs/base/common/types';
++import { isWindowsDriveLetter, toSlashes } from 'vs/base/common/extpath';
++import { CharCode } from 'vs/base/common/charCode';
+ 
+ const enum WindowError {
+ 	UNRESPONSIVE = 1,
+@@ -1098,11 +1100,36 @@ export class WindowsManager extends Disposable implements IWindowsMainService {
+ 			anyPath = parsedPath.path;
+ 		}
+ 
+-		// open remote if either specified in the cli even if it is a local file. TODO@aeschli: Future idea: resolve in remote host context.
++		// open remote if either specified in the cli even if it is a local file.
+ 		const remoteAuthority = options.remoteAuthority;
+ 
+-		const candidate = normalize(anyPath);
++		if (remoteAuthority) {
++			// assume it's a folder or workspace file
++
++			const first = anyPath.charCodeAt(0);
++			// make absolute
++			if (first !== CharCode.Slash) {
++				if (isWindowsDriveLetter(first) && anyPath.charCodeAt(anyPath.charCodeAt(1)) === CharCode.Colon) {
++					anyPath = toSlashes(anyPath);
++				}
++				anyPath = '/' + anyPath;
++			}
++
++			const uri = URI.from({ scheme: Schemas.vscodeRemote, authority: remoteAuthority, path: anyPath });
++
++			if (hasWorkspaceFileExtension(anyPath)) {
++				if (forceOpenWorkspaceAsFile) {
++					return { fileUri: uri, remoteAuthority };
++				}
++				return { workspace: getWorkspaceIdentifier(uri), remoteAuthority };
++			}
++			return { folderUri: uri, remoteAuthority };
++		}
++
++		let candidate = normalize(anyPath);
++
+ 		try {
++
+ 			const candidateStat = fs.statSync(candidate);
+ 			if (candidateStat.isFile()) {
+ 
+
+
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/terminal/electron-browser/terminalInstanceService.ts
+code:
+@@ -7,12 +7,14 @@ import { ITerminalInstanceService } from 'vs/workbench/contrib/terminal/browser/
+ import { ITerminalInstance, IWindowsShellHelper, IShellLaunchConfig, ITerminalChildProcess } from 'vs/workbench/contrib/terminal/common/terminal';
+ import { WindowsShellHelper } from 'vs/workbench/contrib/terminal/node/windowsShellHelper';
+ import { IInstantiationService } from 'vs/platform/instantiation/common/instantiation';
+-import { IProcessEnvironment, Platform } from 'vs/base/common/platform';
++import { IProcessEnvironment, Platform, isLinux, isMacintosh, isWindows } from 'vs/base/common/platform';
+ import { TerminalProcess } from 'vs/workbench/contrib/terminal/node/terminalProcess';
+ import { getDefaultShell } from 'vs/workbench/contrib/terminal/node/terminal';
+ import { Terminal as XTermTerminal } from 'xterm';
+ import { WebLinksAddon as XTermWebLinksAddon } from 'xterm-addon-web-links';
+ import { SearchAddon as XTermSearchAddon } from 'xterm-addon-search';
++import { readFile } from 'vs/base/node/pfs';
++import { basename } from 'vs/base/common/path';
+ 
+ let Terminal: typeof XTermTerminal;
+ let WebLinksAddon: typeof XTermWebLinksAddon;
+@@ -21,6 +23,8 @@ let SearchAddon: typeof XTermSearchAddon;
+ export class TerminalInstanceService implements ITerminalInstanceService {
+ 	public _serviceBrand: any;
+ 
++	private _mainProcessParentEnv: IProcessEnvironment | undefined;
++
+ 	constructor(
+ 		@IInstantiationService private readonly _instantiationService: IInstantiationService
+ 	) {
+@@ -58,4 +62,73 @@ export class TerminalInstanceService implements ITerminalInstanceService {
+ 	public getDefaultShell(p: Platform): string {
+ 		return getDefaultShell(p);
+ 	}
++
++	public async getMainProcessParentEnv(): Promise<IProcessEnvironment> {
++		if (this._mainProcessParentEnv) {
++			return this._mainProcessParentEnv;
++		}
++
++		// For Linux use /proc/<pid>/status to get the parent of the main process and then fetch its
++		// env using /proc/<pid>/environ.
++		if (isLinux) {
++			const mainProcessId = process.ppid;
++			const codeProcessName = basename(process.argv[0]);
++			let pid: number = 0;
++			let ppid: number = mainProcessId;
++			let name: string = codeProcessName;
++			do {
++				pid = ppid;
++				const status = await readFile(`/proc/${pid}/status`, 'utf8');
++				const splitByLine = status.split('\n');
++				splitByLine.forEach(line => {
++					if (line.indexOf('Name:') === 0) {
++						name = line.replace(/^Name:\s+/, '');
++					}
++					if (line.indexOf('PPid:') === 0) {
++						ppid = parseInt(line.replace(/^PPid:\s+/, ''));
++					}
++				});
++			} while (name === codeProcessName);
++			const rawEnv = await readFile(`/proc/${pid}/environ`, 'utf8');
++			const env = {};
++			rawEnv.split('\0').forEach(e => {
++				const i = e.indexOf('=');
++				env[e.substr(0, i)] = e.substr(i + 1);
++			});
++			this._mainProcessParentEnv = env;
++		}
++
++		// For macOS we want the "root" environment as shells by default run as login shells. It
++		// doesn't appear to be possible to get the "root" environment as `ps eww -o command` for
++		// PID 1 (the parent of the main process when launched from the dock/finder) returns no
++		// environment, because of this we will fill in the root environment using a whitelist of
++		// environment variables that we have.
++		if (isMacintosh) {
++			this._mainProcessParentEnv = {};
++			// This list was generated by diffing launching a terminal with {} and the system
++			// terminal launched from finder.
++			const rootEnvVars = [
++				'SHELL',
++				'SSH_AUTH_SOCK',
++				'Apple_PubSub_Socket_Render',
++				'XPC_FLAGS',
++				'XPC_SERVICE_NAME',
++				'HOME',
++				'LOGNAME',
++				'TMPDIR'
++			];
++			rootEnvVars.forEach(k => {
++				if (process.env[k]) {
++					this._mainProcessParentEnv![k] = process.env[k]!;
++				}
++			});
++		}
++
++		// TODO: Windows should return a fresh environment block, might need native code?
++		if (isWindows) {
++			this._mainProcessParentEnv = process.env as IProcessEnvironment;
++		}
++
++		return this._mainProcessParentEnv!;
++	}
+ }
+\ No newline at end of file
+
+
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/terminal/test/electron-browser/terminalLinkHandler.test.ts
+code:
+@@ -49,8 +49,9 @@ class MockTerminalInstanceService implements ITerminalInstanceService {
+ 	getDefaultShell(p: Platform): string {
+ 		throw new Error('Method not implemented.');
+ 	}
+-
+-
++	getMainProcessParentEnv(): any {
++		throw new Error('Method not implemented.');
++	}
+ }
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/terminal/common/terminalEnvironment.ts
+code:
+@@ -198,7 +198,8 @@ export function createTerminalEnvironment(
+ 	configurationResolverService: IConfigurationResolverService | undefined,
+ 	isWorkspaceShellAllowed: boolean,
+ 	version: string | undefined,
+-	setLocaleVariables: boolean
++	setLocaleVariables: boolean,
++	baseEnv: platform.IProcessEnvironment
+ ): platform.IProcessEnvironment {
+ 	// Create a terminal environment based on settings, launch config and permissions
+ 	let env: platform.IProcessEnvironment = {};
+@@ -207,7 +208,7 @@ export function createTerminalEnvironment(
+ 		mergeNonNullKeys(env, shellLaunchConfig.env);
+ 	} else {
+ 		// Merge process env with the env from config and from shellLaunchConfig
+-		mergeNonNullKeys(env, process.env);
++		mergeNonNullKeys(env, baseEnv);
+ 
+ 		// const platformKey = platform.isWindows ? 'windows' : (platform.isMacintosh ? 'osx' : 'linux');
+ 		// const envFromConfigValue = this._workspaceConfigurationService.inspect<ITerminalEnvironment | undefined>(`terminal.integrated.env.${platformKey}`);
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/update/electron-browser/releaseNotesEditor.ts
+code:
+@@ -32,13 +32,13 @@ function renderBody(
+ 	body: string,
+ 	css: string
+ ): string {
+-	const styleSheetPath = require.toUrl('./media/markdown.css').replace('file://', 'vscode-core-resource://');
++	const styleSheetPath = require.toUrl('./media/markdown.css').replace('file://', 'vscode-resource://');
+ 	return `<!DOCTYPE html>
+ 		<html>
+ 			<head>
+ 				<base href="https://code.visualstudio.com/raw/">
+ 				<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+-				<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src https: data:; media-src https:; script-src 'none'; style-src vscode-core-resource: https: 'unsafe-inline'; child-src 'none'; frame-src 'none';">
++				<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src https: data:; media-src https:; script-src 'none'; style-src vscode-resource: https: 'unsafe-inline'; child-src 'none'; frame-src 'none';">
+ 				<link rel="stylesheet" type="text/css" href="${styleSheetPath}">
+ 				<style>${css}</style>
+ 			</head>
+@@ -95,7 +95,13 @@ export class ReleaseNotesManager {
+ 				'releaseNotes',
+ 				title,
+ 				{ group: ACTIVE_GROUP, preserveFocus: false },
+-				{ tryRestoreScrollPosition: true, enableFindWidget: true },
++				{
++					tryRestoreScrollPosition: true,
++					enableFindWidget: true,
++					localResourceRoots: [
++						URI.parse(require.toUrl('./media'))
++					]
++				},
+ 				undefined, {
+ 					onDidClickLink: uri => this.onDidClickLink(uri),
+ 					onDispose: () => { this._currentReleaseNotes = undefined; }
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/webview/common/webview.ts
+code:
+@@ -30,6 +30,8 @@ export interface IWebviewService {
+ 	): Webview;
+ }
+ 
++export const WebviewResourceScheme = 'vscode-resource';
++
+ export interface WebviewOptions {
+ 	readonly allowSvgs?: boolean;
+ 	readonly extension?: {
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/webview/electron-browser/webviewElement.ts
+code:
+@@ -21,8 +21,8 @@ import { REMOTE_HOST_SCHEME } from 'vs/platform/remote/common/remoteHosts';
+ import { ITunnelService, RemoteTunnel } from 'vs/platform/remote/common/tunnel';
+ import { ITelemetryService } from 'vs/platform/telemetry/common/telemetry';
+ import { ITheme, IThemeService } from 'vs/platform/theme/common/themeService';
+-import { Webview, WebviewContentOptions, WebviewOptions } from 'vs/workbench/contrib/webview/common/webview';
+-import { registerFileProtocol, WebviewProtocol } from 'vs/workbench/contrib/webview/electron-browser/webviewProtocols';
++import { Webview, WebviewContentOptions, WebviewOptions, WebviewResourceScheme } from 'vs/workbench/contrib/webview/common/webview';
++import { registerFileProtocol } from 'vs/workbench/contrib/webview/electron-browser/webviewProtocols';
+ import { areWebviewInputOptionsEqual } from '../browser/webviewEditorService';
+ import { WebviewFindWidget } from '../browser/webviewFindWidget';
+ import { getWebviewThemeData } from 'vs/workbench/contrib/webview/common/themeing';
+@@ -116,7 +116,6 @@ class WebviewProtocolProvider extends Disposable {
+ 		webview: Electron.WebviewTag,
+ 		private readonly _extensionLocation: URI | undefined,
+ 		private readonly _getLocalResourceRoots: () => ReadonlyArray<URI>,
+-		private readonly _environmentService: IEnvironmentService,
+ 		private readonly _fileService: IFileService,
+ 	) {
+ 		super();
+@@ -134,13 +133,7 @@ class WebviewProtocolProvider extends Disposable {
+ 			return;
+ 		}
+ 
+-		const appRootUri = URI.file(this._environmentService.appRoot);
+-
+-		registerFileProtocol(contents, WebviewProtocol.CoreResource, this._fileService, undefined, () => [
+-			appRootUri
+-		]);
+-
+-		registerFileProtocol(contents, WebviewProtocol.VsCodeResource, this._fileService, this._extensionLocation, () =>
++		registerFileProtocol(contents, WebviewResourceScheme, this._fileService, this._extensionLocation, () =>
+ 			this._getLocalResourceRoots()
+ 		);
+ 	}
+@@ -420,7 +413,6 @@ export class WebviewElement extends Disposable implements Webview {
+ 			this._webview,
+ 			this._options.extension ? this._options.extension.location : undefined,
+ 			() => (this.content.options.localResourceRoots || []),
+-			environmentService,
+ 			fileService));
+ 
+ 		this._register(new WebviewPortMappingProvider(
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/contrib/webview/electron-browser/webviewProtocols.ts
+code:
+@@ -12,10 +12,6 @@ import { getWebviewContentMimeType } from 'vs/workbench/contrib/webview/common/m
+ 
+ type BufferProtocolCallback = (buffer?: Buffer | electron.MimeTypedBuffer | { error: number }) => void;
+ 
+-export const enum WebviewProtocol {
+-	CoreResource = 'vscode-core-resource',
+-	VsCodeResource = 'vscode-resource',
+-}
+ 
+ function resolveContent(fileService: IFileService, resource: URI, mime: string, callback: BufferProtocolCallback): void {
+ 	fileService.readFile(resource).then(contents => {
+@@ -31,7 +27,7 @@ function resolveContent(fileService: IFileService, resource: URI, mime: string,
+ 
+ export function registerFileProtocol(
+ 	contents: electron.WebContents,
+-	protocol: WebviewProtocol,
++	protocol: string,
+ 	fileService: IFileService,
+ 	extensionLocation: URI | undefined,
+ 	getRoots: () => ReadonlyArray<URI>
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/services/keybinding/browser/keybindingService.ts
+code:
+@@ -44,6 +44,7 @@ import { parse } from 'vs/base/common/json';
+ import * as objects from 'vs/base/common/objects';
+ import { IKeymapService } from 'vs/workbench/services/keybinding/common/keymapService';
+ import { getDispatchConfig } from 'vs/workbench/services/keybinding/common/dispatchConfig';
++import { isArray } from 'vs/base/common/types';
+ 
+ interface ContributedKeyBinding {
+ 	command: string;
+@@ -505,7 +506,8 @@ class UserKeybindings extends Disposable {
+ 		const existing = this._keybindings;
+ 		try {
+ 			const content = await this.fileService.readFile(this.keybindingsResource);
+-			this._keybindings = parse(content.value.toString());
++			const value = parse(content.value.toString());
++			this._keybindings = isArray(value) ? value : [];
+ 		} catch (e) {
+ 			this._keybindings = [];
+ 		}
+
+author:rebornix
+date:2019-06-13T02:19:02Z
+title:Merge remote-tracking branch 'upstream/master' into rebornix/browerkeybinding
+filename:src/vs/workbench/test/electron-browser/api/extHostDiagnostics.test.ts
+code:
+@@ -91,18 +91,18 @@ suite('ExtHostDiagnostics', () => {
+ 			new Diagnostic(new Range(0, 0, 1, 1), 'message-2')
+ 		]);
+ 
+-		let array = collection.get(URI.parse('foo:bar'));
++		let array = collection.get(URI.parse('foo:bar')) as Diagnostic[];
+ 		assert.throws(() => array.length = 0);
+ 		assert.throws(() => array.pop());
+ 		assert.throws(() => array[0] = new Diagnostic(new Range(0, 0, 0, 0), 'evil'));
+ 
+-		collection.forEach((uri, array) => {
++		collection.forEach((uri, array: Diagnostic[]) => {
+ 			assert.throws(() => array.length = 0);
+ 			assert.throws(() => array.pop());
+ 			assert.throws(() => array[0] = new Diagnostic(new Range(0, 0, 0, 0), 'evil'));
+ 		});
+ 
+-		array = collection.get(URI.parse('foo:bar'));
++		array = collection.get(URI.parse('foo:bar')) as Diagnostic[];
+ 		assert.equal(array.length, 2);
+ 
+ 		collection.dispose();
